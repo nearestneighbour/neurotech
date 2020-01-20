@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "dir": "1-foundersmeeting1",
+    "date": "21/11/2019",
+    "title": "First Founders Meeting",
+    "short": "November 21st, 2019: The first Neurotech founders meeting took place in Nijmegen.<br><br>",
+    "medium": "On November 21st 2019 the first Neurotech Founders Meeting took place in Nijmegen. Consortium leader Radboud University invited the other seven founding partners to come to the Netherlands to make the first major decisions about NEUROTECH<sup>EU</sup>."
+  },
+  {
+    "id": 1,
+    "dir": "2-foundersmeeting2",
+    "date": "17/12/2019",
+    "title": "Second Founders Meeting",
+    "short": "December 17th, 2019: The second Neurotech founders meeting took place in Nijmegen.<br><br>",
+    "medium": "On December 17th 2019 the Neurotech founding partners assembled for the second time to continue the creation of the Neurotech European University proposal. For two days, Radboud University hosted the meeting which was attended by around 20 people from all over Europe. A delegation of students was also invited for a student consultation session."
+  },
+  {
+    "id": 2,
+    "dir": "3-signingceremony",
+    "date": "24/01/2020",
+    "title": "Signing Ceremony",
+    "short": "January 24th, 2020: Delegates from all Neurotech founding partners came to Nijmegen to sign the Neurotech Declaration of Independence.",
+    "medium": "On January 24th, delegates from all Neurotech founding universities came to Nijmegen to sign the Neurotech promise; a manifesto outlining how the Neurotech consortium is committed to it's goals."
+  }
+]
