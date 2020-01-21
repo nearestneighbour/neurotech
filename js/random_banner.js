@@ -1,2 +1,2 @@
-var i = Math.floor(Math.random() * 6) + 1;
+var i = Math.floor(Math.random() * 17) + 1;
 $("#banner").css("background-image","url(images/banners/" + i + ".jpg)");
