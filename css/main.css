@@ -45,6 +45,10 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 /* More/less padding? Apply this on all pages/sections? */
 .col.col2.padtop {padding-top: 3%;} /* Used on mission page */
 
+
+.wrapper.news {padding: 2em 0 2em 0;}
+.wrapper.news p {margin: 0; font-size:18px;}
+
 /* Me: Partner map */
 .logomap > a > img {
 	position:absolute; width:25px !important;
@@ -502,7 +506,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: 1vw;}
 			}
 		.wrapper.style1 {background-color: #fafafa; color: #000000;} /* Me! originally: color:#999999 */
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {color: #000;}
-			.wrapper.style1 a {color: #000;}
+			.wrapper.style1 a {color: #009;} /* Me! was: color: #000*/
 			.wrapper.style1 a:hover {color: rgba(0, 0, 0, 0.5);}
 			.wrapper.style1 strong, .wrapper.style1 b {color: #000;}
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {color: #000;}
@@ -624,7 +628,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: 1vw;}
 			.wrapper.style1 table.alt tbody tr td {border-color: rgba(0, 0, 0, 0.15);}
 			.wrapper.style2 {background-color: #3498db; color: #c7e9ff;} /* ME! was: color:#aed6f1; */
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {color: #fff;}
-			.wrapper.style2 a {color: #999999;}
+			.wrapper.style2 a {color: #FFF;} /* Me! was: color:#999999*/
 			.wrapper.style2 a:hover {color: rgba(153, 153, 153, 0.5);}
 			.wrapper.style2 strong, .wrapper.style2 b {color: #fff;}
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {color: #fff;}

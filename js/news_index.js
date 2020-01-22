@@ -14,6 +14,7 @@ function processItems(items) {
     $("#news_h4_" + i).html(items[ix-i].title);
     $("#news_img_" + i).attr("src", "newsitems/" + items[ix-i].dir + "/picture.jpg");
     $("#news_p_" + i).html(items[ix-i].short);
-    $("#news_a_" + i).attr("href", "newsitems/" + items[ix-i].dir + "/item.html");
+    //$("#news_a_" + i).attr("href", "news.html#" + items[ix-i].dir);
+    $("#news_a_" + i).attr("href", "news.html");
   }
 }
