@@ -69,7 +69,7 @@ a.partneranchor {display: block; position: relative; top: -78px; visibility: hid
 	position:absolute; width:60px !important; -webkit-transform:translate(-50%, -50%);
 	background-color:#FFF; border-style:solid; border-width:initial; border-color:#c7e9ff;
 }
-.nwfig .selected {border-color:#00F;}
+.nwfig .selected {border-color:#00F !important;}
 .nwfig .hidden {filter:brightness(50%);}
 .nwfig #radb_node {left:50%; top:12.5%;}
 .nwfig #umh_node {left:75%; top:25%;}
