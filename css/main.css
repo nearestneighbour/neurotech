@@ -19,14 +19,16 @@
 
 /* Me: Stats */
 #stats {display:flex; justify-content:space-between; padding: 5% 5%;}
-#stats li {display: block; width:15%;}
+#stats li {display: block; width:15%; text-align:center;}
 #stats li:last-child {padding:0;}
-#stats li p {margin:0; font-size:100%; text-align:center;}
+#stats li p {margin:0; font-size:100%;}
 #stats li i {margin-bottom:15px; color:rgba(255, 255, 255, 0.85); font-size:4vw;}
 @media screen and (max-width: 736px) {
 	#stats {padding: 5% 3%;}
 	#stats li p {font-size:2vw;}
 }
+#stats.syn_stats {padding:0;}
+#stats.syn_stats li i, #stats.syn_stats li p {color:#000;}
 
 /* Me: Partner logos */
 .flex.flex-8 {width:80%; margin:0 auto;}
@@ -61,7 +63,7 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 .nwfig canvas {position:absolute; top:0; left:0; width:100%; height:100%;}
 .nwfig img:not(#filler) {
 	position:absolute; width:60px !important; -webkit-transform:translate(-50%, -50%);
-	background-color:#FFF; border-style:solid; border-width:initial;
+	background-color:#FFF; border-style:solid; border-width:initial; border-color:#c7e9ff;
 }
 .nwfig .selected {border-color:#00F;}
 .nwfig .hidden {filter:brightness(50%);}
