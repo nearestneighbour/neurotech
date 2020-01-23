@@ -35,7 +35,7 @@
 .flex.flex-8 .col {width: 7%;}
 .wrapper.pagetop {padding: 2em 0 1em 0; background: url("../images/hexagonal_bg_top_cropped.png") center top/cover;}
 .wrapper.pagetop .align-center, .wrapper.style1.logos h1 {margin: 0;}
-a.partneranchor {display: block; position: relative; top: -78px; visibility: hidden;}
+a.partneranchor {display: block; position: relative; top: -73px; visibility: hidden;}
 
 /* Me: Partner List */
 .wrapper.style2.partnerlist {padding: 2em 0 2em 0;}

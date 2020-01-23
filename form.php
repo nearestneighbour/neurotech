@@ -29,42 +29,19 @@
 <!-- Banner -->
 <section id="banner" class="nofade">
 	<div class="inner">
-		<header><h2>Get in touch with us</header>
-		<p>We are very interested in your thoughts about NeurotechEU</p>
-
-		<form method="post" action="form.php">
-		<div class="row uniform">
-
-			<div class="6u 12u$(small)">
-				<input type="text" name="name" id="name" value="" placeholder="Name" />
-			</div>
-			<div class="6u 12u$(small)">
-				<input type="text" name="mail" id="mail" value="" placeholder="Email" />
-			</div>
-			<div class="12u$">
-				<textarea  rows=5 name="msg" id="msg" placeholder="Leave a message"></textarea>
-			</div>
-			<div class="9u 12u$(small)">
-				<div class="select-wrapper">
-					<select name="role" id="role">
-						<option value="0" disabled selected>- What is your role in Neurotech -</option>
-						<option value="1">Student</option>
-						<option value="2">Teacher</option>
-						<option value="3">Researcher</option>
-						<option value="4">Other</option>
-					</select>
-				</div>
-			</div>
-			<div class="3u 12u$(small)">
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" /></li>
-				</ul>
-			</div>
-		</div>
-		</form>
-
+		<header><h2>Thank you for submitting.</header>
 	</div>
 </section>
+
+
+<?php
+
+$txt = $_POST['name'] . '|||' . $_POST['mail'] . '|||' . $_POST['msg'] . '|||' . $_POST['role'] . PHP_EOL;
+
+file_put_contents('/var/www3/neurotech/test/writable/formresults.txt', $txt,  FILE_APPEND | LOCK_EX);
+
+?>
+
 
 <!-- Partner list horizontal -->
 <footer class="wrapper style1 logos">
