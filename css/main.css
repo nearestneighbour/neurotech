@@ -822,7 +822,8 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 			}
 			#menu .close:before {font-size: 1.25em;}
 			#menu .close:hover {color: #3498db;}
-			@media screen and (max-width: 736px) {}#menu .close {height: 4em;line-height: 4em;}}
+			@media screen and (max-width: 736px) {}
+				#menu .close {height: 4em;line-height: 4em;}}
 		#menu.visible {
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);

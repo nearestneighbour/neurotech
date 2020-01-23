@@ -38,7 +38,7 @@
 
 $txt = $_POST['name'] . '|||' . $_POST['mail'] . '|||' . $_POST['msg'] . '|||' . $_POST['role'] . PHP_EOL;
 
-file_put_contents('/var/www3/neurotech/test/writable/formresults.txt', $txt,  FILE_APPEND | LOCK_EX);
+file_put_contents('../writable/formresults.txt', $txt,  FILE_APPEND | LOCK_EX);
 
 ?>
 
