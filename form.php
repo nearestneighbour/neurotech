@@ -16,7 +16,7 @@
 
 <!-- Header -->
 <header id="header">
-	<div class="logo"><a href="index.html">NEUROTECH<sup>EU</a></div>
+	<div class="logo"><a href="index.html">NEUROTECH<sup>EU</sup></a></div>
 	<nav class="menulist"><ul>
 		<li><a href="mission.html">Mission</a></li>
 		<li><a href="partners.html">Partners</a></li>
@@ -29,7 +29,7 @@
 <!-- Banner -->
 <section id="banner" class="nofade">
 	<div class="inner">
-		<header><h2>Thank you for submitting.</header>
+		<header><h2>Thank you for submitting!</header>
 	</div>
 </section>
 
@@ -73,7 +73,7 @@ file_put_contents('/var/www3/neurotech/test/writable/formresults.txt', $txt,  FI
 			</div></div>
 		</div>
 	</div>
-	<p>&copy; Tido Bergmans, NeurotechEU. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>.
+	<p>&copy; Tido Bergmans, Neurotech<sup>EU</sup>. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>.
 </footer>
 
 <!-- Scripts -->
