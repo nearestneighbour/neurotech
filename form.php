@@ -6,11 +6,14 @@
 -->
 <html>
 <head>
-	<title>Get in touch</title>
+	<title>Get in touch with NeurotechEU</title>
+	<link rel="icon" href="images/icon.png" />
+
+	<meta name="robots" content="noindex" />
+
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="icon" href="images/icon.png" />
 </head>
 <body>
 
