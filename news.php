@@ -44,26 +44,26 @@
 
 
 <?php
-
-$section = "<!-- Section --><section class='wrapper style_st_ news'><div class='inner'><div class='flex flex-2'>_ct_</div></div></section>";
-$content = array("<div class='col col1 first'><div class='image round fit'><img src='newsitems/_dir_/picture.jpg'/></div></div><div class='col col2'><h3>_tt_</h3><p>_txt_</p></div>",
-"<div class='col col2 first'><h3>_tt_</h3><p>_txt_</p></div><div class='col col1'><div class='image round fit'><img src='newsitems/_dir_/picture.jpg'/></div></div>");
+$section = "<!-- Section --><section class='wrapper style%st% news'><a class='partneranchor' id='%id%'></a><div class='inner'><div class='flex flex-2'>%ct%</div></div></section>";
+$content = array("<div class='col col1'><div class='image round fit'><img src='%img%'/></div></div><div class='col col2 padtop'><h3>%tt%</h3><p>%txt%</p></div>",
+"<div class='col col2 padtop'><h3>%tt%</h3><p>%txt%</p></div><div class='col col1'><div class='image round fit'><img src='%img%'/></div></div>");
 
 $jsonstr = file_get_contents("newsitems/newsitems.json");
 $items = json_decode($jsonstr, true);
-$search = array("_st_", "_dir_", "_tt_", "_txt_");
+$search = array("%st%", "%img%", "%tt%", "%txt%", "%id%");
+
+for ($i=0; $i<count($items); $i++) {
+	$items[$i]['title'] = str_replace('<br>', '', $items[$i]['title']);
+}
 
 for ($i=1; $i<=count($items); $i++) {
 	$st = $i % 2;
 	$j = count($items) - $i;
-	$sectionstr = str_replace("_ct_", $content[1 - $st], $section);
-	$replace = array(strval($st + 1), $items[$j]['dir'], $items[$j]['title'], $items[$j]['text']);
+	$sectionstr = str_replace("%ct%", $content[1 - $st], $section);
+	$replace = array(strval($st + 1), $items[$j]['imgsrc'], $items[$j]['title'], $items[$j]['text'], strval($j+1));
 	echo str_replace($search, $replace, $sectionstr);
 }
-
 ?>
-
-
 </div>
 
 <!-- Partner list horizontal -->

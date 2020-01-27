@@ -48,7 +48,7 @@
 	</div>
 </section>
 
-<!-- Section -->
+<!-- Intro section -->
 <section id="main" class="wrapper style1">
 	<div class="inner">
 			<div class="flex flex-2">
@@ -71,37 +71,46 @@
 	</div>
 </section>
 
-<!-- Section -->
-<section class="wrapper style2">
+<!-- News section -->
+<?php
+
+$jsonstr = file_get_contents("newsitems/newsitems.json");
+$items = json_decode($jsonstr, true);
+$n = count($items);
+
+$htmlstr = '<section class="wrapper style2">
 	<div class="inner">
 		<header class="align-center">
 			<h3>Latest news</h3>
 		</header>
 		<div class="flex flex-3">
 			<div class="col align-center">
-				<h4>Neurotech<sup>EU</sup> signature ceremony</h4>
+				<h4>' . $items[$n-1]['title'] . '</h4>
 				<div class="image round fit">
-					<img src="newsitems/6-signingceremony/picture.jpg" />
+					<img src=' . $items[$n-1]['imgsrc'] . ' />
 				</div>
-				<a href="news.html#6" class="button">Read More</a>
+				<a href="news.html#1" class="button">Read More</a>
 			</div>
 			<div class="col align-center">
-				<h4>Third Founders Meeting will take place in January 2020</h4>
+				<h4>' . $items[$n-2]['title'] . '</h4>
 				<div class="image round fit">
-					<img src="newsitems/5-foundersmeeting3/picture.jpg" />
+					<img src=' . $items[$n-2]['imgsrc'] . ' />
 				</div>
-				<a href="news.html#5" class="button">Read More</a>
+				<a href="news.html#2" class="button">Read More</a>
 			</div>
 			<div class="col align-center">
-				<h4>Neurochallenges survey<br><br></h4>
+				<h4>' . $items[$n-3]['title'] . '</h4>
 				<div class="image round fit">
-					<img src="newsitems/4-neurochallenges/picture.jpg" />
+					<img src=' . $items[$n-3]['imgsrc'] . ' />
 				</div>
-				<a href="news.html#4" class="button">Read More</a>
+				<a href="news.html#3" class="button">Read More</a>
 			</div>
 		</div>
 	</div>
-</section>
+</section>';
+echo $htmlstr;
+
+?>
 
 <!-- Partner list horizontal -->
 <footer class="wrapper style1 logos">
