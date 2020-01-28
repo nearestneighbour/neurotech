@@ -44,9 +44,31 @@
 
 
 <?php
-$section = "<!-- Section --><section class='wrapper style%st% news'><a class='partneranchor' id='%id%'></a><div class='inner'><div class='flex flex-2'>%ct%</div></div></section>";
-$content = array("<div class='col col1'><div class='image round fit'><img src='%img%'/></div></div><div class='col col2 padtop'><h3>%tt%</h3><p>%txt%</p></div>",
-"<div class='col col2 padtop'><h3>%tt%</h3><p>%txt%</p></div><div class='col col1'><div class='image round fit'><img src='%img%'/></div></div>");
+$section = "<!-- Section -->
+<section class='wrapper style%st% news'>
+	<a class='partneranchor' id='%id%'></a>
+	<div class='inner'>
+		<div class='flex flex-2'>%ct%</div>
+	</div>
+</section>";
+$content = array("<div class='col col1'>
+	<div class='image round fit'>
+		<img src='%img%' />
+	</div>
+</div>
+<div class='col col2 padtop'>
+	<h3>%tt%</h3>
+	<p>%txt%</p>
+</div>",
+"<div class='col col2 padtop'>
+	<h3>%tt%</h3>
+	<p>%txt%</p>
+</div>
+<div class='col col1'>
+	<div class='image round fit'>
+		<img src='%img%'/>
+	</div>
+</div>");
 
 $jsonstr = file_get_contents("newsitems/newsitems.json");
 $items = json_decode($jsonstr, true);
@@ -60,7 +82,7 @@ for ($i=1; $i<=count($items); $i++) {
 	$st = $i % 2;
 	$j = count($items) - $i;
 	$sectionstr = str_replace("%ct%", $content[1 - $st], $section);
-	$replace = array(strval($st + 1), $items[$j]['imgsrc'], $items[$j]['title'], $items[$j]['text'], strval($j+1));
+	$replace = array(strval($st + 1), $items[$j]['imgsrc'], $items[$j]['title'], $items[$j]['text'], $i);
 	echo str_replace($search, $replace, $sectionstr);
 }
 ?>
