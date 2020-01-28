@@ -19,17 +19,9 @@
 <body class="subpage">
 
 <!-- Header -->
-<header id="header">
-	<div class="logo"><a href="index.html">NEUROTECH<sup>EU</sup></a></div>
-	<nav class="menulist"><ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="mission.html">Mission</a></li>
-		<li><a href="partners.html">Partners</a></li>
-		<li><a href="synergy.html">Synergy & Excellence</a></li>
-		<li><a href="news.html">News</a></li>
-		<li><a href="contact.html">Contact</a></li>
-	</ul></nav>
-</header>
+<?php
+include "html/header.html";
+?>
 
 <!-- Main -->
 <div id="main">
@@ -42,50 +34,22 @@
 		</div>
 	</section>
 
+	<!-- News section -->
+	<?php
 
-<?php
-$section = "<!-- Section -->
-<section class='wrapper style%st% news'>
-	<a class='partneranchor' id='%id%'></a>
-	<div class='inner'>
-		<div class='flex flex-2'>%ct%</div>
-	</div>
-</section>";
-$content = array("<div class='col col1'>
-	<div class='image round fit'>
-		<img src='%img%' />
-	</div>
-</div>
-<div class='col col2 padtop'>
-	<h3>%tt%</h3>
-	<p>%txt%</p>
-</div>",
-"<div class='col col2 padtop'>
-	<h3>%tt%</h3>
-	<p>%txt%</p>
-</div>
-<div class='col col1'>
-	<div class='image round fit'>
-		<img src='%img%'/>
-	</div>
-</div>");
+	$jsonstr = file_get_contents("newsitems/newsitems.json");
+	$items = json_decode($jsonstr, true);
+	$search = array("%id%", "%img%", "%tt%", "%txt%");
 
-$jsonstr = file_get_contents("newsitems/newsitems.json");
-$items = json_decode($jsonstr, true);
-$search = array("%st%", "%img%", "%tt%", "%txt%", "%id%");
+	for ($i=0; $i<count($items); $i++) {
+		$j = count($items) - $i - 1;
+		$items[$j]["title"] = str_replace("<br>", "", $items[$j]["title"]);
+		$sectionstr = file_get_contents("html/newssection" . (($i % 2)+1) . ".html");
+		$replace = array($i+1, $items[$j]['imgsrc'], $items[$j]['title'], $items[$j]['text']);
+		echo str_replace($search, $replace, $sectionstr);
+	}
 
-for ($i=0; $i<count($items); $i++) {
-	$items[$i]['title'] = str_replace('<br>', '', $items[$i]['title']);
-}
-
-for ($i=1; $i<=count($items); $i++) {
-	$st = $i % 2;
-	$j = count($items) - $i;
-	$sectionstr = str_replace("%ct%", $content[1 - $st], $section);
-	$replace = array(strval($st + 1), $items[$j]['imgsrc'], $items[$j]['title'], $items[$j]['text'], $i);
-	echo str_replace($search, $replace, $sectionstr);
-}
-?>
+	?>
 </div>
 
 <!-- Partner list horizontal -->

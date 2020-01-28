@@ -19,29 +19,25 @@
 <body>
 
 <!-- Header -->
-<header id="header" class="alt">
-	<div class="logo"><a href="index.html">NEUROTECH<sup>EU</sup></a></div>
-	<nav class="menulist"><ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="mission.html">Mission</a></li>
-		<li><a href="partners.html">Partners</a></li>
-		<li><a href="synergy.html">Synergy & Excellence</a></li>
-		<li><a href="news.html">News</a></li>
-		<li><a href="contact.html">Contact</a></li>
-	</ul></nav>
-</header>
+<?php
+$doc = new DOMDocument();
+$doc->loadHTMLFile("html/header.html");
+$header = $doc->getElementById("header");
+$header->setAttribute("class", "alt");
+echo $doc->saveHTML();
+?>
 
 <!-- Banner -->
 <section id="banner">
 	<div class="inner">
 		<header><h2>The European University of Brain and Technology</h2></header>
 		<ul id="stats">
-			<li><a href="partners.html"><i class="fa fa-3x fa-university"></i><p>8</p><p>Universities</p></a></li>
+			<li><a href="partners.php"><i class="fa fa-3x fa-university"></i><p>8</p><p>Universities</p></a></li>
 			<li><i class="fa fa-3x fa-users"></i><p>170,000</p><p>Students</p></li>
 			<li><i class="fa fa-3x fa-user-tie"></i><p>70,000</p><p>Staff</p></li>
-			<li><a href="synergy.html#funding"><i class="fa fa-3x fa-microscope"></i><p>171</p><p>Joint grants</p></a></li>
-			<li><a href="synergy.html#funding"><i class="fa fa-3x fa-euro"></i><p>€231M</p><p>Joint funding</p></a></li>
-			<li><a href="synergy.html#publications"><i class="fa fa-3x fa-newspaper"></i><p>5277</p><p>Joint publications</p></a></li>
+			<li><a href="synergy.php#funding"><i class="fa fa-3x fa-microscope"></i><p>171</p><p>Joint grants</p></a></li>
+			<li><a href="synergy.php#funding"><i class="fa fa-3x fa-euro"></i><p>€231M</p><p>Joint funding</p></a></li>
+			<li><a href="synergy.php#publications"><i class="fa fa-3x fa-newspaper"></i><p>5277</p><p>Joint publications</p></a></li>
 			<li><i class="fa fa-3x fa-globe"></i><p>100+</p><p>Affiliates</p></li>
 		</ul>
 		<a href="#main" class="button big scrolly">Learn More</a>
@@ -65,52 +61,38 @@
 						<li>Lasting close cooperation between partners for a trans-European network of excellence in brain research and technologies</li>
 					</ul></p>
 					<p>The logo represents the mission and values of the Neurotech<sup>EU</sup> Alliance.  The cartoon representation of the brain and an electrical circuit diagram portray the focus of the alliance on Brain and Technology.  Eight raised hands in the foreground, each one representing one of the 8 founding partners, bring the educational goals of the alliance in focus.  The colored ribbons characterize Neurotech<sup>EU</sup>’s devotion to and celebration of the diversity in any shape or form. The outline of the front halves of several human faces stresses the fact that education and research in the fields of brain and technology will be brought together to benefit individuals as well as society at large.</p>
-					<a href="mission.html" class="button">Our Mission</a>
+					<a href="mission.php" class="button">Our Mission</a>
 				</div>
 			</div>
 	</div>
 </section>
 
 <!-- News section -->
-<?php
-
-$jsonstr = file_get_contents("newsitems/newsitems.json");
-$items = json_decode($jsonstr, true);
-$n = count($items);
-
-$htmlstr = '<section class="wrapper style2">
+<section class="wrapper style2">
 	<div class="inner">
 		<header class="align-center">
 			<h3>Latest news</h3>
 		</header>
 		<div class="flex flex-3">
-			<div class="col align-center">
-				<h4>' . $items[$n-1]['title'] . '</h4>
-				<div class="image round fit">
-					<img src=' . $items[$n-1]['imgsrc'] . ' />
-				</div>
-				<a href="news.html#1" class="button">Read More</a>
-			</div>
-			<div class="col align-center">
-				<h4>' . $items[$n-2]['title'] . '</h4>
-				<div class="image round fit">
-					<img src=' . $items[$n-2]['imgsrc'] . ' />
-				</div>
-				<a href="news.html#2" class="button">Read More</a>
-			</div>
-			<div class="col align-center">
-				<h4>' . $items[$n-3]['title'] . '</h4>
-				<div class="image round fit">
-					<img src=' . $items[$n-3]['imgsrc'] . ' />
-				</div>
-				<a href="news.html#3" class="button">Read More</a>
-			</div>
+
+			<?php
+
+			$jsonstr = file_get_contents("newsitems/newsitems.json");
+			$items = json_decode($jsonstr, true);
+			$n = count($items);
+			$htmlstr = file_get_contents("html/indexnews.html");
+			$search = array("%tt%", "%img%", "%id%");
+
+			for ($i=1; $i<=3; $i++) {
+				$replace = array($items[$n-$i]['title'], $items[$n-$i]['imgsrc'], $i);
+				echo str_replace($search, $replace, $htmlstr);
+			}
+
+			?>
+
 		</div>
 	</div>
-</section>';
-echo $htmlstr;
-
-?>
+</section>
 
 <!-- Partner list horizontal -->
 <footer class="wrapper style1 logos">

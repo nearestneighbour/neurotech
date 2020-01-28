@@ -19,17 +19,9 @@
 <body>
 
 <!-- Header -->
-<header id="header">
-	<div class="logo"><a href="index.html">NEUROTECH<sup>EU</sup></a></div>
-	<nav class="menulist"><ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="mission.html">Mission</a></li>
-		<li><a href="partners.html">Partners</a></li>
-		<li><a href="synergy.html">Synergy & Excellence</a></li>
-		<li><a href="news.html">News</a></li>
-		<li><a href="contact.html">Contact</a></li>
-	</ul></nav>
-</header>
+<?php
+include "html/header.html";
+?>
 
 <!-- Banner -->
 <section id="banner" class="nofade">
