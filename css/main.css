@@ -115,6 +115,10 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	-moz-transition: none; -webkit-transition: none; -ms-transition: none; transition: none;
 }
 #banner .inner .row p {font-size: 1.25em;}
+.inner > form {width: 50%; margin: 0 25%;}
+@media screen and (max-width: 736px) {
+	.inner > form {width: 90%; margin: 0 5%;}
+}
 
 /* Header */
 	body.subpage {padding-top: 44px;} /*ME! was: 3.125em*/
@@ -336,7 +340,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	table {border-collapse: collapse;border-spacing: 0;}
 	body {-webkit-text-size-adjust: none;}
 /* Form */
-	form {width: 50%; margin: 0 25%;} /* ME: used to be no width, and margin 0 0 2em 0 */
+	/*form {margin: 0 0 2em 0;} ME */
 	label {display: block;font-size: 0.9em;font-weight: 700;margin: 0 0 1em 0;}
 	input[type="text"],
 	input[type="password"],

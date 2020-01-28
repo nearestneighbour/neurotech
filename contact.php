@@ -39,7 +39,7 @@ include "html/header.html";
 				<input type="text" name="mail" id="mail" value="" placeholder="Email" />
 			</div>
 			<div class="12u$">
-				<textarea  rows=5 name="msg" id="msg" placeholder="Leave a message"></textarea>
+				<textarea name="msg" id="msg" placeholder="Leave a message"></textarea>
 			</div>
 			<div class="9u 12u$(small)">
 				<div class="select-wrapper">
