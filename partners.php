@@ -173,39 +173,19 @@ include "html/header.html";
 <!-- Main -->
 </div>
 
-<!-- Partner list horizontal -->
-<footer class="wrapper style1 logos">
-	<div class="inner">
-		<div class="flex flex-8">
-			<div class="col align-center"><div class="image round fit">
-					<a href="#radboud_scroll" class="scrolly"><img src="images/partner_logos/radboud.png" alt="Radboud University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="#umh_scroll" class="scrolly"><img src="images/partner_logos/umh.png" alt="Miguel Hernandez University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="#karolinska_scroll" class="scrolly"><img src="images/partner_logos/karo.png" alt="Karolinska Institute"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="#bonn_scroll" class="scrolly"><img src="images/partner_logos/bonn.png" alt="Bonn University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="#bogazici_scroll" class="scrolly"><img src="images/partner_logos/boga.png" alt="Bogazici University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="#oxford_scroll" class="scrolly"><img src="images/partner_logos/oxford.png" alt="Oxford University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="#cluj_scroll" class="scrolly"><img src="images/partner_logos/cluj.png" alt="Cluj-Napoca University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="#debrecen_scroll" class="scrolly"><img src="images/partner_logos/debrecen.png" alt="University of Debrecen"/></a>
-			</div></div>
-		</div>
-		</div>
-	</div>
-	<p>&copy; Tido Bergmans, Neurotech<sup>EU</sup>. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>.
-</footer>
+<!-- Footer -->
+<?php
+$doc = new DOMDocument();
+$doc->loadHTMLFile("html/footer.html");
+$links = $doc->getElementsByTagName("a");
+foreach ($links as $link) {
+	$link->setAttribute("class", "scrolly");
+	$href = $link->getAttribute("href");
+	$href = str_replace("partners.php", "", $href) . "_scroll";
+	$link->setAttribute("href", $href);
+}
+echo $doc->saveHTML();
+?>
 
 <!-- Scripts -->
 <script src="js/jquery.min.js"></script>

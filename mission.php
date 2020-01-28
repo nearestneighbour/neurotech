@@ -99,38 +99,10 @@ include "html/header.html";
 
 </div>
 
-<!-- Partner list horizontal -->
-<footer class="wrapper style1 logos">
-	<div class="inner">
-		<div class="flex flex-8">
-			<div class="col align-center"><div class="image round fit">
-					<a href="partners.html#radboud"><img src="images/partner_logos/radboud.png" alt="Radboud University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="partners.html#umh"><img src="images/partner_logos/umh.png" alt="Miguel Hernandez University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="partners.html#karolinska"><img src="images/partner_logos/karo.png" alt="Karolinska Institute"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="partners.html#bonn"><img src="images/partner_logos/bonn.png" alt="Bonn University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="partners.html#bogazici"><img src="images/partner_logos/boga.png" alt="Bogazici University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="partners.html#oxford"><img src="images/partner_logos/oxford.png" alt="Oxford University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="partners.html#cluj"><img src="images/partner_logos/cluj.png" alt="Cluj-Napoca University"/></a>
-			</div></div>
-			<div class="col align-center"><div class="image round fit">
-					<a href="partners.html#debrecen" class="scrolly"><img src="images/partner_logos/debrecen.png" alt="University of Debrecen"/></a>
-			</div></div>
-		</div>
-	</div>
-	<p>&copy; Tido Bergmans, Neurotech<sup>EU</sup>. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>.
-</footer>
+<!-- Footer -->
+<?php
+include 'html/footer.html';
+?>
 
 <!-- Scripts -->
 <script src="js/jquery.min.js"></script>
