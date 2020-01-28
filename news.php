@@ -39,13 +39,13 @@ include "html/header.html";
 
 	$jsonstr = file_get_contents("newsitems/newsitems.json");
 	$items = json_decode($jsonstr, true);
-	$search = array("%id%", "%img%", "%tt%", "%txt%");
+	$search = array("%id%", "%img%", "%alt%", "%tt%", "%txt%");
 
 	for ($i=0; $i<count($items); $i++) {
 		$j = count($items) - $i - 1;
 		$items[$j]["title"] = str_replace("<br>", "", $items[$j]["title"]);
 		$sectionstr = file_get_contents("html/newssection" . (($i % 2)+1) . ".html");
-		$replace = array($i+1, $items[$j]['imgsrc'], $items[$j]['title'], $items[$j]['text']);
+		$replace = array($i+1, $items[$j]['imgsrc'], $items[$j]['alt'], $items[$j]['title'], $items[$j]['text']);
 		echo str_replace($search, $replace, $sectionstr);
 	}
 

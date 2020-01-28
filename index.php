@@ -30,7 +30,7 @@ echo $doc->saveHTML();
 <!-- Banner -->
 <section id="banner">
 	<div class="inner">
-		<header><h2>The European University of Brain and Technology</h2></header>
+		<header><h1>The European University of Brain and Technology</h1></header>
 		<ul id="stats">
 			<li><a href="partners.php"><i class="fa fa-3x fa-university"></i><p>8</p><p>Universities</p></a></li>
 			<li><i class="fa fa-3x fa-users"></i><p>170,000</p><p>Students</p></li>
@@ -49,10 +49,10 @@ echo $doc->saveHTML();
 	<div class="inner">
 			<div class="flex flex-2">
 				<div class="col col1"><div class="image round fit">
-					<img src="images/logo.png" alt="Neurotech logo" />
+					<img src="images/logo.png" alt="The Neurotech logo" />
 				</div></div>
 				<div class="col col2">
-					<h3>The European University of Brain and Technology</h3>
+					<h2>The European University of Brain and Technology</h2>
 					<b>Our goals are:</b>
 					<p><ul>
 						<li>Creating synergy for a long-term strategy in Neuroscience and Neurotechnology to increase the competitiveness of European education, research, economy, and society</li>
@@ -71,23 +71,21 @@ echo $doc->saveHTML();
 <section class="wrapper style2">
 	<div class="inner">
 		<header class="align-center">
-			<h3>Latest news</h3>
+			<h2>Latest news</h2>
 		</header>
 		<div class="flex flex-3">
 
 			<?php
-
 			$jsonstr = file_get_contents("newsitems/newsitems.json");
 			$items = json_decode($jsonstr, true);
 			$n = count($items);
 			$htmlstr = file_get_contents("html/indexnews.html");
-			$search = array("%tt%", "%img%", "%id%");
+			$search = array("%tt%", "%img%", "%alt%", "%id%");
 
 			for ($i=1; $i<=3; $i++) {
-				$replace = array($items[$n-$i]['title'], $items[$n-$i]['imgsrc'], $i);
+				$replace = array($items[$n-$i]['title'], $items[$n-$i]['imgsrc'], $items[$n-$i]['alt'], $i);
 				echo str_replace($search, $replace, $htmlstr);
 			}
-
 			?>
 
 		</div>

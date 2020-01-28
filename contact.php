@@ -26,7 +26,7 @@ include "html/header.html";
 <!-- Banner -->
 <section id="banner" class="nofade">
 	<div class="inner">
-		<header><h2>Get in touch with us</header>
+		<header><h1>Get in touch with us</h1></header>
 		<p>We are very interested in your thoughts about Neurotech<sup>EU</sup></p>
 
 		<form method="post" action="form.php">

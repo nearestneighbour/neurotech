@@ -9,6 +9,7 @@
 	<title>Get in touch with NeurotechEU</title>
 	<link rel="icon" href="images/icon.png" />
 
+	<!-- This page cannot be found by search engines -->
 	<meta name="robots" content="noindex" />
 
 	<meta charset="utf-8" />
@@ -25,7 +26,7 @@ include "html/header.html";
 <!-- Banner -->
 <section id="banner" class="nofade">
 	<div class="inner">
-		<header><h2>Thank you for submitting!</header>
+		<header><h1>Thank you for submitting!</h1></header>
 	</div>
 </section>
 

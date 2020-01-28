@@ -42,11 +42,11 @@ include "html/header.html";
 		<div class="flex flex-2">
 			<div class="col col1">
 				<div class="image round fit">
-					<img src="images/workspace.jpg" alt="Digital campus"/>
+					<img src="images/workspace.jpg" alt="Students working together in a digital campus"/>
 				</div>
 			</div>
 			<div class="col col2 padtop">
-				<h3>Neurotech<sup>EU</sup> Campus+</h3>
+				<h2>Neurotech<sup>EU</sup> Campus+</h2>
 				Neurotech<sup>EU</sup> CAMPUS+ is a digital campus where students can
 				<ul><li>Learn about courses on offer</li>
 				<li>Follow online courses</li>
@@ -62,7 +62,7 @@ include "html/header.html";
 	<div class="inner">
 		<div class="flex flex-2">
 			<div class="col col2 padtop">
-				<h3>Neurotech<sup>EU</sup> Graduate School</h3>
+				<h2>Neurotech<sup>EU</sup> Graduate School</h2>
 				Neurotech<sup>EU</sup> Graduate School will train students in an international and intersectoral setting.
 				<ul><li>Each student will be mentored by 3 mentors; two from partnering universities, the third from the industrial or societal partners</li>
 				<li>Each student will receive full fellowship</li>
@@ -71,7 +71,7 @@ include "html/header.html";
 			</div>
 			<div class="col col1">
 				<div class="image round fit">
-					<img class="link" src="images/grad.jpg" alt="Graduate school"/>
+					<img class="link" src="images/grad.jpg" alt="A graduate student from the Neurotech graduate school"/>
 				</div>
 			</div>
 		</div>
@@ -82,11 +82,11 @@ include "html/header.html";
 		<div class="flex flex-2">
 			<div class="col col1 first">
 				<div class="image round fit">
-					<img src="images/reschooling.jpg" alt=""/>
+					<img src="images/reschooling.jpg" alt="People studying at the Neurotech Lifelong Learning Center"/>
 				</div>
 			</div>
 			<div class="col col2 padtop">
-				<h3>Neurotech<sup>EU</sup> Lifelong Learning Center</h3>
+				<h2>Neurotech<sup>EU</sup> Lifelong Learning Center</h2>
 				Neurotech<sup>EU</sup> Lifelong Learning Center will provide training for personal development after formal education. It will:
 				<ul><li>focus on the necessary knowledge, skill sets, and competencies for continued learning throughout life</li>
 				<li>Help individuals to adapt to the changing personal, civic, societal and employment related needs</li>
