@@ -32,8 +32,16 @@ include "html/header.html";
 
 
 <?php
-$txt = $_POST['name'] . '|||' . $_POST['mail'] . '|||' . $_POST['msg'] . '|||' . $_POST['role'] . PHP_EOL;
-file_put_contents('../writable/formresults.txt', $txt,  FILE_APPEND | LOCK_EX);
+if (isset($_POST['submit'])) {
+	unset($_POST['submit']);
+	if (file_exists('../writable/messages.json')) {
+		$data = json_decode(file_get_contents('../writable/messages.json'));
+	} else {
+		$data = array();
+	}
+	array_push($data, $_POST);
+	file_put_contents('../writable/messages.json', json_encode($data), LOCK_EX);
+}
 ?>
 
 <!-- Footer -->

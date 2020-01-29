@@ -29,17 +29,17 @@ include "html/header.html";
 		<header><h1>Get in touch with us</h1></header>
 		<p>We are very interested in your thoughts about Neurotech<sup>EU</sup></p>
 
-		<form method="post" action="form.php">
+		<form method="post" action="contact_submitted.php">
 		<div class="row uniform">
 
 			<div class="6u 12u$(small)">
-				<input type="text" name="name" id="name" value="" placeholder="Name" />
+				<input type="text" name="name" id="name" value="" placeholder="Name" required />
 			</div>
 			<div class="6u 12u$(small)">
-				<input type="text" name="mail" id="mail" value="" placeholder="Email" />
+				<input type="text" name="mail" id="mail" value="" placeholder="Email" required />
 			</div>
 			<div class="12u$">
-				<textarea name="msg" id="msg" placeholder="Leave a message"></textarea>
+				<textarea name="msg" id="msg" placeholder="Leave a message" required></textarea>
 			</div>
 			<div class="9u 12u$(small)">
 				<div class="select-wrapper">
@@ -54,7 +54,7 @@ include "html/header.html";
 			</div>
 			<div class="3u 12u$(small)">
 				<ul class="actions">
-					<li><input type="submit" value="Send Message" /></li>
+					<li><input type="submit" name="submit" value="Send Message" /></li>
 				</ul>
 			</div>
 		</div>
