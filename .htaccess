@@ -1,0 +1,5 @@
+# Deny access to folder/files starting with .git (.git, .gitignore)
+RedirectMatch 403 /\.git
+
+# Deny access to .htaccess file
+RedirectMatch 403 /\.htaccess
