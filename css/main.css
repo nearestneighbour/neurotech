@@ -902,7 +902,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 			z-index: 2;
 			width: 100%; /* ME! */
 		}
-		#banner h1 {font-size: 4em;margin-bottom: .25em;color: #FFF;}
+		#banner h1 {font-size: 3em;margin-bottom: .25em;color: #FFF;} /* ME! used to be font-size: 4em; */
 		#banner h2 {margin-bottom: .25em;color: #FFF;}
 		#banner p {color: rgba(255, 255, 255, 0.85);font-size: 1.75em;}
 	@-moz-keyframes more {
@@ -1516,7 +1516,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	/*input, select, textarea {color: #000;} ME! */
 	a {color: #999999;}
 		a:hover {color: rgba(153, 153, 153, 0.5);}
-	strong, b {color: #000;}
+	/*strong, b {color: #000;} ME! */
 	h1, h2, h3, h4, h5, h6 {color: #000;}
 	blockquote {border-left-color: rgba(0, 0, 0, 0.1);}
 	code {background: rgba(0, 0, 0, 0.075);border-color: rgba(0, 0, 0, 0.1);}

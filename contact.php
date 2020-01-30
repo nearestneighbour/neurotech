@@ -44,11 +44,11 @@ include "html/header.html";
 			<div class="9u 12u$(small)">
 				<div class="select-wrapper">
 					<select name="role" id="role">
-						<option value="0" disabled selected>- What is your role in Neurotech<sup>EU</sup> -</option>
-						<option value="1">Student</option>
-						<option value="2">Teacher</option>
-						<option value="3">Researcher</option>
-						<option value="4">Other</option>
+						<option value="" disabled selected>- What is your role in Neurotech<sup>EU</sup> -</option>
+						<option value="student">Student</option>
+						<option value="teacher">Teacher</option>
+						<option value="researcher">Researcher</option>
+						<option value="other">Other</option>
 					</select>
 				</div>
 			</div>
@@ -57,6 +57,7 @@ include "html/header.html";
 					<li><input type="submit" name="submit" value="Send Message" /></li>
 				</ul>
 			</div>
+			<p style="font-size:16px;align:center">If you want to submit a news article regarding Neurotech<sup>EU</sup>, please send a mail to <b>postmaster@theneurotech.eu</b></p>
 		</div>
 		</form>
 
