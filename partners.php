@@ -36,28 +36,28 @@ include "html/header.html";
 
 		<div class="flex flex-8">
 			<div class="col align-center"><div class="image round fit">
-					<a href="#radboud_scroll" class="scrolly"><img src="images/partner_logos/radboud.png" alt="Logo of Radboud University"/></a>
+					<a href="#radboud_scroll" class="scrolly"><img src="images/partner_logos/radboud.jpg" alt="Logo of Radboud University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#umh_scroll" class="scrolly"><img src="images/partner_logos/umh.png" alt="Logo of Miguel Hernandez University"/></a>
+					<a href="#umh_scroll" class="scrolly"><img src="images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#karolinska_scroll" class="scrolly"><img src="images/partner_logos/karo.png" alt="Logo of Karolinska Institute"/></a>
+					<a href="#karolinska_scroll" class="scrolly"><img src="images/partner_logos/karo.jpg" alt="Logo of Karolinska Institute"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#bonn_scroll" class="scrolly"><img src="images/partner_logos/bonn.png" alt="Logo of Bonn University"/></a>
+					<a href="#bonn_scroll" class="scrolly"><img src="images/partner_logos/bonn.jpg" alt="Logo of Bonn University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#bogazici_scroll" class="scrolly"><img src="images/partner_logos/boga.png" alt="Logo of Bogazici University"/></a>
+					<a href="#bogazici_scroll" class="scrolly"><img src="images/partner_logos/boga.jpg" alt="Logo of Bogazici University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#oxford_scroll" class="scrolly"><img src="images/partner_logos/oxford.png" alt="Logo of Oxford University"/></a>
+					<a href="#oxford_scroll" class="scrolly"><img src="images/partner_logos/oxford.jpg" alt="Logo of Oxford University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#cluj_scroll" class="scrolly"><img src="images/partner_logos/cluj.png" alt="Logo of UMF Cluj-Napoca"/></a>
+					<a href="#cluj_scroll" class="scrolly"><img src="images/partner_logos/cluj.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#debrecen_scroll" class="scrolly"><img src="images/partner_logos/debrecen.png" alt="Logo of University of Debrecen"/></a>
+					<a href="#debrecen_scroll" class="scrolly"><img src="images/partner_logos/debrecen.jpg" alt="Logo of University of Debrecen"/></a>
 			</div></div>
 		</div>
 
@@ -69,7 +69,7 @@ include "html/header.html";
 	<a class="partneranchor" id="radboud"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="images/partner_logos/radboud.png" alt="Logo of Radboud University"/>
+			<img src="images/partner_logos/radboud.jpg" alt="Logo of Radboud University"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Radboud Universiteit</h3>
@@ -87,7 +87,7 @@ include "html/header.html";
 			<a href="https://umh.es/?lang=EN" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
-			<img src="images/partner_logos/umh.png" alt="Logo of Miguel Hernandez University"/>
+			<img src="images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/>
 		</div></div>
 	</div></div>
 </section>
@@ -95,7 +95,7 @@ include "html/header.html";
 	<a class="partneranchor" id="karolinska"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="images/partner_logos/karo.png" alt="Logo of Karolinska Institute"/>
+			<img src="images/partner_logos/karo.jpg" alt="Logo of Karolinska Institute"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Karolinska Institutet</h3>
@@ -113,7 +113,7 @@ include "html/header.html";
 			<a href="https://www.uni-bonn.de/?set_language=en" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
-			<img src="images/partner_logos/bonn.png" alt="Logo of Bonn University" />
+			<img src="images/partner_logos/bonn.jpg" alt="Logo of Bonn University" />
 		</div></div>
 	</div></div>
 </section>
@@ -121,7 +121,7 @@ include "html/header.html";
 	<a class="partneranchor" id="bogazici"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="images/partner_logos/boga.png" alt="Logo of Bogazici University"/>
+			<img src="images/partner_logos/boga.jpg" alt="Logo of Bogazici University"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Boğaziçi Üniversitesi</h3>
@@ -139,7 +139,7 @@ include "html/header.html";
 			<a href="https://ox.ac.uk" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
-			<img src="images/partner_logos/oxford.png" alt="Logo of Oxford University"/>
+			<img src="images/partner_logos/oxford.jpg" alt="Logo of Oxford University"/>
 		</div></div>
 	</div></div>
 </section>
@@ -147,7 +147,7 @@ include "html/header.html";
 	<a class="partneranchor" id="cluj"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="images/partner_logos/cluj.png" alt="Logo of UMF Cluj-Napoca"/>
+			<img src="images/partner_logos/cluj.jpg" alt="Logo of UMF Cluj-Napoca"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Universitatea de Medicină și Farmacie din Cluj-Napoca</h3>
@@ -165,7 +165,7 @@ include "html/header.html";
 			<a href="https://unideb.hu/en" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
-			<img src="images/partner_logos/debrecen.png" alt="Logo of University of Debrecen"/>
+			<img src="images/partner_logos/debrecen.jpg" alt="Logo of University of Debrecen"/>
 		</div></div>
 	</div></div>
 </section>

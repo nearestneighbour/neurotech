@@ -49,7 +49,7 @@ echo $doc->saveHTML();
 	<div class="inner">
 			<div class="flex flex-2">
 				<div class="col col1"><div class="image round fit">
-					<img src="images/logo.png" alt="The Neurotech logo" />
+					<img src="images/logo.jpg" alt="The Neurotech logo" />
 				</div></div>
 				<div class="col col2">
 					<h2>The European University of Brain and Technology</h2>

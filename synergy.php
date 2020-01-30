@@ -51,14 +51,14 @@ include "html/header.html";
 			<div class="image round fit nwfig">
 				<img src="images/fillerimg.png" id="filler" alt="Background image for figure with joint publications data">
 				<canvas id="pubfig_canvas"></canvas>
-				<img class="pubfig" id="radb_node" src="images/partner_logos/radboud.png" alt="Logo of Radboud University">
-				<img class="pubfig" id="umh_node" src="images/partner_logos/umh.png" alt="Logo of Miguel Hernandez University">
-				<img class="pubfig" id="karo_node" src="images/partner_logos/karo.png" alt="Logo of Karolinska Institute">
-				<img class="pubfig" id="bonn_node" src="images/partner_logos/bonn.png" alt="Logo of Bonn University">
-				<img class="pubfig" id="boga_node" src="images/partner_logos/boga.png" alt="Logo of Bogazici University">
-				<img class="pubfig" id="oxfo_node" src="images/partner_logos/oxford.png" alt="Logo of Oxford University">
-				<img class="pubfig" id="cluj_node" src="images/partner_logos/cluj.png" alt="Logo of UMF Cluj-Napoca">
-				<img class="pubfig" id="debr_node" src="images/partner_logos/debrecen.png" alt="Logo of University of Debrecen">
+				<img class="pubfig" id="radb_node" src="images/partner_logos/radboud.jpg" alt="Logo of Radboud University">
+				<img class="pubfig" id="umh_node" src="images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University">
+				<img class="pubfig" id="karo_node" src="images/partner_logos/karo.jpg" alt="Logo of Karolinska Institute">
+				<img class="pubfig" id="bonn_node" src="images/partner_logos/bonn.jpg" alt="Logo of Bonn University">
+				<img class="pubfig" id="boga_node" src="images/partner_logos/boga.jpg" alt="Logo of Bogazici University">
+				<img class="pubfig" id="oxfo_node" src="images/partner_logos/oxford.jpg" alt="Logo of Oxford University">
+				<img class="pubfig" id="cluj_node" src="images/partner_logos/cluj.jpg" alt="Logo of UMF Cluj-Napoca">
+				<img class="pubfig" id="debr_node" src="images/partner_logos/debrecen.jpg" alt="Logo of University of Debrecen">
 			</div>
 		</div>
 		<div class="col col2">
@@ -82,14 +82,14 @@ include "html/header.html";
 			<div class="image round fit nwfig">
 				<img src="images/fillerimg.png" id="filler" alt="Background image for figure with EU funding data">
 				<canvas id="euffig_canvas"></canvas>
-				<img class="euffig" id="radb_node" src="images/partner_logos/radboud.png" alt="Logo of Radboud University">
-				<img class="euffig" id="umh_node" src="images/partner_logos/umh.png" alt="Logo of Miguel Hernandez University">
-				<img class="euffig" id="karo_node" src="images/partner_logos/karo.png" alt="Logo of Karolinska Institute">
-				<img class="euffig" id="bonn_node" src="images/partner_logos/bonn.png" alt="Logo of Bonn University">
-				<img class="euffig" id="boga_node" src="images/partner_logos/boga.png" alt="Logo of Bogazici University">
-				<img class="euffig" id="oxfo_node" src="images/partner_logos/oxford.png" alt="Logo of Oxford University">
-				<img class="euffig" id="cluj_node" src="images/partner_logos/cluj.png" alt="Logo of UMF Cluj-Napoca">
-				<img class="euffig" id="debr_node" src="images/partner_logos/debrecen.png" alt="Logo of University of Debrecen">
+				<img class="euffig" id="radb_node" src="images/partner_logos/radboud.jpg" alt="Logo of Radboud University">
+				<img class="euffig" id="umh_node" src="images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University">
+				<img class="euffig" id="karo_node" src="images/partner_logos/karo.jpg" alt="Logo of Karolinska Institute">
+				<img class="euffig" id="bonn_node" src="images/partner_logos/bonn.jpg" alt="Logo of Bonn University">
+				<img class="euffig" id="boga_node" src="images/partner_logos/boga.jpg" alt="Logo of Bogazici University">
+				<img class="euffig" id="oxfo_node" src="images/partner_logos/oxford.jpg" alt="Logo of Oxford University">
+				<img class="euffig" id="cluj_node" src="images/partner_logos/cluj.jpg" alt="Logo of UMF Cluj-Napoca">
+				<img class="euffig" id="debr_node" src="images/partner_logos/debrecen.jpg" alt="Logo of University of Debrecen">
 			</div>
 		</div>
 	</div>
