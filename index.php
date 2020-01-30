@@ -20,6 +20,7 @@
 
 <!-- Header -->
 <?php
+// Header on index.php is slightly different than on other pages
 $doc = new DOMDocument();
 $doc->loadHTMLFile("html/header.html");
 $header = $doc->getElementById("header");
@@ -28,7 +29,7 @@ echo $doc->saveHTML();
 ?>
 
 <!-- Banner -->
-<section id="banner">
+<section id="banner" style="background-image:url('<?php $f=glob('images/banners/*.*'); echo $f[array_rand($f)]; ?>')">
 	<div class="inner">
 		<header><h1>The European University of Brain and Technology</h1></header>
 		<ul id="stats">
@@ -106,7 +107,6 @@ include 'html/footer.html';
 <script src="js/main.js"></script>
 
 <script src="https://kit.fontawesome.com/12081b1371.js"></script>
-<script src="js/random_banner.js"></script>
 
 </body>
 </html>

@@ -175,6 +175,7 @@ include "html/header.html";
 
 <!-- Footer -->
 <?php
+// Footer on partners.php is slightly different than on other pages
 $doc = new DOMDocument();
 $doc->loadHTMLFile("html/footer.html");
 $links = $doc->getElementsByTagName("a");

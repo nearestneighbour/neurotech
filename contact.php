@@ -24,7 +24,7 @@ include "html/header.html";
 ?>
 
 <!-- Banner -->
-<section id="banner" class="nofade">
+<section id="banner" class="nofade" style="background-image:url('<?php $f=glob('images/banners/*.*'); echo $f[array_rand($f)]; ?>')">
 	<div class="inner">
 		<header><h1>Get in touch with us</h1></header>
 		<p>We are very interested in your thoughts about Neurotech<sup>EU</sup></p>
@@ -75,9 +75,6 @@ include 'html/footer.html';
 <script src="js/skel.min.js"></script>
 <script src="js/util.js"></script>
 <script src="js/main.js"></script>
-
-<script src="https://kit.fontawesome.com/12081b1371.js"></script>
-<script src="js/random_banner.js"></script>
 
 </body>
 </html>

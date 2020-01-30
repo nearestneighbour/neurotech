@@ -7,7 +7,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-/* Me: Menu */
+/* ME! Menu on all pages */
 .menulist {display:inline-block; vertical-align:top; float:right; margin:0;}
 .menulist li {display:inline-block; padding:0;}
 .menulist li:first-child {display:none;}
@@ -27,7 +27,7 @@
 	#header {height:88px !important;}
 }*/
 
-/* Me: Stats */
+/* ME! Stats on Index page and Synergy page */
 #stats {display:flex; justify-content:space-between; padding: 5% 5%;}
 #stats li {display: block; width:15%; text-align:center;}
 #stats li:last-child {padding:0;}
@@ -41,14 +41,14 @@
 #stats.syn_stats {padding:0;}
 #stats.syn_stats li i, #stats.syn_stats li p {color:#000;}
 
-/* Me: Partner logos */
+/* ME! Partner logos on Partner page */
 .flex.flex-8 {width:80%; margin:0 auto;}
 .flex.flex-8 .col {width: 7%;}
 .wrapper.pagetop {padding: 2em 0 1em 0; background: url("../images/hexagonal_bg_top_cropped.png") center top/cover;}
 .wrapper.pagetop .align-center, .wrapper.style1.logos h1 {margin: 0;}
 a.partneranchor {display: block; position: relative; top: -73px; visibility: hidden;}
 
-/* Me: Partner List */
+/* ME! Partner List on Partner page */
 .wrapper.style2.partnerlist {padding: 2em 0 2em 0;}
 .wrapper.style1.partnerlist {padding: 2em 0 2em 0;}
 .wrapper.partnerlist > .inner > .flex.flex-2 > .col1 {width: 10%;}
@@ -57,10 +57,11 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 .col.col2.padtop {padding-top: 3%;} /* Used on mission page */
 
 
+/* ME! News page */
 .wrapper.news {padding: 2em 0 2em 0;}
 .wrapper.news p {margin: 0; font-size:18px;}
 
-/* Me: Partner map */
+/* ME! Partner geo distribution (currently not used) */
 .logomap > a > img {
 	position:absolute; width:25px !important;
 	-webkit-transform:translate(-50%, -50%); background-color:#FFF;
@@ -74,7 +75,7 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 .logomap #cluj_logo {left:66.35%; top:58.08%;}
 .logomap #debr_logo {left:63.27%; top:56.32%;}
 
-/* Me: Partner joint pubs */
+/* ME! Figures on Synergy page */
 .nwfig canvas {position:absolute; top:0; left:0; width:100%; height:100%;}
 .image.round.fit.nwfig img:not(#filler) {
 	position:absolute;  width:60px; -webkit-transform:translate(-50%, -50%);
@@ -97,7 +98,7 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 .nwfig #cluj_node {left:12.5%; top:50%;}
 .nwfig #debr_node {left:25%; top:25%;}
 
-/* Me: Footer */
+/* ME! Footer */
 footer.wrapper.logos {padding: 6% 0 3% 0;}
 footer.wrapper.logos .align-center, footer.wrapper.logos h1 {margin: 0;}
 footer.wrapper.logos {background: url("../images/hexagonal_bg_cropped.png") no-repeat center bottom/cover;}
@@ -107,10 +108,10 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	footer > p {font-size: 14px;}
 }
 
-/* Me: Vertical center Mission page */
+/* ME! Vertical center Mission page */
 .vert_center {vertical-align:middle;}
 
-/* Me: contact page banner no fade */
+/* ME! Contact page banner without fade effect */
 #banner.nofade .inner, #banner.nofade:before {
 	-moz-transition: none; -webkit-transition: none; -ms-transition: none; transition: none;
 }
@@ -120,8 +121,11 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	.inner > form {width: 90%; margin: 0 5%;}
 }
 
+
+
+
 /* Header */
-	body.subpage {padding-top: 44px;} /*ME! was: 3.125em*/
+	body.subpage {padding-top: 44px;} /* ME! was: 3.125em */
 	@-moz-keyframes reveal-header {
 		0% {top: -4em;opacity: 0;}
 		100% {top: 0;opacity: 1;}
@@ -282,7 +286,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {font-size: 0.9em;margin-top: -0.6em;}
-	header p {color: #000000;} /* Me! original: #bfbfbf */
+	header p {color: #000000;} /* ME! original: #bfbfbf */
 /* Tab */
 	ul.tab-list {list-style: none;margin: 0 0 1em 0;padding: 0;}
 		ul.tab-list li a {
@@ -354,7 +358,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 		border-radius: 4px;
 		border: none;
 		border: solid 1px;
-		color: #FFF; /* Me! used to be inherit */
+		color: #FFF; /* ME! used to be color: inherit */
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -454,7 +458,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	input[type="password"],
 	input[type="email"],
 	select,
-	textarea {background: rgba(0, 0, 0, 0.8);border-color: rgba(0, 0, 0, 0.1);} /* Me! used to be: bg: 0,0,0,0.075, border:0,0,0,0.1 */
+	textarea {background: rgba(0, 0, 0, 0.8);border-color: rgba(0, 0, 0, 0.1);} /* ME! used to be: bg: 0,0,0,0.075, border:0,0,0,0.1 */
 	input[type="text"]:focus,
 	input[type="password"]:focus,
 	input[type="email"]:focus,
@@ -463,9 +467,9 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	{border-color:#999999;}
 	.select-wrapper:before {color: rgba(0, 0, 0, 0.1);}
 	input[type="checkbox"] + label,
-	input[type="radio"] + label {color:#FFF;}/* Me! was: {color: #999999;} */
+	input[type="radio"] + label {color:#FFF;}/* ME! was: {color: #999999;} */
 	input[type="checkbox"] + label:before,
-	input[type="radio"] + label:before {background: rgba(0, 0, 0, 0.5);border-color: rgba(0, 0, 0, 0.1);} /* Me! used to be: bg: 0,0,0,0.075, border:0,0,0,0.1 */
+	input[type="radio"] + label:before {background: rgba(0, 0, 0, 0.5);border-color: rgba(0, 0, 0, 0.1);} /* ME! used to be: bg: 0,0,0,0.075, border:0,0,0,0.1 */
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {background-color: #fafafa;border-color: #fafafa;color: #000;}
 	input[type="checkbox"]:focus + label:before,
@@ -519,15 +523,15 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 		height: 100%;
 	}
 /* Wrapper */
-	.wrapper {padding: 4em 0 4em 0; position: relative;} /* Me! originally: padding: 6em 0 4em 0; */
+	.wrapper {padding: 4em 0 4em 0; position: relative;} /* ME! originally: padding: 6em 0 4em 0; */
 		.wrapper .inner {margin: 0 auto;width: 80em;position: relative;z-index: 99;}
 		.wrapper header {margin-bottom: 4em;}
 			@media screen and (max-width: 736px) {
 				.wrapper header {margin-bottom: 2em;}
 			}
-		.wrapper.style1 {background-color: #fafafa; color: #000000;} /* Me! originally: color:#999999 */
+		.wrapper.style1 {background-color: #fafafa; color: #000000;} /* ME! originally: color:#999999 */
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {color: #000;}
-			.wrapper.style1 a {color: #009;} /* Me! was: color: #000*/
+			.wrapper.style1 a {color: #009;} /* ME! was: color: #000*/
 			.wrapper.style1 a:hover {color: rgba(0, 0, 0, 0.5);}
 			.wrapper.style1 strong, .wrapper.style1 b {color: #000;}
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {color: #000;}
@@ -649,7 +653,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 			.wrapper.style1 table.alt tbody tr td {border-color: rgba(0, 0, 0, 0.15);}
 			.wrapper.style2 {background-color: #3498db; color: #c7e9ff;} /* ME! was: color:#aed6f1; */
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {color: #fff;}
-			.wrapper.style2 a {color: #FFF;} /* Me! was: color:#999999*/
+			.wrapper.style2 a {color: #FFF;} /* ME! was: color:#999999*/
 			.wrapper.style2 a:hover {color: rgba(153, 153, 153, 0.5);}
 			.wrapper.style2 strong, .wrapper.style2 b {color: #fff;}
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {color: #fff;}
@@ -1447,7 +1451,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 		}
 
 /* Type */
-	body {background-color: #fff;color: #000000;} /* Me! orig: color:#999999 */
+	body {background-color: #fff;color: #000000;} /* ME! orig: color:#999999 */
 	body, input, select, textarea {font-family: "Scope One", serif;font-size: 13pt;font-weight: 300;line-height: 1.65;}
 		@media screen and (max-width: 1680px) {
 			body, input, select, textarea {font-size: 11pt;}
@@ -1509,7 +1513,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	.align-left {text-align: left;}
 	.align-center {text-align: center;}
 	.align-right {text-align: right;}
-	/*input, select, textarea {color: #000;} Me! */
+	/*input, select, textarea {color: #000;} ME! */
 	a {color: #999999;}
 		a:hover {color: rgba(153, 153, 153, 0.5);}
 	strong, b {color: #000;}
