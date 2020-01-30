@@ -1,4 +1,4 @@
 User-Agent: *
-Disallow: /LICENSE.txt
-Disallow: /.git
-Disallow: /.gitignore
+Disallow:
+
+Sitemap: http://theneurotech.eu/sitemap.xml
