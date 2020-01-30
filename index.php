@@ -32,12 +32,12 @@ echo $doc->saveHTML();
 	<div class="inner">
 		<header><h1>The European University of Brain and Technology</h1></header>
 		<ul id="stats">
-			<li><a href="partners.php"><i class="fa fa-3x fa-university"></i><p>8</p><p>Universities</p></a></li>
+			<li><a href="partners"><i class="fa fa-3x fa-university"></i><p>8</p><p>Universities</p></a></li>
 			<li><i class="fa fa-3x fa-users"></i><p>170,000</p><p>Students</p></li>
 			<li><i class="fa fa-3x fa-user-tie"></i><p>70,000</p><p>Staff</p></li>
-			<li><a href="synergy.php#funding"><i class="fa fa-3x fa-microscope"></i><p>171</p><p>Joint grants</p></a></li>
-			<li><a href="synergy.php#funding"><i class="fa fa-3x fa-euro"></i><p>€231M</p><p>Joint funding</p></a></li>
-			<li><a href="synergy.php#publications"><i class="fa fa-3x fa-newspaper"></i><p>5277</p><p>Joint publications</p></a></li>
+			<li><a href="synergy#funding"><i class="fa fa-3x fa-microscope"></i><p>171</p><p>Joint grants</p></a></li>
+			<li><a href="synergy#funding"><i class="fa fa-3x fa-euro"></i><p>€231M</p><p>Joint funding</p></a></li>
+			<li><a href="synergy#publications"><i class="fa fa-3x fa-newspaper"></i><p>5277</p><p>Joint publications</p></a></li>
 			<li><i class="fa fa-3x fa-globe"></i><p>100+</p><p>Affiliates</p></li>
 		</ul>
 		<a href="#main" class="button big scrolly">Learn More</a>
@@ -61,7 +61,7 @@ echo $doc->saveHTML();
 						<li>Lasting close cooperation between partners for a trans-European network of excellence in brain research and technologies</li>
 					</ul></p>
 					<p>The logo represents the mission and values of the Neurotech<sup>EU</sup> Alliance.  The cartoon representation of the brain and an electrical circuit diagram portray the focus of the alliance on Brain and Technology.  Eight raised hands in the foreground, each one representing one of the 8 founding partners, bring the educational goals of the alliance in focus.  The colored ribbons characterize Neurotech<sup>EU</sup>’s devotion to and celebration of the diversity in any shape or form. The outline of the front halves of several human faces stresses the fact that education and research in the fields of brain and technology will be brought together to benefit individuals as well as society at large.</p>
-					<a href="mission.php" class="button">Our Mission</a>
+					<a href="mission" class="button">Our Mission</a>
 				</div>
 			</div>
 	</div>

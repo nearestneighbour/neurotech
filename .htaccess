@@ -3,3 +3,8 @@ RedirectMatch 403 /\.git
 
 # Deny access to .htaccess file
 RedirectMatch 403 /\.htaccess
+
+# No need for .php at end of URL (e.g. theneurotech.eu/mission is fine)
+RewriteEngine On
+RewriteCond ${REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

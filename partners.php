@@ -181,7 +181,8 @@ $links = $doc->getElementsByTagName("a");
 foreach ($links as $link) {
 	$link->setAttribute("class", "scrolly");
 	$href = $link->getAttribute("href");
-	$href = str_replace("partners.php", "", $href) . "_scroll";
+	$href = str_replace("partners.php", "", $href) . "_scroll"; // Not necessary but just to be sure
+	$href = str_replace("partners", "", $href) . "_scroll";
 	$link->setAttribute("href", $href);
 }
 echo $doc->saveHTML();
