@@ -99,7 +99,7 @@ include "html/header.html";
 		</div></div>
 		<div class="col col2">
 			<h3>Karolinska Institutet</h3>
-			<p>Karolinska Institutet is one of the world’s leading medical universities. Our vision is to advance knowledge about life and strive towards better health for all. As a university, KI is Sweden’s single largest centre of medical academic research and offers the country’s widest range of medical courses and programmes.</p>
+			<p>Karolinska Institutet is one of the world’s leading medical universities. Our vision is to advance knowledge about life and strive towards better health for all. As a university, KI is Sweden’s single largest centre of medical academic research and offers the country’s widest range of courses and programmes in the field of medicine and health science.</p>
 			<a href="https://ki.se/en" class="button" target="_blank">Website</a>
 		</div>
 	</div></div>
