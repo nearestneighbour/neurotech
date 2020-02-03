@@ -57,12 +57,16 @@ include "html/header.html";
 					<li><input type="submit" name="submit" value="Send Message" /></li>
 				</ul>
 			</div>
-			<p style="font-size:16px;align:center">If you want to submit a news article regarding Neurotech<sup>EU</sup>, please send a mail to <b>postmaster@theneurotech.eu</b></p>
+			<p id="p_desktop">If you want to submit a news article regarding Neurotech<sup>EU</sup>, please send a mail to <b>postmaster@theneurotech.eu</b></p>
 		</div>
 		</form>
 
 	</div>
 </section>
+
+<div id="p_mobile">
+<p>If you want to submit a news article regarding Neurotech<sup>EU</sup>, please send a mail to <b>postmaster@theneurotech.eu</b></p>
+</div>
 
 <!-- Footer -->
 <?php

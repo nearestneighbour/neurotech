@@ -112,6 +112,9 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 .vert_center {vertical-align:middle;}
 
 /* ME! Contact page banner without fade effect */
+#p_mobile {display: none; text-align: center;}
+#p_mobile > p {font-size: 16px;}
+#p_desktop {display: initial; font-size: 16px;}
 #banner.nofade .inner, #banner.nofade:before {
 	-moz-transition: none; -webkit-transition: none; -ms-transition: none; transition: none;
 }
@@ -119,9 +122,9 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 .inner > form {width: 50%; margin: 0 25%;}
 @media screen and (max-width: 736px) {
 	.inner > form {width: 90%; margin: 0 5%;}
+	#p_mobile {display: initial;}
+	#p_desktop {display: none;}
 }
-
-
 
 
 /* Header */
