@@ -83,7 +83,7 @@ include "html/header.html";
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col2">
 			<h3>Universidad Miguel Hernández</h3>
-			<p>The UMH is a young university committed to continuous incorporation of innovation and excellence to continue climbing the rankings of the best universities within our surroundings. According to various university quality indicators, the Miguel Hernández University of Elche is found among the top Spanish universities in the parameters of innovation and technological development, in teaching, and in the area of industry, innovation, and infrastructure.</p>
+			<p>The Miguel Hernández University of Elche is a young university committed to continuous incorporation of innovation and excellence to continue climbing the rankings of the best universities within our surroundings. According to various university quality indicators, we are found among the top Spanish universities in the parameters of innovation and technological development, in teaching, and in the area of industry, innovation, and infrastructure.</p>
 			<a href="https://umh.es/?lang=EN" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
@@ -109,7 +109,7 @@ include "html/header.html";
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col2">
 			<h3>Rheinische Friedrich-Wilhelms-Universität Bonn</h3>
-			<p>The University of Bonn was founded in 1818 and is one of Germany's most important institutes of higher education. As a place of learning to over 38,000 students, it enjoys an outstanding reputation both at home and abroad. It is one of the world's leading research-based universities and, thus, it is no surprise that it operates on an international level.</p>
+			<p>The University of Bonn was founded in 1818 and is one of Germany's most important institutes of higher education. As a place of learning to over 38,000 students, we enjoy an outstanding reputation both at home and abroad. We are one of the world's leading research-based universities and, thus, it is no surprise that we operate on an international level.</p>
 			<a href="https://www.uni-bonn.de/?set_language=en" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
@@ -125,7 +125,7 @@ include "html/header.html";
 		</div></div>
 		<div class="col col2">
 			<h3>Boğaziçi Üniversitesi</h3>
-			<p>Boğaziçi University is a major research university and one of the leading universities in Turkey.  Founded in 1863, as Robert College, it is the first American higher education institution founded outside the United States. With top-ranked programs in engineering, applied sciences, education and social sciences, Boğaziçi University provides a liberal educational atmosphere and a program of extracurricular activities and sports.</p>
+			<p>Boğaziçi University is a major research university and one of the leading universities in Turkey. Founded in 1863, as Robert College, we are the first American higher education institution founded outside the United States. With top-ranked programs in engineering, applied sciences, education and social sciences, we provide a liberal educational atmosphere and a program of extracurricular activities and sports.</p>
 			<a href="http://boun.edu.tr/en_US" class="button" target="_blank">Website</a>
 		</div>
 	</div></div>
@@ -151,7 +151,7 @@ include "html/header.html";
 		</div></div>
 		<div class="col col2">
 			<h3>Universitatea de Medicină și Farmacie din Cluj-Napoca</h3>
-			<p>The "Iuliu Hatieganu" University of Medicine and Pharmacy is the cradle of medical education in Cluj-Napoca, with a history dating from 1500. Today, the University is one of the most important and appreciated Romanian universities.</p>
+			<p>The "Iuliu Hatieganu" University of Medicine and Pharmacy is the cradle of medical education in Cluj-Napoca, with a history dating from 1500. Today, we are one of the most important and appreciated Romanian universities.</p>
 			<a href="http://www.umfcluj.ro/en/" class="button" target="_blank">Website</a>
 		</div>
 	</div></div>
@@ -161,7 +161,7 @@ include "html/header.html";
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col2">
 			<h3>Debreceni Egyetem</h3>
-			<p>The University of Debrecen is Hungary’s one of the oldest and largest educational centers. The student community of 30,000 can study in 14 faculties, in institutions of excellent scholarly standard. As a leading university it is known in Hungary as an intellectual center providing the widest spectrum of educational programs while also closely cooperating with the private sector, the business sphere, and the local government.</p>
+			<p>The University of Debrecen is Hungary’s one of the oldest and largest educational centers. The student community of 30,000 can study in 14 faculties, in institutions of excellent scholarly standard. As a leading university we are known in Hungary as an intellectual center providing the widest spectrum of educational programs while also closely cooperating with the private sector, the business sphere, and the local government.</p>
 			<a href="https://unideb.hu/en" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
