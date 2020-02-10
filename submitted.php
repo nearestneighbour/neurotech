@@ -30,20 +30,6 @@ include "html/header.html";
 	</div>
 </section>
 
-
-<?php
-if (isset($_POST['submit'])) {
-	unset($_POST['submit']);
-	if (file_exists('../writable/messages.json')) {
-		$data = json_decode(file_get_contents('../writable/messages.json'));
-	} else {
-		$data = array();
-	}
-	array_push($data, $_POST);
-	file_put_contents('../writable/messages.json', json_encode($data), LOCK_EX);
-}
-?>
-
 <!-- Footer -->
 <?php
 include 'html/footer.html';

@@ -29,7 +29,7 @@ include "html/header.html";
 		<header><h1>Get in touch with us</h1></header>
 		<p>We are very interested in your thoughts about Neurotech<sup>EU</sup></p>
 
-		<form method="post" action="contact_submitted">
+		<form method="post" action="submit_form">
 		<div class="row uniform">
 
 			<div class="6u 12u$(small)">

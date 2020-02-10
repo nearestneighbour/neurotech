@@ -6,10 +6,10 @@ RedirectMatch 403 /\.htaccess
 
 # No need for .php at end of URL (e.g. theneurotech.eu/mission)
 RewriteEngine On
-RewriteCond ${REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 # Disable hotlinking from other websites
-RewriteCond ${HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^$
 RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?theneurotech.eu [NC]
 RewriteRule \.(jpg|jpeg|png|css|js|csv|html)$ - [F]
