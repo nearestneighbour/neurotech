@@ -21,7 +21,7 @@ nav {display:flex; flex-direction:row; justify-content:space-between; float:righ
 	height: 0;
 	opacity: 0;
 	overflow: hidden;
-	-webkit-transition: opacity .5s; -ms-transition: opacity .5s; -moz-transition: opacity .5s; transition: opacity .5s;
+	-webkit-transition: opacity .3s; -ms-transition: opacity .3s; -moz-transition: opacity .3s; transition: opacity .3s;
 }
 .dropdown:hover .dropdown-content {height:auto; opacity:1;}
 nav a {color:#bfbfbf; display:inline-block; padding: 0 .8em; font-size: 18px; text-align:center;}
