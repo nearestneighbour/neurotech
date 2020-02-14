@@ -56,7 +56,6 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 /* More/less padding? Apply this on all pages/sections? */
 .col.col2.padtop {padding-top: 3%;} /* Used on mission page */
 
-
 /* ME! News page */
 .wrapper.news {padding: 2em 0 2em 0;}
 .wrapper.news p {margin: 0; font-size:18px;}
@@ -120,6 +119,9 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 }
 #banner .inner .row p {font-size: 1.25em;}
 .inner > form {width: 50%; margin: 0 25%;}
+@media screen and (max-width: 980px) {
+	.inner > form {width: 80%; margin: 0 10%;}
+}
 @media screen and (max-width: 736px) {
 	.inner > form {width: 90%; margin: 0 5%;}
 	#p_mobile {display: initial;}
@@ -360,7 +362,8 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 		appearance: none;
 		border-radius: 4px;
 		border: none;
-		border: solid 1px;
+		/* border: solid 1px; ME! this line used to be here instead of the next line */
+		border: 1px solid rgb(255,255,255,0.25) !important;
 		color: #FFF; /* ME! used to be color: inherit */
 		display: block;
 		outline: 0;
@@ -436,7 +439,8 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	input[type="checkbox"] + label:before,
 	input[type="radio"] + label:before {
 		border-radius: 4px;
-		border: solid 1px;
+		/* border: solid 1px; ME! this line used to be here instead of the next line */
+		border: 1px solid rgb(255,255,255,0.25) !important;
 		content: '';
 		display: inline-block;
 		height: 1.65em;
@@ -472,7 +476,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {color:#FFF;}/* ME! was: {color: #999999;} */
 	input[type="checkbox"] + label:before,
-	input[type="radio"] + label:before {background: rgba(0, 0, 0, 0.5);border-color: rgba(0, 0, 0, 0.1);} /* ME! used to be: bg: 0,0,0,0.075, border:0,0,0,0.1 */
+	input[type="radio"] + label:before {background: rgba(0, 0, 0, 0.8);border-color: rgba(0, 0, 0, 0.1);} /* ME! used to be: bg: 0,0,0,0.075, border:0,0,0,0.1 */
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {background-color: #fafafa;border-color: #fafafa;color: #000;}
 	input[type="checkbox"]:focus + label:before,

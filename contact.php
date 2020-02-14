@@ -33,17 +33,17 @@ include "html/header.html";
 		<div class="row uniform">
 
 			<div class="6u 12u$(small)">
-				<input type="text" name="name" id="name" value="" placeholder="Name" required />
+				<input type="text" name="name" value="" placeholder="Name" required />
 			</div>
 			<div class="6u 12u$(small)">
-				<input type="text" name="mail" id="mail" value="" placeholder="Email" required />
+				<input type="text" name="mail" value="" placeholder="Email" required />
 			</div>
 			<div class="12u$">
-				<textarea name="msg" id="msg" placeholder="Leave a message" required></textarea>
+				<textarea name="msg" placeholder="Leave a message" required></textarea>
 			</div>
-			<div class="9u 12u$(small)">
+			<div class="6u 12u$(small)">
 				<div class="select-wrapper">
-					<select name="role" id="role">
+					<select name="role">
 						<option value="" disabled selected>- What is your role in Neurotech<sup>EU</sup> -</option>
 						<option value="student">Student</option>
 						<option value="teacher">Teacher</option>
@@ -52,12 +52,16 @@ include "html/header.html";
 					</select>
 				</div>
 			</div>
-			<div class="3u 12u$(small)">
+			<div class="6u 12u$(small)">
+				<input type="checkbox" name="update" id="update" value="Yes" />
+				<label for="update">Keep me updated about NeurotechEU</label>
+			</div>
+			<div class="12u 12u$(small)">
 				<ul class="actions">
 					<li><input type="submit" name="submit" value="Send Message" /></li>
 				</ul>
 			</div>
-			<p id="p_desktop">If you want to submit a news article regarding Neurotech<sup>EU</sup>, please send a mail to <b>postmaster@theneurotech.eu</b></p>
+			<p id="p_desktop">If you want to submit a news article regarding Neurotech<sup>EU</sup>, please send a mail to <b>contact@theneurotech.eu</b></p>
 		</div>
 		</form>
 
@@ -80,6 +84,8 @@ include 'html/footer.html';
 <script src="js/skel.min.js"></script>
 <script src="js/util.js"></script>
 <script src="js/main.js"></script>
+
+<script src="https://kit.fontawesome.com/12081b1371.js"></script>
 
 </body>
 </html>
