@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
 	# Redirect to "thank you for submitting" page
 	header('Location: submitted');
 } else {
-	header('Location: contact');
+	header('Location: .');
 }
 
 ?>

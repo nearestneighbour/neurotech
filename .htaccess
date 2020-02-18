@@ -6,6 +6,7 @@ RedirectMatch 403 /\.htaccess
 
 # No need for .php at end of URL (e.g. theneurotech.eu/mission)
 RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
