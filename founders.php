@@ -6,10 +6,10 @@
 -->
 <html>
 <head>
-	<title>Partners of NeurotechEU</title>
+	<title>Founders of NeurotechEU</title>
 	<link rel="icon" href="/images/icon.png" />
 
-	<meta name="description" content="NeurotechEU was founded by eight universities from all over Europe. Read all about them on our Partners page." />
+	<meta name="description" content="NeurotechEU was founded by eight universities from all over Europe. Read all about them on our Founders page." />
 	<meta name="robots" content="index,follow" />
 
 	<meta charset="utf-8" />
@@ -31,33 +31,33 @@ include "html/header.html";
 	<div class="inner">
 
 		<header class="align-center">
-			<h1>Meet our partners</h1>
+			<h1>Meet the founders</h1>
 		</header>
 
 		<div class="flex flex-8">
 			<div class="col align-center"><div class="image round fit">
-					<a href="#radboud_scroll" class="scrolly"><img src="/images/partner_logos/radboud.jpg" alt="Logo of Radboud University"/></a>
+					<a href="#ru_scroll" class="scrolly"><img src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
 					<a href="#umh_scroll" class="scrolly"><img src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#karolinska_scroll" class="scrolly"><img src="/images/partner_logos/karo.jpg" alt="Logo of Karolinska Institute"/></a>
+					<a href="#ki_scroll" class="scrolly"><img src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
 					<a href="#bonn_scroll" class="scrolly"><img src="/images/partner_logos/bonn.jpg" alt="Logo of Bonn University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#bogazici_scroll" class="scrolly"><img src="/images/partner_logos/boga.jpg" alt="Logo of Bogazici University"/></a>
+					<a href="#boun_scroll" class="scrolly"><img src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#oxford_scroll" class="scrolly"><img src="/images/partner_logos/oxford.jpg" alt="Logo of Oxford University"/></a>
+					<a href="#oxf_scroll" class="scrolly"><img src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#cluj_scroll" class="scrolly"><img src="/images/partner_logos/cluj.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
+					<a href="#umf_scroll" class="scrolly"><img src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#debrecen_scroll" class="scrolly"><img src="/images/partner_logos/debrecen.jpg" alt="Logo of University of Debrecen"/></a>
+					<a href="#ud_scroll" class="scrolly"><img src="/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/></a>
 			</div></div>
 		</div>
 
@@ -65,11 +65,11 @@ include "html/header.html";
 </section>
 
 <!-- Partner list vertical -->
-<section id="radboud_scroll" class="wrapper style2 partnerlist">
-	<a class="partneranchor" id="radboud"></a>
+<section id="ru_scroll" class="wrapper style2 partnerlist">
+	<a class="partneranchor" id="ru"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/radboud.jpg" alt="Logo of Radboud University"/>
+			<img src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Radboud Universiteit</h3>
@@ -91,11 +91,11 @@ include "html/header.html";
 		</div></div>
 	</div></div>
 </section>
-<section id="karolinska_scroll" class="wrapper style2 partnerlist">
-	<a class="partneranchor" id="karolinska"></a>
+<section id="ki_scroll" class="wrapper style2 partnerlist">
+	<a class="partneranchor" id="ki"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/karo.jpg" alt="Logo of Karolinska Institute"/>
+			<img src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Karolinska Institutet</h3>
@@ -117,11 +117,11 @@ include "html/header.html";
 		</div></div>
 	</div></div>
 </section>
-<section id="bogazici_scroll" class="wrapper style2 partnerlist">
-	<a class="partneranchor" id="bogazici"></a>
+<section id="boun_scroll" class="wrapper style2 partnerlist">
+	<a class="partneranchor" id="boun"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/boga.jpg" alt="Logo of Bogazici University"/>
+			<img src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Boğaziçi Üniversitesi</h3>
@@ -130,8 +130,8 @@ include "html/header.html";
 		</div>
 	</div></div>
 </section>
-<section id="oxford_scroll" class="wrapper style1 partnerlist">
-	<a class="partneranchor" id="oxford"></a>
+<section id="oxf_scroll" class="wrapper style1 partnerlist">
+	<a class="partneranchor" id="oxf"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col2">
 			<h3>University of Oxford</h3>
@@ -139,15 +139,15 @@ include "html/header.html";
 			<a href="https://ox.ac.uk" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/oxford.jpg" alt="Logo of Oxford University"/>
+			<img src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/>
 		</div></div>
 	</div></div>
 </section>
-<section id="cluj_scroll" class="wrapper style2 partnerlist">
-	<a class="partneranchor" id="cluj"></a>
+<section id="umf_scroll" class="wrapper style2 partnerlist">
+	<a class="partneranchor" id="umf"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/cluj.jpg" alt="Logo of UMF Cluj-Napoca"/>
+			<img src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Universitatea de Medicină și Farmacie din Cluj-Napoca</h3>
@@ -156,8 +156,8 @@ include "html/header.html";
 		</div>
 	</div></div>
 </section>
-<section id="debrecen_scroll" class="wrapper style1 partnerlist">
-	<a class="partneranchor" id="debrecen"></a>
+<section id="ud_scroll" class="wrapper style1 partnerlist">
+	<a class="partneranchor" id="ud"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col2">
 			<h3>Debreceni Egyetem</h3>
@@ -165,7 +165,7 @@ include "html/header.html";
 			<a href="https://unideb.hu/en" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/debrecen.jpg" alt="Logo of University of Debrecen"/>
+			<img src="/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/>
 		</div></div>
 	</div></div>
 </section>
@@ -175,15 +175,15 @@ include "html/header.html";
 
 <!-- Footer -->
 <?php
-// Footer on partners.php is slightly different than on other pages
+// Footer on founders.php is slightly different than on other pages
 $doc = new DOMDocument();
 $doc->loadHTMLFile("html/footer.html");
 $links = $doc->getElementsByTagName("a");
 foreach ($links as $link) {
 	$link->setAttribute("class", "scrolly");
 	$href = $link->getAttribute("href");
-	$href = str_replace("partners.php", "", $href); // Not necessary but just to be sure
-	$href = str_replace("partners", "", $href) . "_scroll";
+	$href = str_replace("/founders.php", "", $href); // Not necessary but just to be sure
+	$href = str_replace("/founders", "", $href) . "_scroll";
 	$link->setAttribute("href", $href);
 }
 echo $doc->saveHTML();

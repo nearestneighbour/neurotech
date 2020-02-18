@@ -6,12 +6,12 @@ var pubdata = [], eufdata = [], pubcvs, eufcvs, pubctx, eufctx, publogos, euflog
 $(document).ready(function() {
   pubcvs = document.getElementById("pubfig_canvas");
   pubctx = pubcvs.getContext("2d");
-  publogos = [$(".pubfig#radb_node"),$(".pubfig#umh_node"),$(".pubfig#karo_node"),$(".pubfig#bonn_node"),
-           $(".pubfig#boga_node"),$(".pubfig#oxfo_node"),$(".pubfig#cluj_node"),$(".pubfig#debr_node")];
+  publogos = [$(".pubfig#ru_node"),$(".pubfig#umh_node"),$(".pubfig#ki_node"),$(".pubfig#bonn_node"),
+           $(".pubfig#boun_node"),$(".pubfig#oxf_node"),$(".pubfig#umf_node"),$(".pubfig#ud_node")];
   eufcvs = document.getElementById("euffig_canvas");
   eufctx = eufcvs.getContext("2d");
-  euflogos = [$(".euffig#radb_node"),$(".euffig#umh_node"),$(".euffig#karo_node"),$(".euffig#bonn_node"),
-              $(".euffig#boga_node"),$(".euffig#oxfo_node"),$(".euffig#cluj_node"),$(".euffig#debr_node")];
+  euflogos = [$(".euffig#ru_node"),$(".euffig#umh_node"),$(".euffig#ki_node"),$(".euffig#bonn_node"),
+              $(".euffig#boun_node"),$(".euffig#oxf_node"),$(".euffig#umf_node"),$(".euffig#ud_node")];
   resizeCanvas();
   // Load data
   $.ajax({

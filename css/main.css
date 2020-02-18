@@ -76,14 +76,14 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 	position:absolute; width:25px !important;
 	-webkit-transform:translate(-50%, -50%); background-color:#FFF;
 }
-.logomap #radb_logo {left:38.46%; top:45.85%;}
+.logomap #ru_logo {left:38.46%; top:45.85%;}
 .logomap #umh_logo {left:28.51%; top:76.09%;}
-.logomap #karo_logo {left:57.68%; top:24.94%;}
+.logomap #ki_logo {left:57.68%; top:24.94%;}
 .logomap #bonn_logo {left:40.44%; top:48.6%;}
-.logomap #boga_logo {left:74.81%; top:70.68%;}
-.logomap #oxfo_logo {left:27.3%; top:46.07%;}
-.logomap #cluj_logo {left:66.35%; top:58.08%;}
-.logomap #debr_logo {left:63.27%; top:56.32%;}
+.logomap #boun_logo {left:74.81%; top:70.68%;}
+.logomap #oxf_logo {left:27.3%; top:46.07%;}
+.logomap #umf_logo {left:66.35%; top:58.08%;}
+.logomap #ud_logo {left:63.27%; top:56.32%;}
 
 /* ME! Figures on Synergy page */
 .nwfig canvas {position:absolute; top:0; left:0; width:100%; height:100%;}
@@ -99,14 +99,14 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 }
 .nwfig .selected {border-color:#00F !important;}
 .nwfig .hidden {filter:brightness(50%);}
-.nwfig #radb_node {left:50%; top:12.5%;}
+.nwfig #ru_node {left:50%; top:12.5%;}
 .nwfig #umh_node {left:75%; top:25%;}
-.nwfig #karo_node {left:87.5%; top:50%;}
+.nwfig #ki_node {left:87.5%; top:50%;}
 .nwfig #bonn_node {left:75%; top:75%;}
-.nwfig #boga_node {left:50%; top:87.5%;}
-.nwfig #oxfo_node {left:25%; top:75%;}
-.nwfig #cluj_node {left:12.5%; top:50%;}
-.nwfig #debr_node {left:25%; top:25%;}
+.nwfig #boun_node {left:50%; top:87.5%;}
+.nwfig #oxf_node {left:25%; top:75%;}
+.nwfig #umf_node {left:12.5%; top:50%;}
+.nwfig #ud_node {left:25%; top:25%;}
 
 /* ME! Footer */
 footer.wrapper.logos {padding: 6% 0 3% 0;}

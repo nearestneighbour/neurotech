@@ -101,7 +101,7 @@ include "html/header.html";
 
 <!-- Footer -->
 <?php
-include '/html/footer.html';
+include "html/footer.html";
 ?>
 
 <!-- Scripts -->
