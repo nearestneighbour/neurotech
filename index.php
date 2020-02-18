@@ -7,14 +7,14 @@
 <html>
 <head>
 	<title>NeurotechEU -The European University for Brain & Technology</title>
-	<link rel="icon" href="images/icon.png" />
+	<link rel="icon" href="/images/icon.png" />
 
 	<meta name="description" content="NeurotechEU is the European University for Brain and Technology. Find out how we are building a European Neurotech ecosystem." />
 	<meta name="robots" content="index,follow" />
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="/css/main.css" />
 </head>
 <body>
 
@@ -50,7 +50,7 @@ echo $doc->saveHTML();
 	<div class="inner">
 			<div class="flex flex-2">
 				<div class="col col1"><div class="image round fit">
-					<img src="images/logo.jpg" alt="The Neurotech logo" />
+					<img src="/images/logo.jpg" alt="The Neurotech logo" />
 				</div></div>
 				<div class="col col2">
 					<h2>The European University of Brain and Technology</h2>
@@ -95,16 +95,16 @@ echo $doc->saveHTML();
 
 <!-- Footer -->
 <?php
-include 'html/footer.html';
+include '/html/footer.html';
 ?>
 
 <!-- Scripts -->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.scrolly.min.js"></script>
-<script src="js/jquery.scrollex.min.js"></script>
-<script src="js/skel.min.js"></script>
-<script src="js/util.js"></script>
-<script src="js/main.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.scrolly.min.js"></script>
+<script src="/js/jquery.scrollex.min.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/main.js"></script>
 
 <script src="https://kit.fontawesome.com/12081b1371.js"></script>
 

@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
 	# Forward message to postmaster@theneurotech.eu
 	$body = "From: ".$_POST['name']." (".$_POST['mail']." - ".$_POST['role'].")\r\nDate: ".date('d-m-Y')."\r\nMessage: ".$_POST['msg'];
 	$headers = array('From' => '"Neurotech Contact Form"', 'Content-Type' => 'text/plain; charset="utf-8"');
-	mail('postmaster@theneurotech.eu', $_POST['name'], $body, $headers, '-f www-neurotech@science.ru.nl');
+	mail('testmail@theneurotech.eu', $_POST['name'], $body, $headers, '-f www-neurotech@science.ru.nl');
 	# Save message as JSON
 	unset($_POST['submit']);
 	$_POST['date'] = date('d-m-Y');
