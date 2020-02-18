@@ -7,20 +7,20 @@
 <html>
 <head>
 	<title>Latest news from NeurotechEU</title>
-	<link rel="icon" href="images/icon.png" />
+	<link rel="icon" href="/images/icon.png" />
 
 	<meta name="description" content="Read about the latest news from NeurotechEU and keep yourself up to date with the latest events." />
 	<meta name="robots" content="index,follow" />
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="/css/main.css" />
 </head>
 <body class="subpage">
 
 <!-- Header -->
 <?php
-include "html/header.html";
+include "../html/header.html";
 ?>
 
 <!-- Main -->
@@ -37,14 +37,14 @@ include "html/header.html";
 	<!-- News section -->
 	<?php
 
-	$jsonstr = file_get_contents("newsitems/newsitems.json");
+	$jsonstr = file_get_contents("newsitems.json");
 	$items = json_decode($jsonstr, true);
 	$search = array("%id%", "%img%", "%alt%", "%tt%", "%txt%");
 
 	for ($i=0; $i<count($items); $i++) {
 		$j = count($items) - $i - 1;
 		$items[$j]["title"] = str_replace("<br>", "", $items[$j]["title"]);
-		$sectionstr = file_get_contents("html/newssection" . (($i % 2)+1) . ".html");
+		$sectionstr = file_get_contents("../html/newssection" . (($i % 2)+1) . ".html");
 		$replace = array($i+1, $items[$j]['imgsrc'], $items[$j]['alt'], $items[$j]['title'], $items[$j]['text']);
 		echo str_replace($search, $replace, $sectionstr);
 	}
@@ -54,16 +54,16 @@ include "html/header.html";
 
 <!-- Footer -->
 <?php
-include 'html/footer.html';
+include "../html/footer.html";
 ?>
 
 <!-- Scripts -->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.scrolly.min.js"></script>
-<script src="js/jquery.scrollex.min.js"></script>
-<script src="js/skel.min.js"></script>
-<script src="js/util.js"></script>
-<script src="js/main.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.scrolly.min.js"></script>
+<script src="/js/jquery.scrollex.min.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/main.js"></script>
 
 <script src="https://kit.fontawesome.com/12081b1371.js"></script>
 

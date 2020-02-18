@@ -21,25 +21,23 @@ if (isset($_POST['submit'])) {
 	# Forward message to postmaster@theneurotech.eu
 	$headers = array('From' => '"Neurotech Contact Form"', 'Content-Type' => 'text/plain; charset="utf-8"');
 	mail('contact@theneurotech.eu', $_POST['name'], $body, $headers, '-f www-neurotech@science.ru.nl');
-
 	# Save message as JSON
 	unset($_POST['submit']);
 	$_POST['date'] = date('d-m-Y');
 
-	if (file_exists('../writable/messages.json')) {
-		$data = json_decode(file_get_contents('../writable/messages.json'));
+	if (file_exists('../../writable/messages.json')) {
+		$data = json_decode(file_get_contents('../../writable/messages.json'));
 	} else {
 		$data = array();
 	}
 	array_push($data, $_POST);
-	file_put_contents('../writable/messages.json', json_encode($data), LOCK_EX);
+	file_put_contents('../../writable/messages.json', json_encode($data), LOCK_EX);
 
 	# Redirect to "thank you for submitting" page
 	header('Location: submitted');
 } else {
-
 	# If someone tries to access this page directly, redirect to contact page
-	header('Location: contact');
+	header('Location: .');
 }
 
 ?>

@@ -7,14 +7,14 @@
 <html>
 <head>
 	<title>NeurotechEU -The European University for Brain & Technology</title>
-	<link rel="icon" href="images/icon.png" />
+	<link rel="icon" href="/images/icon.png" />
 
 	<meta name="description" content="NeurotechEU is the European University for Brain and Technology. Find out how we are building a European Neurotech ecosystem." />
 	<meta name="robots" content="index,follow" />
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="/css/main.css" />
 </head>
 <body>
 
@@ -33,7 +33,7 @@ echo $doc->saveHTML();
 	<div class="inner">
 		<header><h1>The European University of Brain and Technology</h1></header>
 		<ul id="stats">
-			<li><a href="partners"><i class="fa fa-3x fa-university"></i><p>8</p><p>Universities</p></a></li>
+			<li><a href="founders"><i class="fa fa-3x fa-university"></i><p>8</p><p>Universities</p></a></li>
 			<li><i class="fa fa-3x fa-users"></i><p>170,000</p><p>Students</p></li>
 			<li><i class="fa fa-3x fa-user-tie"></i><p>70,000</p><p>Staff</p></li>
 			<li><a href="synergy#funding"><i class="fa fa-3x fa-microscope"></i><p>171</p><p>Joint grants</p></a></li>
@@ -50,7 +50,7 @@ echo $doc->saveHTML();
 	<div class="inner">
 			<div class="flex flex-2">
 				<div class="col col1"><div class="image round fit">
-					<img src="images/logo.jpg" alt="The Neurotech logo" />
+					<img src="/images/logo.jpg" alt="The Neurotech logo" />
 				</div></div>
 				<div class="col col2">
 					<h2>The European University of Brain and Technology</h2>
@@ -77,7 +77,7 @@ echo $doc->saveHTML();
 		<div class="flex flex-3">
 
 			<?php
-			$jsonstr = file_get_contents("newsitems/newsitems.json");
+			$jsonstr = file_get_contents("news/newsitems.json");
 			$items = json_decode($jsonstr, true);
 			$n = count($items);
 			$htmlstr = file_get_contents("html/indexnews.html");
@@ -95,16 +95,16 @@ echo $doc->saveHTML();
 
 <!-- Footer -->
 <?php
-include 'html/footer.html';
+include "html/footer.html";
 ?>
 
 <!-- Scripts -->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.scrolly.min.js"></script>
-<script src="js/jquery.scrollex.min.js"></script>
-<script src="js/skel.min.js"></script>
-<script src="js/util.js"></script>
-<script src="js/main.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.scrolly.min.js"></script>
+<script src="/js/jquery.scrollex.min.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/main.js"></script>
 
 <script src="https://kit.fontawesome.com/12081b1371.js"></script>
 
