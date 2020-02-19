@@ -78,12 +78,12 @@ if (!isset($_GET['inst'])) {
 $jsonstr = file_get_contents($filename);
 $items = json_decode($jsonstr, true);
 // Use the same HTML code as the news sections
-$search = array("%id%", "%img%", "%alt%", "%tt%", "%txt%");
-$sectionstr = array(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/newssection1.html"),file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/newssection2.html"));
+$search = array("%name%", "%txt%", "%img%");
+$sectionstr = array(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/personnel1.html"),file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/personnel2.html"));
 
-foreach ($items as $item) {
-  $replace = array('', $item['imgsrc'], $item['name'], $item['name'], $item['text']);
-  echo str_replace($search, $replace, $sectionstr);
+foreach ($items as $i => $item) {
+  $replace = array($item['name'], $item['txt'], $item['imgsrc']);
+  echo str_replace($search, $replace, $sectionstr[$i % 2]);
 }
 
 ?>

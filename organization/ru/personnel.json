@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Tansu Celikel",
+    "txt": "Tansu Celikel is the Scientific Director of the Donders Institute.  He is a professor of neurophysiology, founding head of the Department of Neurophysiology, founding director of the Dutch/German binational graduate school in Bionics. Dr. Celikel’s research is focused on reverse engineering the brain circuits and neural computations that are responsible for sensorimotor control, and forward engineering brain-inspired in silico circuits that perform active sensing and adaptive computations. Internationally, he leads the iNavigate (a Horizon 2020) consortium that brings together 54 investigators across 25 beneficiaries from academy and industry to develop brain inspired autonomous devices. Tansu is the alliance coordinator and will lead the WP1.",
+    "imgsrc": "/organization/ru/tcelikel.jpg"
+  },
+  {
+    "name": "Elco van Noort",
+    "txt": "Elco van Noort is acting Head of International Office at Radboud University (RU). He was selected as Guild representative in the European Commission KA1 WG, has extensive experience over the last three decades in project implementation in cooperation with universities in all continents, in various strategic projects in various EU frameworks and capacity building. Before coming to Nijmegen, he was the Head of International Office at TU Delft, where he also worked as University Registrar. He has been working for several years at the School of Engineering in the University of Zambia. Elco originally studied Geodetic Engineering at TU Delft.  Elco will coordinate and lead the Radboud efforts in WP2, support the WP2 lead UMH.",
+    "imgsrc": "/organization/ru/evnoort.jpg"
+  },
+  {
+    "name": "Leon de Bruin",
+    "txt": "Leon de Bruin is an associate professor of philosophy of mind and cognition at Radboud University. He has master’s degrees in philosophy and cognitive neuroscience and Ph.D. in philosophy from the University of Leiden. De Bruin has published on various problems in the philosophy of mind and the cognitive (neuro)sciences. He recently co-edited the Oxford Handbook of 4E Cognition, which is the first book to provide a systematic overview of the state of the art in the field of embodied, embedded, enactive and extended (4E) Cognition. De Bruin is editor-in-chief of the Philosophical Explorations and principal investigator of the NIAS-Lorentz Theme Group “What is translation?”, which investigates how findings from basic neuroscientific research can be translated into psychiatric practice and vice-versa. Leon will coordinate and lead the Radboud efforts in WP3, support the WP3 lead KI.",
+    "imgsrc": "/organization/ru/ldbruin.jpg"
+  },
+  {
+    "name": "Sharon M. Kolk",
+    "txt": "Sharon M. Kolk is an associate professor of Developmental Neurobiology. Her main focus is to unravel the molecular and cellular underpinnings of developing brain areas and especially those that are involved in neurodevelopmental disorders such as the prefrontal cortex. In addition, within a multidisciplinary NWA-ORC project (ProMiSe) Sharon is leading a national consortium that integrates neurocognitive and biological knowledge to improve care for patients with rare genetic syndromes. As the Bachelor Program Coordinator of Biosciences Sharon greatly acknowledges the importance of a solid education system in which innovation, lifelong learning and adapting skill sets are present-day hallmarks. Sharon will coordinate and lead the Radboud efforts in WP4, support the WP4 lead UBO.",
+    "imgsrc": "/organization/ru/smkolk.jpg"
+  },
+  {
+    "name": "Saskia Haegens",
+    "txt": "Saskia Haegens received a Ph.D. degree from Radboud University Nijmegen, followed by postdoctoral training at Columbia University in New York. Currently, Dr. Haegens runs the Brain Rhythms lab, based both at the Donders Institute for Brain, Cognition, and Behaviour, Centre for Cognitive Neuroimaging at Radboud University, and in the Department of Psychiatry, Division of Systems Neuroscience at Columbia University. Their research focus is on the mechanistic role of brain oscillations in the context of perception and cognition. The Brain Rhythms lab studies these dynamics using a combination of methods including (intracranial) electrophysiology, MEG and computational modelling. Saskia will coordinate and lead the Radboud efforts in WP5, support the WP5 lead BOUN.",
+    "imgsrc": "/organization/ru/shaegens.jpg"
+  }
+]
