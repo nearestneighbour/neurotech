@@ -40,13 +40,13 @@ include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 	$jsonstr = file_get_contents("newsitems.json");
 	$items = json_decode($jsonstr, true);
 	$search = array("%id%", "%img%", "%alt%", "%tt%", "%txt%");
+	$sectionstr = array(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/newssection1.html"),file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/newssection2.html"));
 
 	for ($i=0; $i<count($items); $i++) {
 		$j = count($items) - $i - 1;
 		$items[$j]["title"] = str_replace("<br>", "", $items[$j]["title"]);
-		$sectionstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/newssection" . (($i % 2)+1) . ".html");
 		$replace = array($i+1, $items[$j]['imgsrc'], $items[$j]['alt'], $items[$j]['title'], $items[$j]['text']);
-		echo str_replace($search, $replace, $sectionstr);
+		echo str_replace($search, $replace, $sectionstr[$i % 2]);
 	}
 
 	?>

@@ -6,10 +6,10 @@
 -->
 <html>
 <head>
-	<title>Our Mission - NeurotechEU</title>
+	<title>NeurotechEU Promise</title>
 	<link rel="icon" href="/images/icon.png" />
 
-	<meta name="description" content="The goal of NeurotechEU is to build a trans-European network of excellence in brain research and technologies to increase the competitiveness of European education, research, economy and society." />
+	<meta name="description" content="" />
 	<meta name="robots" content="index,follow" />
 
 	<meta charset="utf-8" />

@@ -6,10 +6,10 @@
 -->
 <html>
 <head>
-	<title>Our Mission - NeurotechEU</title>
+	<title>Organization - NeurotechEU</title>
 	<link rel="icon" href="/images/icon.png" />
 
-	<meta name="description" content="The goal of NeurotechEU is to build a trans-European network of excellence in brain research and technologies to increase the competitiveness of European education, research, economy and society." />
+	<meta name="description" content="" />
 	<meta name="robots" content="index,follow" />
 
 	<meta charset="utf-8" />
@@ -26,15 +26,43 @@ include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 <!-- Main -->
 <div id="main">
 
-<!-- Section -->
-<section class="wrapper pagetop">
-	<div class="inner">
-		<header class="align-center">
-			<h1>Our Mission</h1>
-			<b><p>Build a trans-European network of excellence in brain research and technologies<br>to increase the competitiveness of European education, research, economy and society</p></b>
-		</header>
-	</div>
-</section>
+	<!-- Partner list horizontal -->
+	<section class="wrapper pagetop">
+		<div class="inner">
+
+			<header class="align-center">
+				<h1>Organization</h1>
+			</header>
+
+			<div class="flex flex-8">
+				<div class="col align-center"><div class="image round fit">
+						<a href="key-personnel?inst=ru" class="scrolly"><img src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/></a>
+				</div></div>
+				<div class="col align-center"><div class="image round fit">
+						<a href="key-personnel?inst=umh" class="scrolly"><img src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
+				</div></div>
+				<div class="col align-center"><div class="image round fit">
+						<a href="key-personnel?inst=ki" class="scrolly"><img src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
+				</div></div>
+				<div class="col align-center"><div class="image round fit">
+						<a href="key-personnel?inst=bonn" class="scrolly"><img src="/images/partner_logos/bonn.jpg" alt="Logo of Bonn University"/></a>
+				</div></div>
+				<div class="col align-center"><div class="image round fit">
+						<a href="key-personnel?inst=boun" class="scrolly"><img src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>
+				</div></div>
+				<div class="col align-center"><div class="image round fit">
+						<a href="key-personnel?inst=oxf" class="scrolly"><img src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/></a>
+				</div></div>
+				<div class="col align-center"><div class="image round fit">
+						<a href="key-personnel?inst=umf" class="scrolly"><img src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
+				</div></div>
+				<div class="col align-center"><div class="image round fit">
+						<a href="key-personnel?inst=ud" class="scrolly"><img src="/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/></a>
+				</div></div>
+			</div>
+
+		</div>
+	</section>
 
 
 <section class="wrapper style2">
