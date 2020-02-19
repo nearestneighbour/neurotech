@@ -20,7 +20,7 @@
 
 <!-- Header -->
 <?php
-include "../html/header.html";
+include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 ?>
 
 <!-- Banner -->
@@ -74,7 +74,7 @@ include "../html/header.html";
 
 <!-- Footer -->
 <?php
-include "../html/footer.html";
+include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html";
 ?>
 
 <!-- Scripts -->

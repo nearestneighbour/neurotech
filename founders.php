@@ -20,7 +20,7 @@
 
 <!-- Header -->
 <?php
-include "html/header.html";
+include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 ?>
 
 
@@ -177,7 +177,7 @@ include "html/header.html";
 <?php
 // Footer on founders.php is slightly different than on other pages
 $doc = new DOMDocument();
-$doc->loadHTMLFile("html/footer.html");
+$doc->loadHTMLFile($_SERVER['DOCUMENT_ROOT'] . "/html/footer.html");
 $links = $doc->getElementsByTagName("a");
 foreach ($links as $link) {
 	$link->setAttribute("class", "scrolly");

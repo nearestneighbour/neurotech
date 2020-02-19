@@ -8,6 +8,7 @@
 <?php
 
 if (isset($_POST['submit'])) {
+	$filepath = $_SERVER['DOCUMENT_ROOT'] . "/../writable/messages.json";
 	# Handle mailing list checkbox
 	if (!(isset($_POST['update']) && $_POST['update'] == "Yes")) {
 		$_POST['update'] = 'No';
@@ -25,13 +26,13 @@ if (isset($_POST['submit'])) {
 	unset($_POST['submit']);
 	$_POST['date'] = date('d-m-Y');
 
-	if (file_exists('../../writable/messages.json')) {
-		$data = json_decode(file_get_contents('../../writable/messages.json'));
+	if (file_exists($filepath)) {
+		$data = json_decode(file_get_contents($filepath));
 	} else {
 		$data = array();
 	}
 	array_push($data, $_POST);
-	file_put_contents('../../writable/messages.json', json_encode($data), LOCK_EX);
+	file_put_contents($filepath, json_encode($data), LOCK_EX);
 
 	# Redirect to "thank you for submitting" page
 	header('Location: submitted');

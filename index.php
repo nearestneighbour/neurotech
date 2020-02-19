@@ -22,7 +22,7 @@
 <?php
 // Header on index.php is slightly different than on other pages
 $doc = new DOMDocument();
-$doc->loadHTMLFile("html/header.html");
+$doc->loadHTMLFile($_SERVER['DOCUMENT_ROOT'] . "/html/header.html");
 $header = $doc->getElementById("header");
 $header->setAttribute("class", "alt");
 echo $doc->saveHTML();
@@ -77,10 +77,10 @@ echo $doc->saveHTML();
 		<div class="flex flex-3">
 
 			<?php
-			$jsonstr = file_get_contents("news/newsitems.json");
+			$jsonstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/news/newsitems.json");
 			$items = json_decode($jsonstr, true);
 			$n = count($items);
-			$htmlstr = file_get_contents("html/indexnews.html");
+			$htmlstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/indexnews.html");
 			$search = array("%tt%", "%img%", "%alt%", "%id%");
 
 			for ($i=1; $i<=3; $i++) {
@@ -95,7 +95,7 @@ echo $doc->saveHTML();
 
 <!-- Footer -->
 <?php
-include "html/footer.html";
+include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html";
 ?>
 
 <!-- Scripts -->

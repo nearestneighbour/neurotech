@@ -20,7 +20,7 @@
 
 <!-- Header -->
 <?php
-include "../html/header.html";
+include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 ?>
 
 <!-- Main -->
@@ -44,7 +44,7 @@ include "../html/header.html";
 	for ($i=0; $i<count($items); $i++) {
 		$j = count($items) - $i - 1;
 		$items[$j]["title"] = str_replace("<br>", "", $items[$j]["title"]);
-		$sectionstr = file_get_contents("../html/newssection" . (($i % 2)+1) . ".html");
+		$sectionstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/newssection" . (($i % 2)+1) . ".html");
 		$replace = array($i+1, $items[$j]['imgsrc'], $items[$j]['alt'], $items[$j]['title'], $items[$j]['text']);
 		echo str_replace($search, $replace, $sectionstr);
 	}
@@ -54,7 +54,7 @@ include "../html/header.html";
 
 <!-- Footer -->
 <?php
-include "../html/footer.html";
+include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html";
 ?>
 
 <!-- Scripts -->
