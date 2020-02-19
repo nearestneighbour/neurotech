@@ -17,6 +17,10 @@ if (isset($_POST['submit'])) {
 	if (!isset($_POST['role'])) {
 		$_POST['role'] = 'role not specified';
 	}
+	# Handle message
+	if (!isset($_POST['msg'])) {
+		$_POST['msg'] = '';
+	}
 	$body = "From: ".$_POST['name']." (".$_POST['mail']." - ".$_POST['role'].")\r\nDate: ".date('d-m-Y')."\r\nAdd to mailing list: ".$_POST['update']."\r\nMessage: \r\n".$_POST['msg'];
 
 	# Forward message to postmaster@theneurotech.eu

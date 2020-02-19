@@ -39,7 +39,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 				<input type="text" name="mail" value="" placeholder="Email" required />
 			</div>
 			<div class="12u$">
-				<textarea name="msg" placeholder="Leave a message" required></textarea>
+				<textarea name="msg" placeholder="Leave a message"></textarea>
 			</div>
 			<div class="6u 12u$(small)">
 				<div class="select-wrapper">
