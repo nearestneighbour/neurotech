@@ -189,15 +189,5 @@ foreach ($links as $link) {
 echo $doc->saveHTML();
 ?>
 
-<!-- Scripts -->
-<script src="/js/jquery.min.js"></script>
-<script src="/js/jquery.scrolly.min.js"></script>
-<script src="/js/jquery.scrollex.min.js"></script>
-<script src="/js/skel.min.js"></script>
-<script src="/js/util.js"></script>
-<script src="/js/main.js"></script>
-
-<script src="https://kit.fontawesome.com/12081b1371.js"></script>
-
 </body>
 </html>
