@@ -21,6 +21,21 @@
 <!-- Header -->
 <?php
 include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
+
+if (!isset($_GET['inst'])) {
+  header('Location: .');
+  exit;
+} else {
+  $filename = $_GET['inst'] . "/personnel.json";
+  if (!file_exists($filename)) {
+    header('Location: .');
+    exit;
+  }
+}
+$names = array('ru' => 'Radboud University', 'umh' => 'Miguel Hernández University',
+							'ki' => 'Karolinska Institute', 'bonn' => 'Bonn University',
+							'boun' => 'Boğaziçi University', 'oxf' => 'Oxford University',
+							'umf' => 'Iuliu Hațieganu University', 'ud' => 'University of Debrecen');
 ?>
 
 <!-- Partner list horizontal -->
@@ -28,7 +43,8 @@ include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 	<div class="inner">
 
 		<header class="align-center">
-			<h1>Key personnel for (institution)</h1>
+			<h1>Key personnel for <?php echo $names[$_GET['inst']]; ?></h1>
+			<p>Click on a logo to view the people involved from each partner institution</p>
 		</header>
 
     <div class="flex flex-8">
@@ -63,17 +79,6 @@ include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 
 <!-- News section -->
 <?php
-
-if (!isset($_GET['inst'])) {
-  header('Location: .');
-  exit;
-} else {
-  $filename = $_GET['inst'] . "/personnel.json";
-  if (!file_exists($filename)) {
-    header('Location: .');
-    exit;
-  }
-}
 
 $jsonstr = file_get_contents($filename);
 $items = json_decode($jsonstr, true);
