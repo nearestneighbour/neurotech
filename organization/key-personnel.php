@@ -43,7 +43,7 @@ $names = array('ru' => 'Radboud University', 'umh' => 'Miguel Hernández Univers
 	<div class="inner">
 
 		<header class="align-center">
-			<h1>Neurotech<sup>EU</sup> team from <?php echo $names[$_GET['inst']]; ?></h1>
+			<h1>Team from <?php echo $names[$_GET['inst']]; ?></h1>
 			<b><p>Click on a logo to view the people involved from each partner institution</p></b>
 		</header>
 

@@ -42,7 +42,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 		<div class="flex flex-2">
 			<div class="col col1">
 				<div class="image round fit">
-					<img src="/images/workspace.jpg" alt="Students working together in a digital campus"/>
+					<img src="/images/digitalcampus.jpg" alt="Students working together in a digital campus"/>
 				</div>
 			</div>
 			<div class="col col2 padtop">
@@ -71,7 +71,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 			</div>
 			<div class="col col1">
 				<div class="image round fit">
-					<img class="link" src="/images/grad.jpg" alt="A graduate student from the Neurotech graduate school"/>
+					<img class="link" src="/images/graduate.jpg" alt="A graduate student from the Neurotech graduate school"/>
 				</div>
 			</div>
 		</div>
