@@ -43,8 +43,8 @@ $names = array('ru' => 'Radboud University', 'umh' => 'Miguel Hernández Univers
 	<div class="inner">
 
 		<header class="align-center">
-			<h1>Key personnel for <?php echo $names[$_GET['inst']]; ?></h1>
-			<p>Click on a logo to view the people involved from each partner institution</p>
+			<h1>Neurotech<sup>EU</sup> team from <?php echo $names[$_GET['inst']]; ?></h1>
+			<b><p>Click on a logo to view the people involved from each partner institution</p></b>
 		</header>
 
     <div class="flex flex-8">
