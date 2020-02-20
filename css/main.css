@@ -63,12 +63,21 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 .wrapper.style1.partnerlist {padding: 2em 0 2em 0;}
 .wrapper.partnerlist > .inner > .flex.flex-2 > .col1 {width: 10%;}
 .wrapper.partnerlist > .inner > .flex.flex-2 > .col2 {width: 80%;}
+@media screen and (max-width: 736px) {
+	.wrapper.partnerlist > .inner > .flex.flex-2 > .col1 {width: 25%;}
+	.wrapper.partnerlist > .inner > .flex.flex-2 > .col2 {width: 65%;}
+}
 
 /* ME! Personnel list on Personnel pages */
 .wrapper.style2.personlist {padding: 1em 0 1em 0;}
 .wrapper.style1.personlist {padding: 1em 0 1em 0;}
 .wrapper.personlist > .inner > .flex.flex-2 > .col1 {width: 15%;}
 .wrapper.personlist > .inner > .flex.flex-2 > .col2 {width: 75%;}
+@media screen and (max-width: 736px) {
+	.wrapper.personlist > .inner > .flex.flex-2 > .col1 {width: 25%}
+	.wrapper.personlist > .inner > .flex.flex-2 > .col2 {width: 65%;}
+	.wrapper.personlist > .inner > .flex.flex-2 > .col1 .image {max-width:100%;}
+}
 .personlist .inner .col1 .image {height: 0; padding-top: 100%; background-position: center center; background-size: cover;}
 
 /* ME! Vertically center text on mission page */
