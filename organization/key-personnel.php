@@ -73,20 +73,15 @@ $names = array('ru' => 'Radboud University', 'umh' => 'Miguel Hernández Univers
 </section>
 
 <!-- Personnel sections -->
+<div class="personlist">
 <?php
 $jsonstr = file_get_contents($filename);
 $items = json_decode($jsonstr, true);
-// Use the same HTML code as the news sections
-$search = array("%name%", "%txt%", "%img%");
-$sectionstr = array(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/personnel1.html"),file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/personnel2.html"));
-
-foreach ($items as $i => $item) {
-  $replace = array($item['name'], $item['txt'], $item['imgsrc']);
-  echo str_replace($search, $replace, $sectionstr[$i % 2]);
+$sectionstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/personnel.html");
+foreach ($items as $item) {
+	echo strtr($sectionstr, $item);
 }
 ?>
-
-<!-- Main -->
 </div>
 <!-- Footer -->
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html"; ?>

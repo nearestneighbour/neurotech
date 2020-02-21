@@ -1,127 +1,152 @@
 [
   {
-    "name": "Tansu Celikel",
-    "txt": "Tansu Celikel is the Scientific Director of the Donders Institute.  He is a professor of neurophysiology, founding head of the Department of Neurophysiology, founding director of the Dutch/German binational graduate school in Bionics. Dr. Celikel’s research is focused on reverse engineering the brain circuits and neural computations that are responsible for sensorimotor control, and forward engineering brain-inspired in silico circuits that perform active sensing and adaptive computations. Internationally, he leads the iNavigate (a Horizon 2020) consortium that brings together 54 investigators across 25 beneficiaries from academy and industry to develop brain inspired autonomous devices. Tansu is the alliance coordinator and will lead the WP1.",
-    "imgsrc": "/organization/ru/tcelikel.jpg"
+    "#who": "Tansu Celikel",
+    "#img": "/organization/ru/tcelikel.jpg",
+    "#txt": "Alliance coordinator and WP1 leader",
+    "#web": "https://www.ru.nl/english/people/celikel-t/"
   },
   {
-    "name": "Elco van Noort",
-    "txt": "Elco van Noort is acting Head of International Office at Radboud University (RU). He was selected as Guild representative in the European Commission KA1 WG, has extensive experience over the last three decades in project implementation in cooperation with universities in all continents, in various strategic projects in various EU frameworks and capacity building. Before coming to Nijmegen, he was the Head of International Office at TU Delft, where he also worked as University Registrar. He has been working for several years at the School of Engineering in the University of Zambia. Elco originally studied Geodetic Engineering at TU Delft.  Elco will coordinate and lead the Radboud efforts in WP2, support the WP2 lead UMH.",
-    "imgsrc": "/organization/ru/evnoort.jpg"
+    "#who": "Elco van Noort",
+    "#img": "/organization/ru/evnoort.jpg",
+    "#txt": "WP2 support",
+    "#web": "https://www.ru.nl/english/people/noort-e-van/"
   },
   {
-    "name": "Leon de Bruin",
-    "txt": "Leon de Bruin is an associate professor of philosophy of mind and cognition at Radboud University. He has master’s degrees in philosophy and cognitive neuroscience and Ph.D. in philosophy from the University of Leiden. De Bruin has published on various problems in the philosophy of mind and the cognitive (neuro)sciences. He recently co-edited the Oxford Handbook of 4E Cognition, which is the first book to provide a systematic overview of the state of the art in the field of embodied, embedded, enactive and extended (4E) Cognition. De Bruin is editor-in-chief of the Philosophical Explorations and principal investigator of the NIAS-Lorentz Theme Group “What is translation?”, which investigates how findings from basic neuroscientific research can be translated into psychiatric practice and vice-versa. Leon will coordinate and lead the Radboud efforts in WP3, support the WP3 lead KI.",
-    "imgsrc": "/organization/ru/ldbruin.jpg"
+    "#who": "Leon de Bruin",
+    "#img": "/organization/ru/ldbruin.jpg",
+    "#txt": "WP3 support",
+    "#web": ""
   },
   {
-    "name": "Sharon M. Kolk",
-    "txt": "Sharon M. Kolk is an associate professor of Developmental Neurobiology. Her main focus is to unravel the molecular and cellular underpinnings of developing brain areas and especially those that are involved in neurodevelopmental disorders such as the prefrontal cortex. In addition, within a multidisciplinary NWA-ORC project (ProMiSe) Sharon is leading a national consortium that integrates neurocognitive and biological knowledge to improve care for patients with rare genetic syndromes. As the Bachelor Program Coordinator of Biosciences Sharon greatly acknowledges the importance of a solid education system in which innovation, lifelong learning and adapting skill sets are present-day hallmarks. Sharon will coordinate and lead the Radboud efforts in WP4, support the WP4 lead UBO.",
-    "imgsrc": "/organization/ru/smkolk.jpg"
+    "#who": "Sharon M. Kolk",
+    "#img": "/organization/ru/smkolk.jpg",
+    "#txt": "WP4 support",
+    "#web": ""
   },
   {
-    "name": "Saskia Haegens",
-    "txt": "Saskia Haegens received a Ph.D. degree from Radboud University Nijmegen, followed by postdoctoral training at Columbia University in New York. Currently, Dr. Haegens runs the Brain Rhythms lab, based both at the Donders Institute for Brain, Cognition, and Behaviour, Centre for Cognitive Neuroimaging at Radboud University, and in the Department of Psychiatry, Division of Systems Neuroscience at Columbia University. Their research focus is on the mechanistic role of brain oscillations in the context of perception and cognition. The Brain Rhythms lab studies these dynamics using a combination of methods including (intracranial) electrophysiology, MEG and computational modelling. Saskia will coordinate and lead the Radboud efforts in WP5, support the WP5 lead BOUN.",
-    "imgsrc": "/organization/ru/shaegens.jpg"
+    "#who": "Saskia Haegens",
+    "#img": "/organization/ru/shaegens.jpg",
+    "#txt": "WP5 support",
+    "#web": ""
   },
   {
-    "name": "Fleur Zeldenrust",
-    "txt": "Fleur Zeldenrust is an assistant professor of computational neuroscience. She received her PhD in computational neuroscience at University of Amsterdam. After a postdoc at the École Normale Supérieure in Paris, investigating models of predictive coding and information transfer, she returned to the Netherlands, where she set up a computational neuroscience track in the BSc Psychobiology in Amsterdam. Internationally, she leads the Marie Curie \"SmartNets\" consortium, investigating computations in biological networks.  She is also one of the founders of the Dutch Brain Olympiad foundation, promoting neuroscience education among secondary school students. Fleur will coordinate and lead the Radboud efforts in WP6, support the WP6 lead OXF.",
-    "imgsrc": "/organization/ru/fzeldenrust.jpg"
+    "#who": "Fleur Zeldenrust",
+    "#img": "/organization/ru/fzeldenrust.jpg",
+    "#txt": "WP6 support",
+    "#web": ""
   },
   {
-    "name": "Marijke Delemarre",
-    "txt": "Marijke Delemarre is an International Officer at Radboud University Nijmegen (RU) with extensive experience in the field of internationalisation, both in an advisory function for staff and in managing international projects. She is the RU contact person for the UAF / Scholar at Risk programme and a member of the RU Working Group on Refugees. Before she came to Nijmegen, she worked at Nuffic, Senter and Utrecht School of the Arts; always in positions related to internationalisation of education. Her orientation towards this field of work stems from her interest in other cultures and was reinforced by her studies in Bulgaria in the eighties. Marijke will coordinate and lead the Radboud efforts in WP7, support the WP7 lead UMF.",
-    "imgsrc": "/organization/ru/mdelemarre.jpg"
+    "#who": "Marijke Delemarre",
+    "#img": "/organization/ru/mdelemarre.jpg",
+    "#txt": "WP7 support",
+    "#web": ""
   },
   {
-    "name": "Elga Schoenaker-van Maaren",
-    "txt": "Elga Schoenaker-van Maaren has a MA in Arts. She has over 20 years of experience in internationalization strategies, cooperation projects and different partnerships. Within the Erasmus+ programme she was involved in different strategic partnership projects, Mundus projects, Jean Monnet and capacity building. Previously she worked in the field of research and education policy at Radboud University and University of Twente. Elga will coordinate and lead the Radboud efforts in WP8, support the WP8 lead UD.",
-    "imgsrc": "/organization/ru/eschoenaker.jpg"
+    "#who": "Elga Schoenaker-van Maaren",
+    "#img": "/organization/ru/eschoenaker.jpg",
+    "#txt": "WP8 support",
+    "#web": ""
   },
   {
-    "name": "Femke Maij",
-    "txt": "Femke Maij is the Managing Director of the Donders Institute. She obtained her PhD degree at the VU University, Amsterdam in 2011. After her PhD graduation she continued her research funded by two personal grants, a Rubicon fellowship (funded by NWO; Dutch Research Council) at the University of Birmingham, United Kingdom, and a VENI fellowship (funded by NWO) to return to The Netherlands at the Donders Institute. In 2016 Dr. Maij became the Donders Graduate School Coordinator. In that position she was responsible for facilitating and developing a wide variety of activities related to the PhD programme. Femke will contribute to the Radboud efforts in WP1.",
-    "imgsrc": "/organization/ru/fmaij.jpg"
+    "#who": "Femke Maij",
+    "#img": "/organization/ru/fmaij.jpg",
+    "#txt": "WP1 support",
+    "#web": ""
   },
   {
-    "name": "Caroline Rowland",
-    "txt": "Caroline Rowland is Director of the Language Development Department at the Max Planck Institute for Psycholinguistics in Nijmegen, Professor of First Language Acquisition at Radboud University and was, until recently, a co-Director of the ESRC International Centre for Language and Communicative Development (www.lucid.ac.uk), a multi-million-pound collaboration between the Universities of Manchester, Liverpool, Lancaster. Her research focuses on how children learn to communicate with language, how the developing brain supports this process, and how it is affected by cross-linguistic, cultural and individual variation. Her book, Understanding Child Language Acquisition, is an introduction to the most important research on child language acquisition over the last fifty years, and to some of the most influential theories in the field. Caroline will contribute to the Radboud efforts in WP1, liaise with the Max-Planck Institute for Linguistics, located in the same campus with Radboud.",
-    "imgsrc": "/organization/ru/crowland.jpg"
+    "#who": "Caroline Rowland",
+    "#img": "/organization/ru/crowland.jpg",
+    "#txt": "WP1 support",
+    "#web": ""
   },
   {
-    "name": "Judith Homberg",
-    "txt": "Judith Homberg is a professor of Translational Neuroscience at the Radboud University Medical Center.  Her research focusses on individual differences in behaviour. Her research bridges fundamental and clinical research. She obtained Young Investigator prizes from the European Behavioural Pharmacology Society and the International Behavioural and Neural Genetics Society, along with and several prestigious grants. She has established and has been running the Translational Neuroscience Unit that serves a multidisciplinary and intersectoral community.  Judith will contribute to the Radboud efforts in WP2.",
-    "imgsrc": "/organization/ru/jhomberg.jpg"
+    "#who": "Judith Homberg",
+    "#img": "/organization/ru/jhomberg.jpg",
+    "#txt": "WP2 support",
+    "#web": ""
   },
   {
-    "name": "Bernhard Englitz",
-    "txt": "Bernhard Englitz is an assistant professor of computational neuroscience. He received a M.Sc. in Mathematics and a Ph.D. in Computational Neuroscience from the Max-Planck-Institute for Mathematics in the Sciences and the University of Leipzig. He has performed research at the ETH Zurich, the Salk Institute, the University of Maryland in College Park and the Ecole Normale Supérieure in Paris. Since 2018 he acts as the Data Steward for the Donders Center of Neuroscience, tasked with strategic planning of research data management (RDM) implementation and regulation. Bernhard will contribute to the Radboud efforts in WP4.",
-    "imgsrc": "/organization/ru/benglitz.jpg"
+    "#who": "Bernhard Englitz",
+    "#img": "/organization/ru/benglitz.jpg",
+    "#txt": "WP4 support",
+    "#web": ""
   },
   {
-    "name": "Harold Bekkering",
-    "txt": "Harold Bekkering is a professor in Sociocognitive Neuroscience. Harold studies the neurocognitive mechanisms underlying human learning varying from early development of socio-cognitive learning in infancy till imitation learning in robots. He approaches the brain as a prediction machine and learning is the result of prediction errors. Harold is a member of the Royal Netherlands Academy of Arts and Sciences. Harold has published over 200 articles in journals like Science, Nature and Nature Neuroscience and has had the honor to be the promotor of more than 30 dissertations. As a director of the Donders Board between 2006 and 2019 he chaired two successive and successful evaluations of the “excellent” Donders Institute.  Harold will contribute to the Radboud efforts in WP3.",
-    "imgsrc": "/organization/ru/hbekkering.jpg"
+    "#who": "Harold Bekkering",
+    "#img": "/organization/ru/hbekkering.jpg",
+    "#txt": "WP3 support",
+    "#web": ""
   },
   {
-    "name": "Fleur Jongepier",
-    "txt": "Fleur Jongepier is an assistant professor of (digital) ethics at iHub, Radboud University’s interdisciplinary research hub on Security, Privacy, and Data Governance. Her present research focuses on the ways in which various technological developments, such as online manipulation, being the subject of automated decision-making (‘computer says no’), and self-tracking technologies, affect people’s self-knowledge and autonomy. She is currently carrying out a research project titled “Do algorithms know better? First-person authority in the age of big data” (funded by NWO, Veni). Before her current position in Nijmegen, she was a postdoctoral research fellow at the Faculty of Philosophy in Cambridge, working on a project titled ‘The role and value of self-knowledge in contemporary liberalism,’ supported by the Niels Stensen Foundation. Fleur will contribute to the Radboud efforts in WP3.",
-    "imgsrc": "/organization/ru/fjongepier.jpg"
+    "#who": "Fleur Jongepier",
+    "#img": "/organization/ru/fjongepier.jpg",
+    "#txt": "WP3 support",
+    "#web": ""
   },
   {
-    "name": "Wim Scheenen",
-    "txt": "Wim Scheenen is the director Education Centre at the Faculty of Science of the Radboud University. Previously he served as the teaching institute Biosciences.  As the director of Education Centre, he currently leads a team of 55 persons that is responsible for support of all education- and student-related activities of the faculty. Wim participates in the university-wide management team educational and student affairs, of which he is the chair since September 2019, in which harmonization of processes related to educational and student support of the Radboud University are central. Wim will contribute to the Radboud efforts in WP4.",
-    "imgsrc": "/organization/ru/wscheenen.jpg"
+    "#who": "Wim Scheenen",
+    "#img": "/organization/ru/wscheenen.jpg",
+    "#txt": "WP4 support",
+    "#web": ""
   },
   {
-    "name": "Inti Brazil",
-    "txt": "Inti Brazil is currently the leader of the Systems Approach to Maladaptive Behavior & Antisociality (SAMBA) research group at the Donders Centre for Cognition. Our interest lies in unraveling the mechanisms subserving (mal)adaptive behavior and decision-making in individuals with psychopathic/severe antisocial tendencies, both in the general community and in offender populations. I also hold a position in Forensic Psychiatric Centre Pompestichting, which gives me direct access to professionals working with forensic (psychiatric) populations. Our approach has been to identify challenges encountered by these professionals and to then translate them into neuroscientific research projects. The ultimate goal is to use the novel insights we obtain to improve characterization, management and treatment of antisocial individuals. Inti will contribute to the Radboud efforts in WP4.",
-    "imgsrc": "/organization/ru/ibrazil.jpg"
+    "#who": "Inti Brazil",
+    "#img": "/organization/ru/ibrazil.jpg",
+    "#txt": "WP4 support",
+    "#web": ""
   },
   {
-    "name": "Antoine Wellink",
-    "txt": "Antoine Wellink is the Head of Radboud Innovation Science, the Knowledge Transfer Office within the Faculty of Science at Radboud University. He is an experienced life science executive with a strong track record in international business development, drug discovery and -development, regulatory affairs, IP & Licensing and general management in several companies and institutes. These include Merck KGaA, TNO Pharma, Charles River Laboratories and several university start-ups (RadboudUMC; Boston University; VU Medical Centre). Antoine has ample experience with coaching young people, acquisition of funding, patenting and partnering. He is also the connection to the (pre-) incubator at our University Campus. Antoine will contribute to the Radboud efforts in WP5.",
-    "imgsrc": "/organization/ru/awellink.jpg"
+    "#who": "Kristin Lemhöfer",
+    "#img": "/organization/ru/klemhofer.jpg",
+    "#txt": "WP4 support",
+    "#web": ""
   },
   {
-    "name": "Bart Jacobs",
-    "txt": "Bart Jacobs is a professor of computer security, privacy and identity at Radboud University Nijmegen. His work covers both theoretical computer science and more practical, multidisciplinary work, esp. in computer security and privacy. Jacobs is a member of the Academia Europaea and of the Royal Holland Society of Sciences and Humanities, and a recipient of an ERC Advanced Grant. He is an active participant in societal debates about security and privacy, in the media and in various advice roles e.g. for government and parliament. He chairs a non-profit spin-off on attribute-based identity management (see irma.app) and is co-founder of Nijmegen's interdisciplinary hub on security, privacy and data governance (ru.nl/ihub). Bart will contribute to the Radboud efforts in WP5.",
-    "imgsrc": "/organization/ru/bjacobs.jpg"
+    "#who": "Antoine Wellink",
+    "#img": "/organization/ru/awellink.jpg",
+    "#txt": "WP5 support",
+    "#web": ""
   },
   {
-    "name": "Alan G. Sanfey",
-    "txt": "Alan G. Sanfey is a Professor and Principal Investigator (PI) at the Donders Institute. He is the theme leader for the Perception, Action and Control research theme at Donders, overseeing over 50 PI groups. His research utilizes a novel approach to the study of both individual and interactive decision-making by combining the methods of behavioral experiments, functional neuroimaging, and formal economic models. A further goal of his group is to use the knowledge gleaned from these studies to inform public policy debates. He is the past President of the leading academic society in his field, the Society for Neuroeconomics. Alan will contribute to the Radboud efforts in WP6.",
-    "imgsrc": "/organization/ru/agsanfey.jpg"
+    "#who": "Bart Jacobs",
+    "#img": "/organization/ru/bjacobs.jpg",
+    "#txt": "WP5 support",
+    "#web": ""
   },
   {
-    "name": "Mark Slors",
-    "txt": "Marc Slors is a professor of philosophy of mind and cognition. He wrote his Ph.D. in philosophy (1997, cum laude) at the University of Utrecht. After a three-year postdoc grant for a project on emergentism, conducted at the Katholieke Universiteit Nijmegen and the Australian National University, he became a fellow of the the Royal Netherlands Academy of Arts and Sciences (KNAW). In November 2005 he became a full professor of Philosophy of Mind and Cognition at Radboud University, Nijmegen. He works on various problems connected with the mind-brain relation. Whereas his publications are mainly academic, the first book for a wider audience—on free will and the brain—appeared in 2012. He is currently working on a book on culture and situated cognition. Marc will contribute to the Radboud efforts in WP6.",
-    "imgsrc": "/organization/ru/mslors.jpg"
+    "#who": "Alan G. Sanfey",
+    "#img": "/organization/ru/agsanfey.jpg",
+    "#txt": "WP6 support",
+    "#web": ""
   },
   {
-    "name": "Asli Özyürek",
-    "txt": "Asli Özyürek is a Principle Investigator at the Donders Institute and is a Research Associate at Max Planck Institute for Psycholinguistics. She is the Director of the Multimodal Language and Cognition lab. She studies how language shapes our cognition and communication & vice-versa. To do so she uses cross linguistic, cross cultural and multimodal aproaches to understand how language is used in embodied, situated and social contexts through our bodily actions, as in the use of gestures and sign languages (of deaf communities). She is an elected member of Academia Europea and has received ASPASIA award from Dutch Science Foundation and Young Scientist award from Turkish Science Foundation. Asli will contribute to the Radboud efforts in WP7.",
-    "imgsrc": "/organization/ru/aozyurek.jpg"
+    "#who": "Mark Slors",
+    "#img": "/organization/ru/mslors.jpg",
+    "#txt": "WP6 support",
+    "#web": ""
   },
   {
-    "name": "Freyja Ólafsdóttir",
-    "txt": "Freyja Ólafsdóttir is an assistant professor and Christine Mohrmann fellow at the Donders Institute for Brain, Cognition and Behaviour. The primary research objectives of her lab are to elucidate the neural circuit mechanisms underlying episodic and spatial memory, using state-of-the-art in vivo neural recording techniques, in pre-weanling rodents. Freyja is also committed to promoting diversity and inclusion in science. She is currently the co-chair of the Donders Institute’s Diversity and Sustainable Science committee and has organized numerous events that have raised awareness of equality and inclusion issues in science. Freyja will contribute to the Radboud efforts in WP7.",
-    "imgsrc": "/organization/ru/folafsdottir.jpg"
+    "#who": "Asli Özyürek",
+    "#img": "/organization/ru/aozyurek.jpg",
+    "#txt": "WP7 support",
+    "#web": ""
   },
   {
-    "name": "Corina Greven",
-    "txt": "Corina Greven is an Assistant Professor at the Radboud University. Her research is dedicated to understanding the developmental underpinnings and treatment of mental health problems in the context of normal variation from positive functioning to psychopathology. She is established at the forefront of attention-deficit hyperactivity disorder (ADHD) research, where she published some of the earliest papers on the positive side of ADHD, and is an internationally leading expert in mindfulness-based interventions for children with ADHD. Building on her expertise built in ADHD research, in the last 2.5 years, she has made a shift to study sensory processing sensitivity (SPS). She is co-chair of the Donders Diversity and Sustainable Science Steering group. Corina will contribute to the Radboud efforts in WP8.",
-    "imgsrc": "/organization/ru/cgreven.jpg"
+    "#who": "Freyja Ólafsdóttir",
+    "#img": "/organization/ru/folafsdottir.jpg",
+    "#txt": "WP7 support",
+    "#web": ""
   },
   {
-    "name": "Christoph Lüthy",
-    "txt": "Christoph Lüthy is Professor of the History of Philosophy and Science at Radboud University. He studied Philosophy and Modern Languages (BA, Oxford), physics (Basel) and the History of Science (MA & Ph.D., Harvard). His special interests are the Scientific Revolution, the logic of scientific imagery, the evolution of theories of matter, and the role of the expert. He is a member of the Royal Netherlands Academy of Arts and Science, and currently Dean of the Faculty of Philosophy, Theology and Religious Studies. Christoph will contribute to cross faculty fertilization of the NeurotechEU and to the Radboud efforts in WP8.",
-    "imgsrc": "/organization/ru/cluthy.jpg"
+    "#who": "Corina Greven",
+    "#img": "/organization/ru/cgreven.jpg",
+    "#txt": "WP8 support",
+    "#web": ""
   },
   {
-    "name": "Kristin Lemhoefer",
-    "txt": "WP4",
-    "imgsrc": ""
+    "#who": "Christoph Lüthy",
+    "#img": "/organization/ru/cluthy.jpg",
+    "#txt": "WP8 support",
+    "#web": ""
   }
 ]
