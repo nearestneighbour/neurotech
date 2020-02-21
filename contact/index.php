@@ -7,21 +7,14 @@
 <html>
 <head>
 	<title>Get in touch with NeurotechEU</title>
-	<link rel="icon" href="/images/icon.png" />
-
 	<meta name="description" content="At NeurotechEU we are very eager to hear your opinion and thoughts on the future of education and research. Feel free to contact us or leave a message." />
 	<meta name="robots" content="index,follow" />
-
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="/css/main.css" />
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
 </head>
 <body>
 
 <!-- Header -->
-<?php
-include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
-?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html"; ?>
 
 <!-- Banner -->
 <section id="banner" class="nofade" style="background-image:url('<?php $f=glob('../images/banners/*.*'); echo $f[array_rand($f)]; ?>')">
@@ -73,9 +66,6 @@ include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 </div>
 
 <!-- Footer -->
-<?php
-include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html";
-?>
-
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html"; ?>
 </body>
 </html>

@@ -7,22 +7,15 @@
 <html>
 <head>
 	<title>Synergy & Excellence in NeurotechEU</title>
-	<link rel="icon" href="/images/icon.png" />
-
 	<meta name="description" content="The NeurotechEU founding partners have a long history of collaboration. Read all about the synergy and excellence within our network." />
 	<meta name="robots" content="index,follow" />
-
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="/css/main.css" />
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
+	<script src="/js/synergy_figures.js"></script>
 </head>
 <body class="subpage">
 
 <!-- Header -->
-<?php
-include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
-?>
-
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html"; ?>
 
 <!-- Main -->
 <div id="main">
@@ -95,16 +88,9 @@ include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 	</div>
 </div>
 </section>
-
 <!-- Main -->
 </div>
-
 <!-- Footer -->
-<?php
-include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html";
-?>
-
-<script src="/js/synergy_figures.js"></script>
-
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html"; ?>
 </body>
 </html>

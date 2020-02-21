@@ -7,21 +7,14 @@
 <html>
 <head>
 	<title>Our Mission - NeurotechEU</title>
-	<link rel="icon" href="/images/icon.png" />
-
 	<meta name="description" content="The goal of NeurotechEU is to build a trans-European network of excellence in brain research and technologies to increase the competitiveness of European education, research, economy and society." />
 	<meta name="robots" content="index,follow" />
-
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="/css/main.css" />
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
 </head>
 <body class="subpage">
 
 <!-- Header -->
-<?php
-include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
-?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html"; ?>
 
 <!-- Main -->
 <div id="main">
@@ -96,13 +89,9 @@ include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 		</div>
 	</div>
 </section>
-
+<!-- Main -->
 </div>
-
 <!-- Footer -->
-<?php
-include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html";
-?>
-
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html"; ?>
 </body>
 </html>

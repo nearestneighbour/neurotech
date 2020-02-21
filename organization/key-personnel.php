@@ -7,14 +7,9 @@
 <html>
 <head>
 	<title>Key personnel - NeurotechEU</title>
-	<link rel="icon" href="/images/icon.png" />
-
 	<meta name="description" content="" />
 	<meta name="robots" content="index,follow" />
-
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="/css/main.css" />
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
 </head>
 <body class="subpage">
 
@@ -77,9 +72,8 @@ $names = array('ru' => 'Radboud University', 'umh' => 'Miguel Hernández Univers
 	</div>
 </section>
 
-<!-- News section -->
+<!-- Personnel sections -->
 <?php
-
 $jsonstr = file_get_contents($filename);
 $items = json_decode($jsonstr, true);
 // Use the same HTML code as the news sections
@@ -90,15 +84,11 @@ foreach ($items as $i => $item) {
   $replace = array($item['name'], $item['txt'], $item['imgsrc']);
   echo str_replace($search, $replace, $sectionstr[$i % 2]);
 }
-
 ?>
 
+<!-- Main -->
 </div>
-
 <!-- Footer -->
-<?php
-include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html";
-?>
-
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html"; ?>
 </body>
 </html>

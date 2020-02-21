@@ -7,22 +7,14 @@
 <html>
 <head>
 	<title>Founders of NeurotechEU</title>
-	<link rel="icon" href="/images/icon.png" />
-
 	<meta name="description" content="NeurotechEU was founded by eight universities from all over Europe. Read all about them on our Founders page." />
 	<meta name="robots" content="index,follow" />
-
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="/css/main.css" />
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
 </head>
 <body class="subpage">
 
 <!-- Header -->
-<?php
-include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
-?>
-
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html"; ?>
 
 <!-- Main -->
 <div id="main">
@@ -169,10 +161,8 @@ include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 		</div></div>
 	</div></div>
 </section>
-
 <!-- Main -->
 </div>
-
 <!-- Footer -->
 <?php
 // Footer on founders.php is slightly different than on other pages
@@ -188,6 +178,5 @@ foreach ($links as $link) {
 }
 echo $doc->saveHTML();
 ?>
-
 </body>
 </html>

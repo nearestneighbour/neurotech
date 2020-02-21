@@ -7,21 +7,14 @@
 <html>
 <head>
 	<title>Get in touch with NeurotechEU</title>
-	<link rel="icon" href="/images/icon.png" />
-
 	<!-- This page cannot be found by search engines -->
 	<meta name="robots" content="noindex" />
-
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="/css/main.css" />
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
 </head>
 <body>
 
 <!-- Header -->
-<?php
-include "../html/header.html";
-?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html"; ?>
 
 <!-- Banner -->
 <section id="banner" class="nofade" style="background-image:url('<?php $f=glob('../images/banners/*.*'); echo $f[array_rand($f)]; ?>')">
@@ -31,9 +24,6 @@ include "../html/header.html";
 </section>
 
 <!-- Footer -->
-<?php
-include "../html/footer.html";
-?>
-
+<?php include "../html/footer.html"; ?>
 </body>
 </html>
