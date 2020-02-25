@@ -85,6 +85,7 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 	.personlist {margin: 0 1%;}
 	.person {margin: 10px 2px;}
 }
+.flex.flex-8 .image.round.fit.selected {box-shadow: 0 0 0 7px #3498db, 0 0 0 8px rgba(0,0,0,0.1);}
 
 /* ME! Vertically center text on mission page */
 .col.col2.padtop {padding-top: 3%;}
@@ -119,7 +120,7 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 @media screen and (max-width: 736px) {
 	.image.round.fit.nwfig img:not(#filler) {width: 8.4vw;}
 }
-.nwfig .selected {border-color:#00F !important;}
+.nwfig .selected {border-color:#3498db !important;}
 .nwfig .hidden {filter:brightness(50%);}
 .nwfig #ru_node {left:50%; top:12.5%;}
 .nwfig #umh_node {left:75%; top:25%;}

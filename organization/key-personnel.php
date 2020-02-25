@@ -17,16 +17,13 @@
 <?php
 include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
 
-if (!isset($_GET['inst'])) {
+$i = $_GET['inst'] ?? 'ru';
+$filename = $i . "/personnel.json";
+if (!file_exists($filename)) {
   header('Location: .');
   exit;
-} else {
-  $filename = $_GET['inst'] . "/personnel.json";
-  if (!file_exists($filename)) {
-    header('Location: .');
-    exit;
-  }
 }
+$s = ' selected';
 $names = array('ru' => 'Radboud University', 'umh' => 'Miguel Hernández University',
 							'ki' => 'Karolinska Institute', 'bonn' => 'Bonn University',
 							'boun' => 'Boğaziçi University', 'oxf' => 'Oxford University',
@@ -38,34 +35,34 @@ $names = array('ru' => 'Radboud University', 'umh' => 'Miguel Hernández Univers
 	<div class="inner">
 
 		<header class="align-center">
-			<h1>Team from <?php echo $names[$_GET['inst']]; ?></h1>
+			<h1>Team from <?php echo $names[$i]; ?></h1>
 			<b><p>Click on a logo to view the people involved from each partner institution</p></b>
 		</header>
 
     <div class="flex flex-8">
-      <div class="col align-center"><div class="image round fit">
-          <a href="key-personnel?inst=ru" class="scrolly"><img src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/></a>
+      <div class="col align-center"><div class="image round fit<?php echo $i=='ru'?$s:''?>">
+          <a href="key-personnel?inst=ru"><img src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/></a>
       </div></div>
-      <div class="col align-center"><div class="image round fit">
-          <a href="key-personnel?inst=umh" class="scrolly"><img src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
+      <div class="col align-center"><div class="image round fit<?php echo $i=='umh'?$s:''?>">
+          <a href="key-personnel?inst=umh"><img src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
       </div></div>
-      <div class="col align-center"><div class="image round fit">
-          <a href="key-personnel?inst=ki" class="scrolly"><img src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
+      <div class="col align-center"><div class="image round fit<?php echo $i=='ki'?$s:''?>">
+          <a href="key-personnel?inst=ki"><img src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
       </div></div>
-      <div class="col align-center"><div class="image round fit">
-          <a href="key-personnel?inst=bonn" class="scrolly"><img src="/images/partner_logos/bonn.jpg" alt="Logo of Bonn University"/></a>
+      <div class="col align-center"><div class="image round fit<?php echo $i=='bonn'?$s:''?>">
+          <a href="key-personnel?inst=bonn"><img src="/images/partner_logos/bonn.jpg" alt="Logo of Bonn University"/></a>
       </div></div>
-      <div class="col align-center"><div class="image round fit">
-          <a href="key-personnel?inst=boun" class="scrolly"><img src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>
+      <div class="col align-center"><div class="image round fit<?php echo $i=='boun'?$s:''?>">
+          <a href="key-personnel?inst=boun"><img src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>
       </div></div>
-      <div class="col align-center"><div class="image round fit">
-          <a href="key-personnel?inst=oxf" class="scrolly"><img src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/></a>
+      <div class="col align-center"><div class="image round fit<?php echo $i=='oxf'?$s:''?>">
+          <a href="key-personnel?inst=oxf"><img src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/></a>
       </div></div>
-      <div class="col align-center"><div class="image round fit">
-          <a href="key-personnel?inst=umf" class="scrolly"><img src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
+      <div class="col align-center"><div class="image round fit<?php echo $i=='umf'?$s:''?>">
+          <a href="key-personnel?inst=umf"><img src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
       </div></div>
-      <div class="col align-center"><div class="image round fit">
-          <a href="key-personnel?inst=ud" class="scrolly"><img src="/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/></a>
+      <div class="col align-center"><div class="image round fit<?php echo $i=='ud'?$s:''?>">
+          <a href="key-personnel?inst=ud"><img src="/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/></a>
       </div></div>
     </div>
 
