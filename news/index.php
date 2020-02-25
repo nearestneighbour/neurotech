@@ -9,12 +9,12 @@
 	<title>Latest news from NeurotechEU</title>
 	<meta name="description" content="Read about the latest news from NeurotechEU and keep yourself up to date with the latest events." />
 	<meta name="robots" content="index,follow" />
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 </head>
 <body class="subpage">
 
 <!-- Header -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/header.html"; ?>
 
 <!-- Main -->
 <div id="main">
@@ -34,7 +34,7 @@
 $jsonstr = file_get_contents("newsitems.json");
 $items = json_decode($jsonstr, true);
 $search = array("%id%", "%img%", "%alt%", "%tt%", "%txt%");
-$sectionstr = array(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/newssection1.html"),file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/newssection2.html"));
+$sectionstr = array(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/assets/html/newssection1.html"),file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/assets/html/newssection2.html"));
 
 for ($i=0; $i<count($items); $i++) {
 	$j = count($items) - $i - 1;
@@ -47,6 +47,6 @@ for ($i=0; $i<count($items); $i++) {
 <!-- Main -->
 </div>
 <!-- Footer -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.html"; ?>
 </body>
 </html>

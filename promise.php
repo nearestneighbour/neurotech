@@ -9,12 +9,12 @@
 	<title>NeurotechEU Promise</title>
 	<meta name="description" content="" />
 	<meta name="robots" content="index,follow" />
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 </head>
 <body class="subpage">
 
 <!-- Header -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/header.html"; ?>
 
 <!-- Main -->
 <div id="main">
@@ -35,7 +35,7 @@
 		<div class="flex flex-2">
 			<div class="col col1">
 				<div class="image round fit">
-					<img src="/images/digitalcampus.jpg" alt="Students working together in a digital campus"/>
+					<img src="/assets/images/digitalcampus.jpg" alt="Students working together in a digital campus"/>
 				</div>
 			</div>
 			<div class="col col2 padtop">
@@ -64,7 +64,7 @@
 			</div>
 			<div class="col col1">
 				<div class="image round fit">
-					<img class="link" src="/images/graduate.jpg" alt="A graduate student from the Neurotech graduate school"/>
+					<img src="/assets/images/graduate.jpg" alt="A graduate student from the Neurotech graduate school"/>
 				</div>
 			</div>
 		</div>
@@ -75,7 +75,7 @@
 		<div class="flex flex-2">
 			<div class="col col1 first">
 				<div class="image round fit">
-					<img src="/images/reschooling.jpg" alt="People studying at the Neurotech Lifelong Learning Center"/>
+					<img src="/assets/images/reschooling.jpg" alt="People studying at the Neurotech Lifelong Learning Center"/>
 				</div>
 			</div>
 			<div class="col col2 padtop">
@@ -92,6 +92,6 @@
 <!-- Main -->
 </div>
 <!-- Footer -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.html"; ?>
 </body>
 </html>

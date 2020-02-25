@@ -16,13 +16,13 @@ $(document).ready(function() {
   // Load data
   $.ajax({
     type: "GET",
-    url: "data/publications.csv?" + (new Date()).getTime(), // make sure URL is unique to prevent caching
+    url: "assets/data/publications.csv?" + (new Date()).getTime(), // make sure URL is unique to prevent caching
     dataType: "text",
     success: function(data) {pubdata = processData(data, "pub"); updateNetwork_pub();}
   });
   $.ajax({
     type: "GET",
-    url: "data/funding.csv?" + (new Date()).getTime(), // make sure URL is unique to prevent caching
+    url: "assets/data/funding.csv?" + (new Date()).getTime(), // make sure URL is unique to prevent caching
     dataType: "text",
     success: function(data) {eufdata = processData(data, "euf"); updateNetwork_euf();}
   });

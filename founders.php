@@ -9,12 +9,12 @@
 	<title>Founders of NeurotechEU</title>
 	<meta name="description" content="NeurotechEU was founded by eight universities from all over Europe. Read all about them on our Founders page." />
 	<meta name="robots" content="index,follow" />
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 </head>
 <body class="subpage">
 
 <!-- Header -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/header.html"; ?>
 
 <!-- Main -->
 <div id="main">
@@ -28,28 +28,28 @@
 
 		<div class="flex flex-8">
 			<div class="col align-center"><div class="image round fit">
-					<a href="#ru_scroll" class="scrolly"><img src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/></a>
+					<a href="#ru_scroll" class="scrolly"><img src="/assets/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#umh_scroll" class="scrolly"><img src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
+					<a href="#umh_scroll" class="scrolly"><img src="/assets/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#ki_scroll" class="scrolly"><img src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
+					<a href="#ki_scroll" class="scrolly"><img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#ubo_scroll" class="scrolly"><img src="/images/partner_logos/ubo.jpg" alt="Logo of Bonn University"/></a>
+					<a href="#ubo_scroll" class="scrolly"><img src="/assets/images/partner_logos/ubo.jpg" alt="Logo of Bonn University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#boun_scroll" class="scrolly"><img src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>
+					<a href="#boun_scroll" class="scrolly"><img src="/assets/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#oxf_scroll" class="scrolly"><img src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/></a>
+					<a href="#oxf_scroll" class="scrolly"><img src="/assets/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#umf_scroll" class="scrolly"><img src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
+					<a href="#umf_scroll" class="scrolly"><img src="/assets/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#ud_scroll" class="scrolly"><img src="/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/></a>
+					<a href="#ud_scroll" class="scrolly"><img src="/assets/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/></a>
 			</div></div>
 		</div>
 
@@ -61,7 +61,7 @@
 	<a class="partneranchor" id="ru"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/>
+			<img src="/assets/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Radboud Universiteit</h3>
@@ -79,7 +79,7 @@
 			<a href="https://umh.es/?lang=EN" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/>
+			<img src="/assets/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/>
 		</div></div>
 	</div></div>
 </section>
@@ -87,7 +87,7 @@
 	<a class="partneranchor" id="ki"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/>
+			<img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Karolinska Institutet</h3>
@@ -105,7 +105,7 @@
 			<a href="https://www.uni-bonn.de/?set_language=en" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/ubo.jpg" alt="Logo of Bonn University" />
+			<img src="/assets/images/partner_logos/ubo.jpg" alt="Logo of Bonn University" />
 		</div></div>
 	</div></div>
 </section>
@@ -113,7 +113,7 @@
 	<a class="partneranchor" id="boun"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/>
+			<img src="/assets/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Boğaziçi Üniversitesi</h3>
@@ -131,7 +131,7 @@
 			<a href="https://ox.ac.uk" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/>
+			<img src="/assets/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/>
 		</div></div>
 	</div></div>
 </section>
@@ -139,7 +139,7 @@
 	<a class="partneranchor" id="umf"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/>
+			<img src="/assets/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Universitatea de Medicină și Farmacie din Cluj-Napoca</h3>
@@ -157,7 +157,7 @@
 			<a href="https://unideb.hu/en" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/>
+			<img src="/assets/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/>
 		</div></div>
 	</div></div>
 </section>
@@ -167,7 +167,7 @@
 <?php
 // Footer on founders.php is slightly different than on other pages
 $doc = new DOMDocument();
-$doc->loadHTMLFile($_SERVER['DOCUMENT_ROOT'] . "/html/footer.html");
+$doc->loadHTMLFile($_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.html");
 $links = $doc->getElementsByTagName("a");
 foreach ($links as $link) {
 	$link->setAttribute("class", "scrolly");

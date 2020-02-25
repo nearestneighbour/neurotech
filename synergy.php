@@ -9,13 +9,13 @@
 	<title>Synergy & Excellence in NeurotechEU</title>
 	<meta name="description" content="The NeurotechEU founding partners have a long history of collaboration. Read all about the synergy and excellence within our network." />
 	<meta name="robots" content="index,follow" />
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
-	<script src="/js/synergy_figures.js"></script>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
+	<script src="/assets/js/synergy_figures.js"></script>
 </head>
 <body class="subpage">
 
 <!-- Header -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/header.html"; ?>
 
 <!-- Main -->
 <div id="main">
@@ -42,16 +42,16 @@
 	<div class="flex flex-2">
 		<div class="col col1">
 			<div class="image round fit nwfig">
-				<img src="/images/fillerimg.png" id="filler" alt="Background image for figure with joint publications data">
+				<img src="/assets/images/fillerimg.png" id="filler" alt="Background image for figure with joint publications data">
 				<canvas id="pubfig_canvas"></canvas>
-				<img class="pubfig" id="ru_node" src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University">
-				<img class="pubfig" id="umh_node" src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University">
-				<img class="pubfig" id="ki_node" src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute">
-				<img class="pubfig" id="ubo_node" src="/images/partner_logos/ubo.jpg" alt="Logo of Bonn University">
-				<img class="pubfig" id="boun_node" src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University">
-				<img class="pubfig" id="oxf_node" src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University">
-				<img class="pubfig" id="umf_node" src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca">
-				<img class="pubfig" id="ud_node" src="/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen">
+				<img class="pubfig" id="ru_node" src="/assets/images/partner_logos/ru.jpg" alt="Logo of Radboud University">
+				<img class="pubfig" id="umh_node" src="/assets/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University">
+				<img class="pubfig" id="ki_node" src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute">
+				<img class="pubfig" id="ubo_node" src="/assets/images/partner_logos/ubo.jpg" alt="Logo of Bonn University">
+				<img class="pubfig" id="boun_node" src="/assets/images/partner_logos/boun.jpg" alt="Logo of Bogazici University">
+				<img class="pubfig" id="oxf_node" src="/assets/images/partner_logos/oxf.jpg" alt="Logo of Oxford University">
+				<img class="pubfig" id="umf_node" src="/assets/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca">
+				<img class="pubfig" id="ud_node" src="/assets/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen">
 			</div>
 		</div>
 		<div class="col col2">
@@ -73,16 +73,16 @@
 		</div>
 		<div class="col col1">
 			<div class="image round fit nwfig">
-				<img src="/images/fillerimg.png" id="filler" alt="Background image for figure with EU funding data">
+				<img src="/assets/images/fillerimg.png" id="filler" alt="Background image for figure with EU funding data">
 				<canvas id="euffig_canvas"></canvas>
-				<img class="euffig" id="ru_node" src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University">
-				<img class="euffig" id="umh_node" src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University">
-				<img class="euffig" id="ki_node" src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute">
-				<img class="euffig" id="ubo_node" src="/images/partner_logos/ubo.jpg" alt="Logo of Bonn University">
-				<img class="euffig" id="boun_node" src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University">
-				<img class="euffig" id="oxf_node" src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University">
-				<img class="euffig" id="umf_node" src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca">
-				<img class="euffig" id="ud_node" src="/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen">
+				<img class="euffig" id="ru_node" src="/assets/images/partner_logos/ru.jpg" alt="Logo of Radboud University">
+				<img class="euffig" id="umh_node" src="/assets/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University">
+				<img class="euffig" id="ki_node" src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute">
+				<img class="euffig" id="ubo_node" src="/assets/images/partner_logos/ubo.jpg" alt="Logo of Bonn University">
+				<img class="euffig" id="boun_node" src="/assets/images/partner_logos/boun.jpg" alt="Logo of Bogazici University">
+				<img class="euffig" id="oxf_node" src="/assets/images/partner_logos/oxf.jpg" alt="Logo of Oxford University">
+				<img class="euffig" id="umf_node" src="/assets/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca">
+				<img class="euffig" id="ud_node" src="/assets/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen">
 			</div>
 		</div>
 	</div>
@@ -91,6 +91,6 @@
 <!-- Main -->
 </div>
 <!-- Footer -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.html"; ?>
 </body>
 </html>

@@ -9,12 +9,12 @@
 	<title>Organization - NeurotechEU</title>
 	<meta name="description" content="" />
 	<meta name="robots" content="index,follow" />
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 </head>
 <body class="subpage">
 
 <!-- Header -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/header.html"; ?>
 
 <!-- Main -->
 <div id="main">
@@ -30,28 +30,28 @@
 
 			<div class="flex flex-8">
 				<div class="col align-center"><div class="image round fit">
-						<a href="key-personnel?inst=ru" class="scrolly"><img src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/></a>
+						<a href="key-personnel?inst=ru" class="scrolly"><img src="/assets/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/></a>
 				</div></div>
 				<div class="col align-center"><div class="image round fit">
-						<a href="key-personnel?inst=umh" class="scrolly"><img src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
+						<a href="key-personnel?inst=umh" class="scrolly"><img src="/assets/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
 				</div></div>
 				<div class="col align-center"><div class="image round fit">
-						<a href="key-personnel?inst=ki" class="scrolly"><img src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
+						<a href="key-personnel?inst=ki" class="scrolly"><img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
 				</div></div>
 				<div class="col align-center"><div class="image round fit">
-						<a href="key-personnel?inst=ubo" class="scrolly"><img src="/images/partner_logos/ubo.jpg" alt="Logo of Bonn University"/></a>
+						<a href="key-personnel?inst=ubo" class="scrolly"><img src="/assets/images/partner_logos/ubo.jpg" alt="Logo of Bonn University"/></a>
 				</div></div>
 				<div class="col align-center"><div class="image round fit">
-						<a href="key-personnel?inst=boun" class="scrolly"><img src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>
+						<a href="key-personnel?inst=boun" class="scrolly"><img src="/assets/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>
 				</div></div>
 				<div class="col align-center"><div class="image round fit">
-						<a href="key-personnel?inst=oxf" class="scrolly"><img src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/></a>
+						<a href="key-personnel?inst=oxf" class="scrolly"><img src="/assets/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/></a>
 				</div></div>
 				<div class="col align-center"><div class="image round fit">
-						<a href="key-personnel?inst=umf" class="scrolly"><img src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
+						<a href="key-personnel?inst=umf" class="scrolly"><img src="/assets/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
 				</div></div>
 				<div class="col align-center"><div class="image round fit">
-						<a href="key-personnel?inst=ud" class="scrolly"><img src="/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/></a>
+						<a href="key-personnel?inst=ud" class="scrolly"><img src="/assets/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/></a>
 				</div></div>
 			</div>
 
@@ -63,7 +63,7 @@
 		<div class="flex flex-2">
 			<div class="col">
 				<div class="image fit">
-					<img src="/images/workpackages.jpg" alt="Work packages of the Neurotech project"/>
+					<img src="/assets/images/workpackages.jpg" alt="Work packages of the Neurotech project"/>
 				</div>
 			</div>
 			<div class="col">
@@ -82,7 +82,7 @@
 			</div>
 			<div class="col">
 				<div class="image fit">
-					<img class="link" src="/images/organigram.jpg" alt="A graduate student from the Neurotech graduate school"/>
+					<img src="/assets/images/organigram.jpg" alt="A graduate student from the Neurotech graduate school"/>
 				</div>
 			</div>
 		</div>
@@ -91,6 +91,6 @@
 <!-- Main -->
 </div>
 <!-- Footer -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.html"; ?>
 </body>
 </html>

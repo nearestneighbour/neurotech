@@ -9,7 +9,7 @@
 	<title>NeurotechEU -The European University for Brain & Technology</title>
 	<meta name="description" content="NeurotechEU is the European University for Brain and Technology. Find out how we are building a European Neurotech ecosystem." />
 	<meta name="robots" content="index,follow" />
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 </head>
 <body>
 
@@ -17,14 +17,14 @@
 <?php
 // Header on index.php is slightly different than on other pages
 $doc = new DOMDocument();
-$doc->loadHTMLFile($_SERVER['DOCUMENT_ROOT'] . "/html/header.html");
+$doc->loadHTMLFile($_SERVER['DOCUMENT_ROOT'] . "/assets/html/header.html");
 $header = $doc->getElementById("header");
 $header->setAttribute("class", "alt");
 echo $doc->saveHTML();
 ?>
 
 <!-- Banner -->
-<section id="banner" style="background-image:url('<?php $f=glob('images/banners/*.*'); echo $f[array_rand($f)]; ?>')">
+<section id="banner" style="background-image:url('<?php $f=glob('assets/images/banners/*.*'); echo $f[array_rand($f)]; ?>')">
 	<div class="inner">
 		<header><h1>The European University of Brain and Technology</h1></header>
 		<ul id="stats">
@@ -45,7 +45,7 @@ echo $doc->saveHTML();
 	<div class="inner">
 			<div class="flex flex-2">
 				<div class="col col1"><div class="image round fit">
-					<img src="/images/logo.jpg" alt="The Neurotech logo" />
+					<img src="/assets/images/logo.jpg" alt="The Neurotech logo" />
 				</div></div>
 				<div class="col col2">
 					<h2>The European University of Brain and Technology</h2>
@@ -75,7 +75,7 @@ echo $doc->saveHTML();
 			$jsonstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/news/newsitems.json");
 			$items = json_decode($jsonstr, true);
 			$n = count($items);
-			$htmlstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/indexnews.html");
+			$htmlstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/assets/html/indexnews.html");
 			$search = array("%tt%", "%img%", "%alt%", "%id%");
 
 			for ($i=1; $i<=3; $i++) {
@@ -88,6 +88,6 @@ echo $doc->saveHTML();
 	</div>
 </section>
 <!-- Footer -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.html"; ?>
 </body>
 </html>

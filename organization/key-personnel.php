@@ -9,13 +9,13 @@
 	<title>Key personnel - NeurotechEU</title>
 	<meta name="description" content="" />
 	<meta name="robots" content="index,follow" />
-	<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/commonhead.html"; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 </head>
 <body class="subpage">
 
 <!-- Header -->
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . "/html/header.html";
+include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/header.html";
 
 $i = $_GET['inst'] ?? 'ru';
 $filename = $i . "/personnel.json";
@@ -41,28 +41,28 @@ $names = array('ru' => 'Radboud University', 'umh' => 'Miguel Hernández Univers
 
     <div class="flex flex-8">
       <div class="col align-center"><div class="image round fit<?php echo $i=='ru'?$s:''?>">
-          <a href="key-personnel?inst=ru"><img src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/></a>
+          <a href="key-personnel?inst=ru"><img src="/assets/images/partner_logos/ru.jpg" alt="Logo of Radboud University"/></a>
       </div></div>
       <div class="col align-center"><div class="image round fit<?php echo $i=='umh'?$s:''?>">
-          <a href="key-personnel?inst=umh"><img src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
+          <a href="key-personnel?inst=umh"><img src="/assets/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
       </div></div>
       <div class="col align-center"><div class="image round fit<?php echo $i=='ki'?$s:''?>">
-          <a href="key-personnel?inst=ki"><img src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
+          <a href="key-personnel?inst=ki"><img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
       </div></div>
       <div class="col align-center"><div class="image round fit<?php echo $i=='ubo'?$s:''?>">
-          <a href="key-personnel?inst=ubo"><img src="/images/partner_logos/ubo.jpg" alt="Logo of Bonn University"/></a>
+          <a href="key-personnel?inst=ubo"><img src="/assets/images/partner_logos/ubo.jpg" alt="Logo of Bonn University"/></a>
       </div></div>
       <div class="col align-center"><div class="image round fit<?php echo $i=='boun'?$s:''?>">
-          <a href="key-personnel?inst=boun"><img src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>
+          <a href="key-personnel?inst=boun"><img src="/assets/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>
       </div></div>
       <div class="col align-center"><div class="image round fit<?php echo $i=='oxf'?$s:''?>">
-          <a href="key-personnel?inst=oxf"><img src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/></a>
+          <a href="key-personnel?inst=oxf"><img src="/assets/images/partner_logos/oxf.jpg" alt="Logo of Oxford University"/></a>
       </div></div>
       <div class="col align-center"><div class="image round fit<?php echo $i=='umf'?$s:''?>">
-          <a href="key-personnel?inst=umf"><img src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
+          <a href="key-personnel?inst=umf"><img src="/assets/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca"/></a>
       </div></div>
       <div class="col align-center"><div class="image round fit<?php echo $i=='ud'?$s:''?>">
-          <a href="key-personnel?inst=ud"><img src="/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/></a>
+          <a href="key-personnel?inst=ud"><img src="/assets/images/partner_logos/ud.jpg" alt="Logo of University of Debrecen"/></a>
       </div></div>
     </div>
 
@@ -74,13 +74,13 @@ $names = array('ru' => 'Radboud University', 'umh' => 'Miguel Hernández Univers
 <?php
 $jsonstr = file_get_contents($filename);
 $items = json_decode($jsonstr, true);
-$sectionstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/html/personnel.html");
+$sectionstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/assets/html/personnel.html");
 foreach ($items as $item) {
 	echo strtr($sectionstr, $item);
 }
 ?>
 </div>
 <!-- Footer -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/html/footer.html"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.html"; ?>
 </body>
 </html>
