@@ -29,8 +29,8 @@ echo $doc->saveHTML();
 		<header><h1>The European University of Brain and Technology</h1></header>
 		<ul id="stats">
 			<li><a href="founders"><i class="fa fa-3x fa-university"></i><p>8</p><p>Universities</p></a></li>
-			<li><i class="fa fa-3x fa-users"></i><p>170,000</p><p>Students</p></li>
-			<li><i class="fa fa-3x fa-user-tie"></i><p>70,000</p><p>Staff</p></li>
+			<li><a href="promise"><i class="fa fa-3x fa-users"></i><p>170,000</p><p>Students</p></a></li>
+			<li><a href="organization/key-personnel"><i class="fa fa-3x fa-user-tie"></i><p>70,000</p><p>Staff</p></a></li>
 			<li><a href="synergy#funding"><i class="fa fa-3x fa-microscope"></i><p>171</p><p>Joint grants</p></a></li>
 			<li><a href="synergy#funding"><i class="fa fa-3x fa-euro"></i><p>€231M</p><p>Joint funding</p></a></li>
 			<li><a href="synergy#publications"><i class="fa fa-3x fa-newspaper"></i><p>5277</p><p>Joint publications</p></a></li>
