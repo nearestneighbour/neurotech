@@ -47,7 +47,7 @@
 				<img class="pubfig" id="ru_node" src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University">
 				<img class="pubfig" id="umh_node" src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University">
 				<img class="pubfig" id="ki_node" src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute">
-				<img class="pubfig" id="bonn_node" src="/images/partner_logos/bonn.jpg" alt="Logo of Bonn University">
+				<img class="pubfig" id="ubo_node" src="/images/partner_logos/ubo.jpg" alt="Logo of Bonn University">
 				<img class="pubfig" id="boun_node" src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University">
 				<img class="pubfig" id="oxf_node" src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University">
 				<img class="pubfig" id="umf_node" src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca">
@@ -78,7 +78,7 @@
 				<img class="euffig" id="ru_node" src="/images/partner_logos/ru.jpg" alt="Logo of Radboud University">
 				<img class="euffig" id="umh_node" src="/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University">
 				<img class="euffig" id="ki_node" src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute">
-				<img class="euffig" id="bonn_node" src="/images/partner_logos/bonn.jpg" alt="Logo of Bonn University">
+				<img class="euffig" id="ubo_node" src="/images/partner_logos/ubo.jpg" alt="Logo of Bonn University">
 				<img class="euffig" id="boun_node" src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University">
 				<img class="euffig" id="oxf_node" src="/images/partner_logos/oxf.jpg" alt="Logo of Oxford University">
 				<img class="euffig" id="umf_node" src="/images/partner_logos/umf.jpg" alt="Logo of UMF Cluj-Napoca">

@@ -39,7 +39,7 @@
 						<a href="key-personnel?inst=ki" class="scrolly"><img src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
 				</div></div>
 				<div class="col align-center"><div class="image round fit">
-						<a href="key-personnel?inst=bonn" class="scrolly"><img src="/images/partner_logos/bonn.jpg" alt="Logo of Bonn University"/></a>
+						<a href="key-personnel?inst=ubo" class="scrolly"><img src="/images/partner_logos/ubo.jpg" alt="Logo of Bonn University"/></a>
 				</div></div>
 				<div class="col align-center"><div class="image round fit">
 						<a href="key-personnel?inst=boun" class="scrolly"><img src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>

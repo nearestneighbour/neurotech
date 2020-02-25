@@ -37,7 +37,7 @@
 					<a href="#ki_scroll" class="scrolly"><img src="/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#bonn_scroll" class="scrolly"><img src="/images/partner_logos/bonn.jpg" alt="Logo of Bonn University"/></a>
+					<a href="#ubo_scroll" class="scrolly"><img src="/images/partner_logos/ubo.jpg" alt="Logo of Bonn University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
 					<a href="#boun_scroll" class="scrolly"><img src="/images/partner_logos/boun.jpg" alt="Logo of Bogazici University"/></a>
@@ -96,8 +96,8 @@
 		</div>
 	</div></div>
 </section>
-<section id="bonn_scroll" class="wrapper style1 partnerlist">
-	<a class="partneranchor" id="bonn"></a>
+<section id="ubo_scroll" class="wrapper style1 partnerlist">
+	<a class="partneranchor" id="ubo"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col2">
 			<h3>Rheinische Friedrich-Wilhelms-Universität Bonn</h3>
@@ -105,7 +105,7 @@
 			<a href="https://www.uni-bonn.de/?set_language=en" class="button" target="_blank">Website</a>
 		</div>
 		<div class="col col1"><div class="image round fit">
-			<img src="/images/partner_logos/bonn.jpg" alt="Logo of Bonn University" />
+			<img src="/images/partner_logos/ubo.jpg" alt="Logo of Bonn University" />
 		</div></div>
 	</div></div>
 </section>
