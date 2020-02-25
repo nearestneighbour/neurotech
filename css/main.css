@@ -74,10 +74,10 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 .personlist {display: flex; flex-flow: row wrap; justify-content: center; margin: 0 5%;}
 .person {
 	width: 170px; height: 284px; padding: 10px 0; margin: 10px; position: relative;
-	background-color: #3498db; color:white; font-size: 16px; border-radius: 30px;
+	background-color: #3498db; color:white; font-size: 12px; border-radius: 30px;
 }
 .person > * {width: 150px !important; position: absolute !important; margin: 0 10px !important; text-align: center;}
-.person > h5 {font-size: 120%;}
+.person > h5 {font-size: 160%;}
 .person > .image.round.fit {height: 150px; top: 72px; background-position: center; background-size: cover;}
 .person > .image.round.fit > a {display: block; border-radius:100%; width: 100%; height: 100%;}
 .person > p {bottom: 0;}
