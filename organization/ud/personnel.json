@@ -68,7 +68,7 @@
   {
     "#who": "Ágnes Baran",
     "#img": "/organization/ud/abaran.jpg",
-    "#txt": "Neurochallenges in Education & Research",
+    "#txt": "Neurotech 2040",
     "#web": ""
   },
   {
@@ -125,25 +125,28 @@
     "#txt": "Quality Control and Assurance",
     "#web": ""
   },
-
   {
     "#who": "Judit Bak",
     "#img": "/organization/ud/jbak.jpg",
     "#txt": "Quality Control and Assurance",
     "#web": ""
   },
-
   {
     "#who": "Balázs Venkovits",
     "#img": "/organization/ud/bvenkovits.jpg",
     "#txt": "Neurochallenges in Societal innovation",
     "#web": ""
   },
-
   {
     "#who": "Réka Bozzay",
     "#img": "/organization/ud/rbozzay.jpg",
     "#txt": "Neurochallenges in Societal innovation",
+    "#web": ""
+  },
+  {
+    "#who": "Gyöngyi Karácsony",
+    "#img": "/organization/ud/gkaracsony.jpg",
+    "#txt": "Sustainability and Dissemination",
     "#web": ""
   }
 ]
