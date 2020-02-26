@@ -32,7 +32,7 @@ nav a:hover, nav a:active {color:#FFF; background-color:#3498db;} /* Hover chang
 
 /* Menu for mobile */
 nav > a:first-child {display:none;} /* Hide 'home' button except on mobile */
-@media screen and (max-width: 530px) { /* max-width depends on how wide menu is (trial and error) */
+@media screen and (max-width: 610px) { /* max-width depends on how wide menu is (trial and error) */
 	#header > .logo {display:none !important;} /* Hide blue logo */
 	nav {width:100%;} /* Stretch menu out over page width */
 	nav a {font-size: 2.9vw; font-weight: bold;} /* Change font for mobile */
