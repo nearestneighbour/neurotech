@@ -7,21 +7,14 @@
 <html>
 <head>
 	<title>Our Mission - NeurotechEU</title>
-	<link rel="icon" href="images/icon.png" />
-
 	<meta name="description" content="The goal of NeurotechEU is to build a trans-European network of excellence in brain research and technologies to increase the competitiveness of European education, research, economy and society." />
 	<meta name="robots" content="index,follow" />
-
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="css/main.css" />
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 </head>
 <body class="subpage">
 
 <!-- Header -->
-<?php
-include "html/header.html";
-?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/header.html"; ?>
 
 <!-- Main -->
 <div id="main">
@@ -42,7 +35,7 @@ include "html/header.html";
 		<div class="flex flex-2">
 			<div class="col col1">
 				<div class="image round fit">
-					<img src="images/workspace.jpg" alt="Students working together in a digital campus"/>
+					<img src="/assets/images/digitalcampus.jpg" alt="Students working together in a digital campus"/>
 				</div>
 			</div>
 			<div class="col col2 padtop">
@@ -71,7 +64,7 @@ include "html/header.html";
 			</div>
 			<div class="col col1">
 				<div class="image round fit">
-					<img class="link" src="images/grad.jpg" alt="A graduate student from the Neurotech graduate school"/>
+					<img src="/assets/images/graduate.jpg" alt="A graduate student from the Neurotech graduate school"/>
 				</div>
 			</div>
 		</div>
@@ -82,7 +75,7 @@ include "html/header.html";
 		<div class="flex flex-2">
 			<div class="col col1 first">
 				<div class="image round fit">
-					<img src="images/reschooling.jpg" alt="People studying at the Neurotech Lifelong Learning Center"/>
+					<img src="/assets/images/reschooling.jpg" alt="People studying at the Neurotech Lifelong Learning Center"/>
 				</div>
 			</div>
 			<div class="col col2 padtop">
@@ -96,23 +89,9 @@ include "html/header.html";
 		</div>
 	</div>
 </section>
-
+<!-- Main -->
 </div>
-
 <!-- Footer -->
-<?php
-include 'html/footer.html';
-?>
-
-<!-- Scripts -->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.scrolly.min.js"></script>
-<script src="js/jquery.scrollex.min.js"></script>
-<script src="js/skel.min.js"></script>
-<script src="js/util.js"></script>
-<script src="js/main.js"></script>
-
-<script src="https://kit.fontawesome.com/12081b1371.js"></script>
-
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.html"; ?>
 </body>
 </html>

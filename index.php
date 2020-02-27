@@ -7,14 +7,9 @@
 <html>
 <head>
 	<title>NeurotechEU -The European University for Brain & Technology</title>
-	<link rel="icon" href="images/icon.png" />
-
 	<meta name="description" content="NeurotechEU is the European University for Brain and Technology. Find out how we are building a European Neurotech ecosystem." />
 	<meta name="robots" content="index,follow" />
-
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="css/main.css" />
+	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 </head>
 <body>
 
@@ -22,24 +17,24 @@
 <?php
 // Header on index.php is slightly different than on other pages
 $doc = new DOMDocument();
-$doc->loadHTMLFile("html/header.html");
+$doc->loadHTMLFile($_SERVER['DOCUMENT_ROOT'] . "/assets/html/header.html");
 $header = $doc->getElementById("header");
 $header->setAttribute("class", "alt");
 echo $doc->saveHTML();
 ?>
 
 <!-- Banner -->
-<section id="banner" style="background-image:url('<?php $f=glob('images/banners/*.*'); echo $f[array_rand($f)]; ?>')">
+<section id="banner" style="background-image:url('<?php $f=glob('assets/images/banners/*.*'); echo $f[array_rand($f)]; ?>')">
 	<div class="inner">
 		<header><h1>The European University of Brain and Technology</h1></header>
 		<ul id="stats">
-			<li><a href="partners"><i class="fa fa-3x fa-university"></i><p>8</p><p>Universities</p></a></li>
-			<li><i class="fa fa-3x fa-users"></i><p>170,000</p><p>Students</p></li>
-			<li><i class="fa fa-3x fa-user-tie"></i><p>70,000</p><p>Staff</p></li>
+			<li><a href="founders"><i class="fa fa-3x fa-university"></i><p>8</p><p>Universities</p></a></li>
+			<li><a href="promise"><i class="fa fa-3x fa-users"></i><p>170,000</p><p>Students</p></a></li>
+			<li><a href="organization/key-personnel"><i class="fa fa-3x fa-user-tie"></i><p>70,000</p><p>Staff</p></a></li>
 			<li><a href="synergy#funding"><i class="fa fa-3x fa-microscope"></i><p>171</p><p>Joint grants</p></a></li>
 			<li><a href="synergy#funding"><i class="fa fa-3x fa-euro"></i><p>€231M</p><p>Joint funding</p></a></li>
 			<li><a href="synergy#publications"><i class="fa fa-3x fa-newspaper"></i><p>5277</p><p>Joint publications</p></a></li>
-			<li><i class="fa fa-3x fa-globe"></i><p>100+</p><p>Affiliates</p></li>
+			<li><i class="fa fa-3x fa-globe"></i><p>200+</p><p>Affiliates</p></li>
 		</ul>
 		<a href="#main" class="button big scrolly">Learn More</a>
 	</div>
@@ -50,7 +45,7 @@ echo $doc->saveHTML();
 	<div class="inner">
 			<div class="flex flex-2">
 				<div class="col col1"><div class="image round fit">
-					<img src="images/logo.jpg" alt="The Neurotech logo" />
+					<img src="/assets/images/logo.jpg" alt="The Neurotech logo" />
 				</div></div>
 				<div class="col col2">
 					<h2>The European University of Brain and Technology</h2>
@@ -77,10 +72,10 @@ echo $doc->saveHTML();
 		<div class="flex flex-3">
 
 			<?php
-			$jsonstr = file_get_contents("newsitems/newsitems.json");
+			$jsonstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/news/newsitems.json");
 			$items = json_decode($jsonstr, true);
 			$n = count($items);
-			$htmlstr = file_get_contents("html/indexnews.html");
+			$htmlstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/assets/html/indexnews.html");
 			$search = array("%tt%", "%img%", "%alt%", "%id%");
 
 			for ($i=1; $i<=3; $i++) {
@@ -92,21 +87,7 @@ echo $doc->saveHTML();
 		</div>
 	</div>
 </section>
-
 <!-- Footer -->
-<?php
-include 'html/footer.html';
-?>
-
-<!-- Scripts -->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.scrolly.min.js"></script>
-<script src="js/jquery.scrollex.min.js"></script>
-<script src="js/skel.min.js"></script>
-<script src="js/util.js"></script>
-<script src="js/main.js"></script>
-
-<script src="https://kit.fontawesome.com/12081b1371.js"></script>
-
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.html"; ?>
 </body>
 </html>
