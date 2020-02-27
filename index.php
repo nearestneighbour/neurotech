@@ -48,28 +48,38 @@ echo $doc->saveHTML();
 					<img src="/assets/images/logo.jpg" alt="The Neurotech logo" />
 				</div></div>
 				<div class="col col2">
-					<h2>The European University of Brain and Technology</h2>
-					<b>Our goals are:</b>
-					<p><ul>
-						<li>Creating synergy for a long-term strategy in Neuroscience and Neurotechnology to increase the competitiveness of European education, research, economy, and society</li>
-						<li>Seamless mobility for students, research and staff to study, train, teach, do research and innovate</li>
-						<li>Flexible curricula tailored to each student’s needs and are not constrained by institutional capabilities and borders</li>
-						<li>Lasting close cooperation between partners for a trans-European network of excellence in brain research and technologies</li>
-					</ul></p>
-					<p>The logo represents the mission and values of the Neurotech<sup>EU</sup> Alliance.  The cartoon representation of the brain and an electrical circuit diagram portray the focus of the alliance on Brain and Technology.  Eight raised hands in the foreground, each one representing one of the 8 founding partners, bring the educational goals of the alliance in focus.  The colored ribbons characterize Neurotech<sup>EU</sup>’s devotion to and celebration of the diversity in any shape or form. The outline of the front halves of several human faces stresses the fact that education and research in the fields of brain and technology will be brought together to benefit individuals as well as society at large.</p>
+					<p>From health & healthcare to learning & education, Neuroscience has a key role in addressing some of the most pressing challenges that we face in Europe today.  Whether the challenge is the translation of fundamental research to advance the state of the art in prevention, diagnosis or treatment of brain disorders or explaining the complex interactions between the brain, individuals and their environments to design novel practices in cities, schools, hospitals, or companies, brain research is already providing solutions for society at large.</p>
+					<p>Neuroscience has also a great promise to become an applied science, to provide brain-centred or brain-inspired solutions that could benefit the society and kindle a new economy in Europe. The <b><font color="#cc0000">European University of Brain and Technology (Neurotech<sup>EU</sup>)</font></b> aims to be the backbone of this new vision by bringing together eight leading universities and 250+ partners from all regions of Europe.</p>
+					<p>Neurotech<sup>EU</sup> will educate students across all levels (bachelor’s, master’s, doctoral as well as life-long learners) and train the next-generation multidisciplinary scientists, scholars and graduates, provide them direct access to cutting-edge infrastructure for fundamental, translational and applied research to help Europe address this unmet challenge.</p>
 					<a href="mission" class="button">Our Mission</a>
 				</div>
 			</div>
 	</div>
 </section>
 
+<!-- Urgen action section -->
+<section id="main" class="wrapper style2">
+	<div class="inner">
+			<div class="flex flex-2">
+				<div class="col col2">
+					<h2>The need for urgent action</h2>
+					<p>Brain disorders and mental health are a leading cause of disability and a significant burden on society. In Europe alone, brain disorders account for 24% of all disease-related burden annually, claiming 1.2 million lives, leaving another 21 million individuals with a disability (Raggi & Leonardi, 2019). According to the OECD (Health at a Glance: Europe 2018), mental health problems cost EU >4% of the GDP every year. With the senior population growing ten times faster than the rest of the world’s population, one in four Europeans in 2050 will be 65+ years old (UN World Population Prospect, 2012). The societal and economic impact of brain disorders is thus projected to significantly soar in the coming decades as the European population ages and life expectancy increases. <b>Neurotech<sup>EU</sup> has an actionable plan to provide the necessary multidisciplinary, intersectoral and personalized training to extend education beyond mobility, universities beyond institutional borders.</b></p>
+					<a href="mission" class="button">Our Mission</a>
+				</div>
+				<div class="col col1"><div class="image round fit">
+					<img src="/assets/images/urgentaction.jpg" alt="Urgent action is needed" />
+				</div></div>
+			</div>
+	</div>
+</section>
+
 <!-- News section -->
-<section class="wrapper style2">
+<section class="wrapper style1">
 	<div class="inner">
 		<header class="align-center">
 			<h2>Latest news</h2>
 		</header>
-		<div class="flex flex-3">
+		<div class="flex flex-4">
 
 			<?php
 			$jsonstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/news/newsitems.json");
@@ -78,7 +88,7 @@ echo $doc->saveHTML();
 			$htmlstr = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/assets/html/indexnews.html");
 			$search = array("%tt%", "%img%", "%alt%", "%id%");
 
-			for ($i=1; $i<=3; $i++) {
+			for ($i=1; $i<=4; $i++) {
 				$replace = array($items[$n-$i]['title'], $items[$n-$i]['imgsrc'], $items[$n-$i]['alt'], $i);
 				echo str_replace($search, $replace, $htmlstr);
 			}
