@@ -77,8 +77,8 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 	background-color: #3498db; color:white; font-size: 12px; border-radius: 30px;
 }
 .person > * {width: 150px !important; position: absolute !important; margin: 0 10px !important; text-align: center;}
-.person > h5 {font-size: 160%;}
-.person > .image.round.fit {height: 150px; top: 72px; background-position: center; background-size: cover;}
+.person > h5 {font-size: 140%;}
+.person > .image.round.fit {height: 150px; top: 68px; background-position: center; background-size: cover;}
 .person > .image.round.fit > a {display: block; border-radius:100%; width: 100%; height: 100%;}
 .person > p {bottom: 0;}
 @media screen and (max-width: 440px) {
@@ -87,12 +87,13 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 }
 .flex.flex-8 .image.round.fit.selected {box-shadow: 0 0 0 7px #3498db, 0 0 0 8px rgba(0,0,0,0.1);}
 
-/* ME! Vertically center text on mission page */
-.col.col2.padtop {padding-top: 3%;}
-
 /* ME! News page */
 .wrapper.news {padding: 2em 0 2em 0;}
 .wrapper.news p {margin: 0; font-size:18px;}
+
+/* ME! News items on index page */
+.indexnews {position: relative; vertical-align: bottom;}
+.indexnews > a:last-child {position: relative; bottom: 0; margin: 0 auto;}
 
 /* ME! Partner geo distribution (currently not used) */
 .logomap > a > img {

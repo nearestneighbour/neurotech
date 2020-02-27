@@ -14,7 +14,7 @@
   {
     "#who": "Maria Ankarcrona",
     "#img": "/organization/ki/mankarcrona.jpg",
-    "#txt": "Neurotech 2040",
+    "#txt": "Neurotech<i>2040</i>",
     "#web": "https://staff.ki.se/people/marank"
   },
   {
@@ -38,7 +38,7 @@
   {
     "#who": "Jennifer Valcke",
     "#img": "/organization/ki/jvalcke.jpg",
-    "#txt": "Widening access: Diversity, multilingualism and multiculturalism",
+    "#txt": "Widening access",
     "#web": "https://staff.ki.se/people/jenval"
   },
   {
@@ -80,7 +80,7 @@
   {
     "#who": "Mats J Olsson",
     "#img": "/organization/ki/mjolsson.jpg",
-    "#txt": "Neurotech 2040",
+    "#txt": "Neurotech<i>2040</i>",
     "#web": "https://staff.ki.se/people/maols"
   },
   {
@@ -116,7 +116,7 @@
   {
     "#who": "Klara Regnö",
     "#img": "/organization/ki/kregno.jpg",
-    "#txt": "Widening access: Diversity, multilingualism and multiculturalism",
+    "#txt": "Widening access",
     "#web": "https://staff.ki.se/people/klareg"
   }
 ]

@@ -66,7 +66,7 @@ echo $doc->saveHTML();
 					<p>Brain disorders and mental health are a leading cause of disability and a significant burden on society. In Europe alone, brain disorders account for 24% of all disease-related burden annually, claiming 1.2 million lives, leaving another 21 million individuals with a disability (Raggi & Leonardi, 2019). According to the OECD (Health at a Glance: Europe 2018), mental health problems cost EU >4% of the GDP every year. With the senior population growing ten times faster than the rest of the world’s population, one in four Europeans in 2050 will be 65+ years old (UN World Population Prospect, 2012). The societal and economic impact of brain disorders is thus projected to significantly soar in the coming decades as the European population ages and life expectancy increases. <b>Neurotech<sup>EU</sup> has an actionable plan to provide the necessary multidisciplinary, intersectoral and personalized training to extend education beyond mobility, universities beyond institutional borders.</b></p>
 					<a href="mission" class="button">Our Mission</a>
 				</div>
-				<div class="col col1"><div class="image round fit">
+				<div class="col col1 first"><div class="image round fit">
 					<img src="/assets/images/urgentaction.jpg" alt="Urgent action is needed" />
 				</div></div>
 			</div>
