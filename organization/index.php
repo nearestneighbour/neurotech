@@ -68,7 +68,18 @@
 			</div>
 			<div class="col">
 				<h2>Work packages</h2>
-				We have 8 work packages.
+				Neurotech<sup>EU</sup> has distributed its workload in eight work packages. While all eight founding partners contribute to all work packages, each work package is lead by one. The four core work packages are:
+				<ul><li>Neurotech 2040: the think tank whose goal it is to imagine the educational, technological and societal challenges in 2040 (Bonn University)</li>
+					<li>Education & Research ()</li>
+					<li>Technological innovation</li>
+					<li>Societal innovation</li>
+				</ul>
+				Aside from the core work packages there are four supporting work packages to ensure high quality, streamlined procedure:
+				<ul><li>General management and Coordination</li>
+					<li>Quality control and Assurance</li>
+					<li>Widening access: Diversity, multilingualism and multiculturalism</li>
+					<li>Sustainability and Dissemination</li>
+				</ul>
 			</div>
 		</div>
 	</div>
