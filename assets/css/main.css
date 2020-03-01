@@ -92,8 +92,9 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 .wrapper.news p {margin: 0; font-size:18px;}
 
 /* ME! News items on index page */
-.indexnews {position: relative; vertical-align: bottom;}
-.indexnews > a:last-child {position: relative; bottom: 0; margin: 0 auto;}
+.indexnews {display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
+.indexnews > div {display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
+.indexnews > a > h4 {margin: 0;}
 
 /* ME! Partner geo distribution (currently not used) */
 .logomap > a > img {

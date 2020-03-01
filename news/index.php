@@ -38,7 +38,6 @@ $sectionstr = array(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/assets/html/
 
 for ($i=0; $i<count($items); $i++) {
 	$j = count($items) - $i - 1;
-	$items[$j]["title"] = str_replace("<br>", "", $items[$j]["title"]);
 	$replace = array($i+1, $items[$j]['imgsrc'], $items[$j]['alt'], $items[$j]['title'], $items[$j]['text']);
 	echo str_replace($search, $replace, $sectionstr[$i % 2]);
 }
