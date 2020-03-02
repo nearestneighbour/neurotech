@@ -53,14 +53,33 @@ nav > a:first-child {display:none;} /* Hide 'home' button except on mobile */
 #stats.syn_stats {padding:0;}
 #stats.syn_stats li i, #stats.syn_stats li p {color:#000;}
 
-/* ME! Partner logos on Partner page */
+/* Vertically center images that are next to text on all pages */
+.col.col1 {display: flex; align-items: center;}
+
+/* News items on index page */
+.indexnews {display: flex; flex-direction: column; justify-content: space-between; align-items: center; margin-bottom: 1em;}
+.indexnews > div {display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
+.indexnews > a > h4 {margin: 0;}
+@media screen and (max-width: 600px) {
+	.indexnews > div > .image.round.fit {width: 50%;}
+}
+
+/* Smaller ribbons on Mission page */
+.wrapper.mission {padding: 2em 0 2em 0;}
+.wrapper.mission .inner .flex .col2 {display: flex; align-items: center;}
+.wrapper.mission .inner .flex .col1 {width: 25%;}
+.wrapper.mission .inner .flex .col2 {width: 70%;}
+
+/* Promise page */
+
+/* Partner logos list at top of Founders/Organization pages */
 .flex.flex-8 {width:80%; margin:0 auto;}
 .flex.flex-8 .col {width: 7%;}
 .wrapper.pagetop {padding: 2em 0 1em 0; background: url("../images/hexagonal_bg_top_cropped.png") center top/cover;}
 .wrapper.pagetop .align-center, .wrapper.style1.logos h1 {margin: 0;}
 a.partneranchor {display: block; position: relative; top: -73px; visibility: hidden;}
 
-/* ME! Partner List on Partner page */
+/* Partner List on Founders page */
 .wrapper.style2.partnerlist {padding: 2em 0 2em 0;}
 .wrapper.style1.partnerlist {padding: 2em 0 2em 0;}
 .wrapper.partnerlist > .inner > .flex.flex-2 > .col1 {width: 10%;}
@@ -70,7 +89,7 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 	.wrapper.partnerlist > .inner > .flex.flex-2 > .col2 {width: 65%;}
 }
 
-/* ME! Personnel list on Personnel pages */
+/* Personnel lists on Personnel pages */
 .personlist {display: flex; flex-flow: row wrap; justify-content: center; margin: 0 5%;}
 .person {
 	width: 170px; height: 284px; padding: 10px 0; margin: 10px; position: relative;
@@ -87,30 +106,7 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 }
 .flex.flex-8 .image.round.fit.selected {box-shadow: 0 0 0 7px #3498db, 0 0 0 8px rgba(0,0,0,0.1);}
 
-/* ME! News page */
-.wrapper.news {padding: 2em 0 2em 0;}
-.wrapper.news p {margin: 0; font-size:18px;}
-
-/* ME! News items on index page */
-.indexnews {display: flex; flex-direction: column; justify-content: space-between; align-items: center; margin-bottom: 1em;}
-.indexnews > div {display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
-.indexnews > a > h4 {margin: 0;}
-
-/* ME! Partner geo distribution (currently not used) */
-.logomap > a > img {
-	position:absolute; width:25px !important;
-	-webkit-transform:translate(-50%, -50%); background-color:#FFF;
-}
-.logomap #ru_logo {left:38.46%; top:45.85%;}
-.logomap #umh_logo {left:28.51%; top:76.09%;}
-.logomap #ki_logo {left:57.68%; top:24.94%;}
-.logomap #ubo_logo {left:40.44%; top:48.6%;}
-.logomap #boun_logo {left:74.81%; top:70.68%;}
-.logomap #oxf_logo {left:27.3%; top:46.07%;}
-.logomap #umf_logo {left:66.35%; top:58.08%;}
-.logomap #ud_logo {left:63.27%; top:56.32%;}
-
-/* ME! Figures on Synergy page */
+/* Figures on Synergy page */
 .nwfig canvas {position:absolute; top:0; left:0; width:100%; height:100%;}
 .image.round.fit.nwfig img:not(#filler) {
 	position:absolute;  width:60px; -webkit-transform:translate(-50%, -50%);
@@ -133,20 +129,11 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 .nwfig #umf_node {left:12.5%; top:50%;}
 .nwfig #ud_node {left:25%; top:25%;}
 
-/* ME! Footer */
-footer.wrapper.logos {padding: 6% 0 3% 0;}
-footer.wrapper.logos .align-center, footer.wrapper.logos h1 {margin: 0;}
-footer.wrapper.logos {background: url("../images/hexagonal_bg_cropped.png") no-repeat center bottom/cover;}
-footer.wrapper.logos .flex.flex-8 .col {width: 10%;}
-footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
-@media screen and (min-width: 1867px) {
-	footer > p {font-size: 14px;}
-}
+/* News page items slightly smaller */
+.wrapper.news {padding: 2em 0 2em 0;}
+.wrapper.news p {margin: 0; font-size: 110%;}
 
-/* ME! Vertical center Mission page */
-.vert_center {vertical-align:middle;}
-
-/* ME! Contact page banner without fade effect */
+/* Contact page banner without fade effect */
 #p_mobile {display: none; text-align: center;}
 #p_mobile > p {font-size: 16px;}
 #p_desktop {display: initial; font-size: 16px;}
@@ -163,6 +150,30 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 	#p_mobile {display: initial;}
 	#p_desktop {display: none;}
 }
+
+/* Footer */
+footer.wrapper.logos {padding: 6% 0 3% 0;}
+footer.wrapper.logos .align-center, footer.wrapper.logos h1 {margin: 0;}
+footer.wrapper.logos {background: url("../images/hexagonal_bg_cropped.png") no-repeat center bottom/cover;}
+footer.wrapper.logos .flex.flex-8 .col {width: 10%;}
+footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
+@media screen and (min-width: 1867px) {
+	footer > p {font-size: 14px;}
+}
+
+/* Partner geographical distribution figure (currently not used) */
+.logomap > a > img {
+	position:absolute; width:25px !important;
+	-webkit-transform:translate(-50%, -50%); background-color:#FFF;
+}
+.logomap #ru_logo {left:38.46%; top:45.85%;}
+.logomap #umh_logo {left:28.51%; top:76.09%;}
+.logomap #ki_logo {left:57.68%; top:24.94%;}
+.logomap #ubo_logo {left:40.44%; top:48.6%;}
+.logomap #boun_logo {left:74.81%; top:70.68%;}
+.logomap #oxf_logo {left:27.3%; top:46.07%;}
+.logomap #umf_logo {left:66.35%; top:58.08%;}
+.logomap #ud_logo {left:63.27%; top:56.32%;}
 
 /*
 	This is where the CSS starts that came together with the website template. This
@@ -1753,11 +1764,16 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 			.flex.flex-tabs .tabs {width: 67%;}
 			.flex.flex-tabs .flex-3 .col {width: 48%;}
 		}
+		/* I removed .flex.flex-4 .col and .flex.flex-4 .col.first from the first two lines in this block */
 		@media screen and (max-width: 736px) {
-			.flex.flex-2 .col, .flex.flex-3 .col, .flex.flex-4 .col {width: 100%;-moz-order: 2;-webkit-order: 2;-ms-order: 2;order: 2;}
-				.flex.flex-2 .col.first, .flex.flex-3 .col.first, .flex.flex-4 .col.first {-moz-order: 1;-webkit-order: 1;-ms-order: 1;order: 1;}
+			.flex.flex-2 .col, .flex.flex-3 .col {width: 100%;-moz-order: 2;-webkit-order: 2;-ms-order: 2;order: 2;}
+				.flex.flex-2 .col.first, .flex.flex-3 .col.first {-moz-order: 1;-webkit-order: 1;-ms-order: 1;order: 1;}
 			.flex.flex-tabs {-moz-flex-wrap: wrap;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;}
 				.flex.flex-tabs ul {width: 100%;}
 				.flex.flex-tabs .tabs {width: 100%;}
 				.flex.flex-tabs .flex-3 .col {width: 100%;}
+		}
+		@media screen and (max-width: 600px) {
+			.flex.flex-4 .col {width: 100%; -moz-order: 2; -webkit-order: 2; -ms-order: 2; order: 2;}
+				.flex.flex-4 .col.first {-moz-order: 1;-webkit-order: 1;-ms-order: 1;order: 1;}
 		}

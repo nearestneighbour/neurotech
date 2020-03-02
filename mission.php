@@ -30,38 +30,36 @@
 </section>
 
 
-<section class="wrapper style2">
+<section class="wrapper mission style2">
 	<div class="inner">
 		<div class="flex flex-2">
-			<div class="col col1">
+			<div class="col col1 first">
 				<div class="image round fit">
 					<img src="/assets/images/digitalcampus.jpg" alt="Students working together in a digital campus"/>
 				</div>
 			</div>
-			<div class="col col2">
+			<div class="col col2"><div>
 				<h2>Neurotech<sup>EU</sup> Campus+</h2>
-				Neurotech<sup>EU</sup> CAMPUS+ is a digital campus where students can
+				<p>Neurotech<sup>EU</sup> CAMPUS+ is a digital campus where students can</p>
 				<ul><li>Learn about courses on offer</li>
-				<li>Follow online courses</li>
 				<li>Meet with their peers</li>
-				<li>Organize and participate in study groups</li>
-				<li>Perform administrative tasks</li>
+				<li>Follow online courses</li>
 				<li>Manage their blended learning experience</li></ul>
-			</div>
+			</div></div>
 		</div>
 	</div>
 </section>
-<section class="wrapper style1">
+<section class="wrapper mission style1">
 	<div class="inner">
 		<div class="flex flex-2">
-			<div class="col col2">
+			<div class="col col2"><div>
 				<h2>Neurotech<sup>EU</sup> Graduate School</h2>
-				Neurotech<sup>EU</sup> Graduate School will train students in an international and intersectoral setting.
-				<ul><li>Each student will be mentored by 3 mentors; two from partnering universities, the third from the industrial or societal partners</li>
-				<li>Each student will receive full fellowship</li>
+				<p>Neurotech<sup>EU</sup> Graduate School will train students in a multidisciplinary, international and intersectoral setting.</p>
+				<ul><li>Each student will be advised by 3 mentors; two from partnering universities and the third from the industrial or societal partners</li>
+				<li>All projects will focus on a Neurochallenge, i.e. societal challenge that can be met by neuroscientific knowledge and/or neurotechnological solution</li>
 				<li>Admissions to this top-tier graduate school will be highly competitive and centrally organized</li>
 				<li>By graduation each student will have an intersectoral experience with a strong multidisciplinary research background</li></ul>
-			</div>
+			</div></div>
 			<div class="col col1 first">
 				<div class="image round fit">
 					<img src="/assets/images/graduate.jpg" alt="A graduate student from the Neurotech graduate school"/>
@@ -70,22 +68,60 @@
 		</div>
 	</div>
 </section>
-<section class="wrapper style2">
+<section class="wrapper mission style2">
 	<div class="inner">
 		<div class="flex flex-2">
-			<div class="col col1">
+			<div class="col col1 first">
 				<div class="image round fit">
 					<img src="/assets/images/reschooling.jpg" alt="People studying at the Neurotech Lifelong Learning Center"/>
 				</div>
 			</div>
-			<div class="col col2">
+			<div class="col col2"><div>
 				<h2>Neurotech<sup>EU</sup> Lifelong Learning Center</h2>
-				Neurotech<sup>EU</sup> Lifelong Learning Center will provide training for personal development after formal education. It will:
-				<ul><li>focus on the necessary knowledge, skill sets, and competencies for continued learning throughout life</li>
+				<p>Neurotech<sup>EU</sup> Lifelong Learning Center will</p>
+				<ul><li>Deliver the necessary knowledge, skill sets and competencies for continued learning throughout life</li>
 				<li>Help individuals to adapt to the changing personal, civic, societal and employment related needs</li>
-				<li>Deliver the necessary education and experience for individuals to pursue opportunities in brain research and technologies</li>
-				<li>Organize certificate programs, micro-degrees, boot-camps, provide internship, research opportunities and transferable skills</li>
+				<li>Provide access to the necessary education and experience for individuals to pursue opportunities in brain research and technologies</li>
+				<li>Organize certificate programs, micro-degrees, boot-camps, and offer internships, research opportunities and transferable skill training</li>
+			</div></div>
+		</div>
+	</div>
+</section>
+<section class="wrapper mission style1">
+	<div class="inner">
+		<div class="flex flex-2">
+			<div class="col col2"><div>
+				<h2>Neurotech<sup>EU</sup> Spaces</h2>
+				<p>Neurotech<sup>EU</sup> Spaces will be the online meeting spot for all students, learners, staff and researchers at Neurotech<sup>EU</sup>. It will</p>
+				<ul><li>Provide tools to create, store and share information safely on the cloud</li>
+				<li>Offer streaming and messaging platforms for real-time communication</li>
+				<li>Issue shared blackboards, sandboxes and digital lockers</li>
+				<li>Help create a paperless European University</li>
+			</div></div>
+			<div class="col col1 first">
+				<div class="image round fit">
+					<img src="/assets/images/digitalcampus.jpg" alt="People studying at the Neurotech Lifelong Learning Center"/>
+				</div>
 			</div>
+		</div>
+	</div>
+</section>
+<section class="wrapper mission style2">
+	<div class="inner">
+		<div class="flex flex-2">
+			<div class="col col1 first">
+				<div class="image round fit">
+					<img src="/assets/images/ecosystem.jpg" alt="People studying at the Neurotech Lifelong Learning Center"/>
+				</div>
+			</div>
+			<div class="col col2"><div>
+				<h2>Neurotech<sup>EU</sup> Ecosystem</h2>
+				<p>Neurotech<sup>EU</sup> Ecosystem will integrate Neurotech<sup>EU</sup> with society and economy. It will help</p>
+				<ul><li>Students to have easy access to internships, apprenticeships and intersectoral training opportunities</li>
+				<li>Companies to access skilled and creative individuals</li>
+				<li>To create new business opportunities through knowledge and technology transfer from universities to (societal) stakeholders</li>
+				<li>Assist NeurotechEU with the development of new technologies to diversify and improve education</li>
+			</div></div>
 		</div>
 	</div>
 </section>

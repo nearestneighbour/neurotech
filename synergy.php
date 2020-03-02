@@ -38,7 +38,6 @@
 
 <section id="publications" class="wrapper style2">
 <div class="inner">
-	<h2 align="center">Joint publications</h2>
 	<div class="flex flex-2">
 		<div class="col col1">
 			<div class="image round fit nwfig">
@@ -55,6 +54,7 @@
 			</div>
 		</div>
 		<div class="col col2">
+			<h2 align="center">Joint publications</h2>
 			<h4 id="pubfig_text"></h4>
 			<p>These are the articles published on Pubmed since 01/01/2015. To see the number of publications co-authored by any combination of partner universities, select their logos. Click the button below to view the publications on the Pubmed website.</p>
 			<b><a target="_blank" id="pubfig_link" class="button">Find publications on Pubmed</a></b>
@@ -65,9 +65,9 @@
 
 <section id="funding" class="wrapper style1">
 <div class="inner">
-	<h2 align="center">Collaborations</h2>
 	<div class="flex flex-2">
 		<div class="col col2 align-right">
+			<h2 align="center">Collaborations</h2>
 			<h4 id="euffig_text"></h4>
 			<p>These are research projects funded by the European Union under the FP7 and H2020 programmes. Select any combination of partner universities to see the number of projects the institutions collaborated in, and how much funding they raised for these projects.</p>
 		</div>
