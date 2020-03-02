@@ -40,5 +40,26 @@
  "date":    "24/01/2020",
  "title":   "Neurotech<sup>EU</sup> signature ceremony",
  "text":    "Big day is just around the corner: Rectors and rector representatives from the eight founding partners will meet in Nijmegen on Jan 24th, 2020 for the official signature ceremony. Among the activities of the day, there is also a panel discussion with the rectors of the founding universities. The ceremony session will start at 12.00 and will take place in the historical Berchmanianum on the Radboud University campus."
+ },
+ {
+ "imgsrc":  "/news/images/7-neurotechborn.jpg",
+ "alt":     "A group picture taken at the NeurotechEU opening ceremony",
+ "date":    "24/01/2020",
+ "title":   "Neurotech<sup>EU</sup> is born!",
+ "text":    "Our founding universities have signed a concordat formalizing their partnership on Jan 24th 2020, officially starting the Neurotech<sup>EU</sup>. Image is our first “family photo”. From left to right: Prof. Chas Bountra (vice-chancellor for innovation, Oxford University), Prof. Daniel Wigboldus (president, Radboud University), Prof. Juan José Ruiz Martínez (rector, Miguel Hernandez University), Prof. László Csernoch (vice-rector, Debrecen University), Prof. Anca Buzoianu (rector, UMF Cluj-Napoca), Prof. Mehmet Özkan (rector, Boğaziçi university), Prof. Michael Hoch (rector, Bonn University), Prof. Anders Gustafsson (acting vice president, Karolinska Institutet). Background: Select members of the Neurotech<sup>EU</sup> Alliance, Members of the governance board, WP leaders, WP team members, faculty deans, institute chairs, department heads, students, and staff members"
+ },
+ {
+ "imgsrc":  "/news/images/8-debate.jpg",
+ "alt":     "A group picture of researchers of the iNavigate consortiu",
+ "date":    "06/02/2020",
+ "title":   "Neuroscience and robotics debate",
+ "text":    "In collaboration with <a href='http://www.inavigate.eu/'>iNavigate</a> we have organized a Debate on “What can Neuroscience teach and learn from Robotics” on February 6th, 2020.  A position paper reflecting the outcomes of the discussions held by thirty-nine academicians from 9 countries will be released this summer, and will be available to download at <a>www.theneurotech.eu/downloads/white-papers</a>."
+ },
+ {
+ "imgsrc":  "/news/images/9-roboticsclass.jpg",
+ "alt":     "A lecture on neurotech and robotics during the iNavigate meeting",
+ "date":    "07/02/2020",
+ "title":   "Bringing robotics to classroom",
+ "text":    "Active learning improves education outcomes. For many of the STEM fields, robotics provides the necessary platform for experimentation. On Feb 7th, we learned from the expertise of Consequential Robotics in this domain. At NeurotechEU students and researchers will not only design, build and use robots but also develop brain inspired control algorithms to advance the state-of-art in robotic control."
  }
 ]

@@ -135,6 +135,7 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 /* News page items slightly smaller */
 .wrapper.news {padding: 2em 0 2em 0;}
 .wrapper.news p {margin: 0; font-size: 110%;}
+.wrapper.news .col.col2 {display: flex; flex-direction: column; justify-content: center;}
 
 /* Contact page banner without fade effect */
 #p_mobile {display: none; text-align: center;}
