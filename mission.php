@@ -30,7 +30,7 @@
 </section>
 
 
-<section class="wrapper mission style2">
+<section class="wrapper style2 mission">
 	<div class="inner">
 		<div class="flex flex-2">
 			<div class="col col1 first">
@@ -49,7 +49,7 @@
 		</div>
 	</div>
 </section>
-<section class="wrapper mission style1">
+<section class="wrapper style1 mission">
 	<div class="inner">
 		<div class="flex flex-2">
 			<div class="col col2"><div>
@@ -68,7 +68,7 @@
 		</div>
 	</div>
 </section>
-<section class="wrapper mission style2">
+<section class="wrapper style2 mission">
 	<div class="inner">
 		<div class="flex flex-2">
 			<div class="col col1 first">
@@ -87,7 +87,7 @@
 		</div>
 	</div>
 </section>
-<section class="wrapper mission style1">
+<section class="wrapper style1 mission">
 	<div class="inner">
 		<div class="flex flex-2">
 			<div class="col col2"><div>
@@ -100,18 +100,18 @@
 			</div></div>
 			<div class="col col1 first">
 				<div class="image round fit">
-					<img src="/assets/images/digitalcampus.jpg" alt="People studying at the Neurotech Lifelong Learning Center"/>
+					<img src="/assets/images/digitalcampus.jpg" alt="Students working together in a digital campus"/>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="wrapper mission style2">
+<section class="wrapper style2 mission">
 	<div class="inner">
 		<div class="flex flex-2">
 			<div class="col col1 first">
 				<div class="image round fit">
-					<img src="/assets/images/ecosystem.jpg" alt="People studying at the Neurotech Lifelong Learning Center"/>
+					<img src="/assets/images/ecosystem.jpg" alt="NeurotechEU creates a neurotech ecosystem for brain and technology"/>
 				</div>
 			</div>
 			<div class="col col2"><div>

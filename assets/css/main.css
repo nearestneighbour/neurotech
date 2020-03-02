@@ -53,8 +53,10 @@ nav > a:first-child {display:none;} /* Hide 'home' button except on mobile */
 #stats.syn_stats {padding:0;}
 #stats.syn_stats li i, #stats.syn_stats li p {color:#000;}
 
-/* Vertically center images that are next to text on all pages */
+/* All pages: vertically center images that are next to text */
 .col.col1 {display: flex; align-items: center;}
+/* All pages: red/bold combination */
+b.redbold {color: #cc0000;} /* Does this fit with color scheme? */
 
 /* News items on index page */
 .indexnews {display: flex; flex-direction: column; justify-content: space-between; align-items: center; margin-bottom: 1em;}
@@ -71,6 +73,7 @@ nav > a:first-child {display:none;} /* Hide 'home' button except on mobile */
 .wrapper.mission .inner .flex .col2 {width: 70%;}
 
 /* Promise page */
+.col.col2.promise i {position:relative; left:1em;}
 
 /* Partner logos list at top of Founders/Organization pages */
 .flex.flex-8 {width:80%; margin:0 auto;}

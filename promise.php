@@ -23,8 +23,8 @@
 <section class="wrapper pagetop">
 	<div class="inner">
 		<header class="align-center">
-			<h1>Our Mission</h1>
-			<b><p>Build a trans-European network of excellence in brain research and technologies<br>to increase the competitiveness of European education, research, economy and society</p></b>
+			<h1>Neurotech<sup>EU</sup> Promise</h1>
+			<b><p>(subheader)</p></b>
 		</header>
 	</div>
 </section>
@@ -35,18 +35,25 @@
 		<div class="flex flex-2">
 			<div class="col col1">
 				<div class="image round fit">
-					<img src="/assets/images/digitalcampus.jpg" alt="Students working together in a digital campus"/>
+					<img src="/assets/images/document.jpg" alt="The NeurotechEU students' bill of rights"/>
 				</div>
 			</div>
-			<div class="col col2 padtop">
-				<h2>Neurotech<sup>EU</sup> Campus+</h2>
-				Neurotech<sup>EU</sup> CAMPUS+ is a digital campus where students can
-				<ul><li>Learn about courses on offer</li>
-				<li>Follow online courses</li>
-				<li>Meet with their peers</li>
-				<li>Organize and participate in study groups</li>
-				<li>Perform administrative tasks</li>
-				<li>Manage their blended learning experience</li></ul>
+			<div class="col col2">
+				<h2>Students' bill of rights</h2>
+				All Neurotech<sup>EU</sup> students have equal rights, independent from their race, skin colour, religion or other beliefs, sex, transgender identity or expression, national origin, cultural background, political affiliation, sexual orientation, marital status, disability, genetic information, age, or other non-merit factor.  Neurotech<sup>EU</sup> implements the Erasmus+ Student Charter code and also promises:
+				<ul><li>An inclusive environment,</li>
+					<li>Flexible and personalized education programmes,</li>
+					<li>A multinational, multi-university, multicultural and multilingual community,</li>
+					<li>Student involvement in all decision-making bodies,</li>
+					<li>Accessibility of information,</li>
+					<li>Full recognition for satisfactorily completed activities of study mobility and, where possible, traineeships in terms of credits awarded (ECTS),</li>
+					<li>Learning/training agreements for students validated in advance between the home and host institutions or enterprises and the mobile participants,</li>
+					<li>Equal academic treatment and services for home students and incoming mobile participants.</li>
+					<li>Integration of incoming mobile participants into the lnstitution's everyday life,</li>
+					<li>Appropriate mentoring and support arrangements for mobile participants,</li>
+					<li>Appropriate linguistic support to incoming mobile participants,</li>
+					<li>All activities indicated in the learning agreement counting towards the degree, provided these have been satisfactorily completed by the mobile students,</li>
+					<li>Support for mobile participants upon their return, to foster reintegration and to build on their experiences for the benefit of the institution and their peers.</li></ul>
 			</div>
 		</div>
 	</div>
@@ -54,37 +61,24 @@
 <section class="wrapper style1">
 	<div class="inner">
 		<div class="flex flex-2">
-			<div class="col col2 padtop">
-				<h2>Neurotech<sup>EU</sup> Graduate School</h2>
-				Neurotech<sup>EU</sup> Graduate School will train students in an international and intersectoral setting.
-				<ul><li>Each student will be mentored by 3 mentors; two from partnering universities, the third from the industrial or societal partners</li>
-				<li>Each student will receive full fellowship</li>
-				<li>Admissions to this top-tier graduate school will be highly competitive and centrally organized</li>
-				<li>By graduation each student will have an intersectoral experience with a strong multidisciplinary research background</li></ul>
+			<div class="col col2 promise">
+				<h2>Neurotech<sup>EU</sup>: Designed by students, for students</h2>
+					To create our action plan for the outlined vision, we asked students what they need to succeed during their education and to start their professional life (www.bit.ly/NeurotechQ4S).  More than 3,500+ students responded to the survey.  84% of the responders are bachelor and master students, studying engineering (16%), natural sciences (15%), social sciences (11%), health sciences (10%), education (9%), business, administration and law (8%), and art & humanities (7%).  Remaining students major in multiple fields, supporting the observation and experience of the Neurotech<sup>EU</sup> partners in our own students across campuses, i.e. studies in the intersection of Brain and Technology attract interest from students of all backgrounds in general universities. Among the responders:
+					<ul><li><b>Half of the students would like to have multiple opportunities for mobility across the different stages of their studies</b>
+					<br><i>Therefore, we designed mobility periods for bachelor, master and doctoral students</i></li>
+					<li><b>~85% want to do more than taking classes during the mobility window</b>
+					<br><i>We designed research, internship and apprenticeship programs. We have recruited 250+ associate partners to provide options for our students</i></li>
+					<li><b>40% prefer a mobility window of &lt;9 months, others longer including up to 3 years (9%)</b>
+					<br><i>We planned for flexible mobility period across the three different stages of their studies and will form a graduate school to support longer mobility periods that will promote inter-campus and inter-sectoral cooperation in teaching and research</i></li>
+					<li><b>~87% of the students are interested in virtual exchange and mobility</b>
+					<br><i>We partnered with technology providers to offer online platforms to study, learn and create together, helping us to meet our 50% mobility goal and reduce the cost of mobility</i></li>
+					<li><b>~84% of the students are concerned about the financial costs associated with mobility</b>
+					<br><i>We designed the mobility programs to create synergy with local, national and other EU funding programs</i></li></ul>
 			</div>
 			<div class="col col1">
 				<div class="image round fit">
-					<img src="/assets/images/graduate.jpg" alt="A graduate student from the Neurotech graduate school"/>
+					<img src="/assets/images/surveyresult.png" alt="Word cloud of the NeurotechEU student survey results"/>
 				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="wrapper style2">
-	<div class="inner">
-		<div class="flex flex-2">
-			<div class="col col1 first">
-				<div class="image round fit">
-					<img src="/assets/images/reschooling.jpg" alt="People studying at the Neurotech Lifelong Learning Center"/>
-				</div>
-			</div>
-			<div class="col col2 padtop">
-				<h2>Neurotech<sup>EU</sup> Lifelong Learning Center</h2>
-				Neurotech<sup>EU</sup> Lifelong Learning Center will provide training for personal development after formal education. It will:
-				<ul><li>focus on the necessary knowledge, skill sets, and competencies for continued learning throughout life</li>
-				<li>Help individuals to adapt to the changing personal, civic, societal and employment related needs</li>
-				<li>Deliver the necessary education and experience for individuals to pursue opportunities in brain research and technologies</li>
-				<li>Organize certificate programs, micro-degrees, boot-camps, provide internship, research opportunities and transferable skills</li>
 			</div>
 		</div>
 	</div>

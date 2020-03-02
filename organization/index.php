@@ -61,25 +61,13 @@
 <section class="wrapper style2">
 	<div class="inner">
 		<div class="flex flex-2">
-			<div class="col">
+			<div class="col first">
 				<div class="image fit">
 					<img src="/assets/images/workpackages.jpg" alt="Work packages of the Neurotech project"/>
 				</div>
 			</div>
 			<div class="col">
-				<h2>Work packages</h2>
-				Neurotech<sup>EU</sup> has distributed its workload in eight work packages. While all eight founding partners contribute to all work packages, each work package is lead by one. The four core work packages are:
-				<ul><li>Neurotech 2040: the think tank whose goal it is to imagine the educational, technological and societal challenges in 2040 (Bonn University)</li>
-					<li>Education & Research ()</li>
-					<li>Technological innovation</li>
-					<li>Societal innovation</li>
-				</ul>
-				Aside from the core work packages there are four supporting work packages to ensure high quality, streamlined procedure:
-				<ul><li>General management and Coordination</li>
-					<li>Quality control and Assurance</li>
-					<li>Widening access: Diversity, multilingualism and multiculturalism</li>
-					<li>Sustainability and Dissemination</li>
-				</ul>
+				<b class="redbold">A central goal of Neurotech<sup>EU</sup> activities is the continuous integration of education, research, and innovation.</b> Therefore, the four content delivery work packages, i.e. Neurotech<i>2040</i> (WP3), Neurochallenges in Education & Research (WP4), Technological Innovation (WP5) and Societal Innovation (WP6) are organizationally interlinked while they all work together to facilitate education, training, and life-long learning. The remaining four WPs WP1-2 will plan, organize, command, coordinate and control the Alliance actions, maximizing the utilization of resources and human capital to ensure organizational success. WP7 and WP8 will widen the participation, spread excellence in education and research in a sustainable fashion; they will ensure that Neurotech<sup>EU</sup> actions, outcomes, competencies, and know-how will be disseminated across sectors throughout Europe.
 			</div>
 		</div>
 	</div>
@@ -88,12 +76,11 @@
 	<div class="inner">
 		<div class="flex flex-2">
 			<div class="col">
-				<h2>Organigram</h2>
-				Here's how we're organized.
+				The Alliance provides a structural and sustainable approach to the inclusion of all voices on campus  (bachelor’s, master’s and doctoral students, life-long learners, teaching and research staff, support and administrative staff, management positions) and off campus (public policy-makers, associate partners, associated (European) universities, industrial and innovation partners, regional stakeholders, governmental and non-governmental organizations, and society at large). The cooperation across geographically fragmented teams will be upscaled by creating a shared digital tool for virtual collaboration and organizing meetings for direct interaction with all stakeholders, creating a melting-pot of cultures, ideas and talent.
 			</div>
-			<div class="col">
+			<div class="col first">
 				<div class="image fit">
-					<img src="/assets/images/organigram.jpg" alt="A graduate student from the Neurotech graduate school"/>
+					<img src="/assets/images/organigram.jpg" alt="Organizational structure diagram of NeurotechEU university"/>
 				</div>
 			</div>
 		</div>
