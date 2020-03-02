@@ -33,8 +33,8 @@ echo $doc->saveHTML();
 			<li><a href="organization/key-personnel"><i class="fa fa-3x fa-user-tie"></i><p>70,000</p><p>Staff</p></a></li>
 			<li><a href="synergy#funding"><i class="fa fa-3x fa-microscope"></i><p>171</p><p>Joint grants</p></a></li>
 			<li><a href="synergy#funding"><i class="fa fa-3x fa-euro"></i><p>€231M</p><p>Joint funding</p></a></li>
-			<li><a href="synergy#publications"><i class="fa fa-3x fa-newspaper"></i><p>5277</p><p>Joint publications</p></a></li>
-			<li><i class="fa fa-3x fa-globe"></i><p>200+</p><p>Affiliates</p></li>
+			<li><a href="synergy#publications"><i class="fa fa-3x fa-newspaper"></i><p>5553</p><p>Joint publications</p></a></li>
+			<li><i class="fa fa-3x fa-globe"></i><p>250+</p><p>Affiliates</p></li>
 		</ul>
 		<a href="#main" class="button big scrolly">Learn More</a>
 	</div>

@@ -92,7 +92,7 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 .wrapper.news p {margin: 0; font-size:18px;}
 
 /* ME! News items on index page */
-.indexnews {display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
+.indexnews {display: flex; flex-direction: column; justify-content: space-between; align-items: center; margin-bottom: 1em;}
 .indexnews > div {display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
 .indexnews > a > h4 {margin: 0;}
 

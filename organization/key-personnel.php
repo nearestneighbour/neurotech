@@ -25,7 +25,7 @@ if (!file_exists($filename)) {
 }
 $s = ' selected';
 $names = array('ru' => 'Radboud University', 'umh' => 'Miguel Hernández University',
-							'ki' => 'Karolinska Institute', 'ubo' => 'Bonn University',
+							'ki' => 'Karolinska Intitutet', 'ubo' => 'Bonn University',
 							'boun' => 'Boğaziçi University', 'oxf' => 'Oxford University',
 							'umf' => 'Iuliu Hațieganu University', 'ud' => 'University of Debrecen');
 ?>
@@ -47,7 +47,7 @@ $names = array('ru' => 'Radboud University', 'umh' => 'Miguel Hernández Univers
           <a href="key-personnel?inst=umh"><img src="/assets/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
       </div></div>
       <div class="col align-center"><div class="image round fit<?php echo $i=='ki'?$s:''?>">
-          <a href="key-personnel?inst=ki"><img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
+          <a href="key-personnel?inst=ki"><img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Intitutet"/></a>
       </div></div>
       <div class="col align-center"><div class="image round fit<?php echo $i=='ubo'?$s:''?>">
           <a href="key-personnel?inst=ubo"><img src="/assets/images/partner_logos/ubo.jpg" alt="Logo of Bonn University"/></a>

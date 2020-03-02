@@ -36,7 +36,7 @@
 						<a href="key-personnel?inst=umh" class="scrolly"><img src="/assets/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
 				</div></div>
 				<div class="col align-center"><div class="image round fit">
-						<a href="key-personnel?inst=ki" class="scrolly"><img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
+						<a href="key-personnel?inst=ki" class="scrolly"><img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Intitutet"/></a>
 				</div></div>
 				<div class="col align-center"><div class="image round fit">
 						<a href="key-personnel?inst=ubo" class="scrolly"><img src="/assets/images/partner_logos/ubo.jpg" alt="Logo of Bonn University"/></a>

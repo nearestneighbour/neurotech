@@ -29,7 +29,7 @@
 		<ul id="stats" class="syn_stats">
 			<li><i class="fa fa-3x fa-microscope"></i><p>171</p><p>Joint research grants</p></li>
 			<li><i class="fa fa-3x fa-euro"></i><p>€231 Million</p><p>Raised for joint research</p></li>
-			<li><i class="fa fa-3x fa-newspaper"></i><p>5277</p><p>Joint publications</p></li>
+			<li><i class="fa fa-3x fa-newspaper"></i><p>5553</p><p>Joint publications</p></li>
 			<li><i class="fa fa-3x fa-award"></i><p>500+</p><p>ERC grants</p></li>
 			<li><i class="fa fa-3x fa-trophy"></i><p>70+</p><p>Nobel prizes & Field medals</p></li>
 		</ul>
@@ -46,7 +46,7 @@
 				<canvas id="pubfig_canvas"></canvas>
 				<img class="pubfig" id="ru_node" src="/assets/images/partner_logos/ru.jpg" alt="Logo of Radboud University">
 				<img class="pubfig" id="umh_node" src="/assets/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University">
-				<img class="pubfig" id="ki_node" src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute">
+				<img class="pubfig" id="ki_node" src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Intitutet">
 				<img class="pubfig" id="ubo_node" src="/assets/images/partner_logos/ubo.jpg" alt="Logo of Bonn University">
 				<img class="pubfig" id="boun_node" src="/assets/images/partner_logos/boun.jpg" alt="Logo of Bogazici University">
 				<img class="pubfig" id="oxf_node" src="/assets/images/partner_logos/oxf.jpg" alt="Logo of Oxford University">
@@ -77,7 +77,7 @@
 				<canvas id="euffig_canvas"></canvas>
 				<img class="euffig" id="ru_node" src="/assets/images/partner_logos/ru.jpg" alt="Logo of Radboud University">
 				<img class="euffig" id="umh_node" src="/assets/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University">
-				<img class="euffig" id="ki_node" src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute">
+				<img class="euffig" id="ki_node" src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Intitutet">
 				<img class="euffig" id="ubo_node" src="/assets/images/partner_logos/ubo.jpg" alt="Logo of Bonn University">
 				<img class="euffig" id="boun_node" src="/assets/images/partner_logos/boun.jpg" alt="Logo of Bogazici University">
 				<img class="euffig" id="oxf_node" src="/assets/images/partner_logos/oxf.jpg" alt="Logo of Oxford University">

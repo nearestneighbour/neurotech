@@ -34,7 +34,7 @@
 					<a href="#umh_scroll" class="scrolly"><img src="/assets/images/partner_logos/umh.jpg" alt="Logo of Miguel Hernandez University"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
-					<a href="#ki_scroll" class="scrolly"><img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/></a>
+					<a href="#ki_scroll" class="scrolly"><img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Intitutet"/></a>
 			</div></div>
 			<div class="col align-center"><div class="image round fit">
 					<a href="#ubo_scroll" class="scrolly"><img src="/assets/images/partner_logos/ubo.jpg" alt="Logo of Bonn University"/></a>
@@ -87,7 +87,7 @@
 	<a class="partneranchor" id="ki"></a>
 	<div class="inner"><div class="flex flex-2">
 		<div class="col col1"><div class="image round fit">
-			<img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Institute"/>
+			<img src="/assets/images/partner_logos/ki.jpg" alt="Logo of Karolinska Intitutet"/>
 		</div></div>
 		<div class="col col2">
 			<h3>Karolinska Institutet</h3>
