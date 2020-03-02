@@ -23,7 +23,7 @@
 	<div class="inner">
 
 		<header class="align-center">
-			<h1>Meet the founders</h1>
+			<h1>Our founding universities</h1>
 		</header>
 
 		<div class="flex flex-8">

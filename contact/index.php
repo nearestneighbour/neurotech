@@ -37,7 +37,7 @@
 			<div class="6u 12u$(small)">
 				<div class="select-wrapper">
 					<select name="role">
-						<option value="" disabled selected>- What is your role in Neurotech<sup>EU</sup> -</option>
+						<option value="" disabled selected>- I am a ... -</option>
 						<option value="student">Student</option>
 						<option value="teacher">Teacher</option>
 						<option value="researcher">Researcher</option>
@@ -54,7 +54,7 @@
 					<li><input type="submit" name="submit" value="Send Message" /></li>
 				</ul>
 			</div>
-			<p id="p_desktop">If you want to submit a news article regarding Neurotech<sup>EU</sup>, please send a mail to <b>contact@theneurotech.eu</b></p>
+			<p id="p_desktop">If you want to submit a news article regarding Neurotech<sup>EU</sup>, please send an e-mail to <b>contact@theneurotech.eu</b></p>
 		</div>
 		</form>
 
