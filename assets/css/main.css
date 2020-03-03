@@ -71,6 +71,10 @@ b.redbold {color: #cc0000;} /* Does this fit with color scheme? */
 .wrapper.mission .inner .flex .col2 {display: flex; align-items: center;}
 .wrapper.mission .inner .flex .col1 {width: 25%;}
 .wrapper.mission .inner .flex .col2 {width: 70%;}
+@media screen and (max-width: 736px) {
+	.wrapper.mission .inner .flex .col1 {width: 100%;}
+	.wrapper.mission .inner .flex .col2 {width: 100%;}
+}
 
 /* Promise page */
 .col.col2.promise i {position:relative; left:1em;}

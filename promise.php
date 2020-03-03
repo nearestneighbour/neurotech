@@ -33,7 +33,7 @@
 <section class="wrapper style2">
 	<div class="inner">
 		<div class="flex flex-2">
-			<div class="col col1">
+			<div class="col col1 first">
 				<div class="image round fit">
 					<img src="/assets/images/document.jpg" alt="The NeurotechEU students' bill of rights"/>
 				</div>
@@ -75,7 +75,7 @@
 					<li><b>~84% of the students are concerned about the financial costs associated with mobility</b>
 					<br><i>We designed the mobility programs to create synergy with local, national and other EU funding programs</i></li></ul>
 			</div>
-			<div class="col col1">
+			<div class="col col1 first">
 				<div class="image round fit">
 					<img src="/assets/images/surveyresult.png" alt="Word cloud of the NeurotechEU student survey results"/>
 				</div>
