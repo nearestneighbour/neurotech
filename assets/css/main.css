@@ -92,6 +92,9 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 	.wrapper.partnerlist > .inner > .flex.flex-2 > .col2 {width: 65%;}
 }
 
+/* Organization page */
+.wrapper.organization .inner .flex.flex-2 .col {display: flex; align-items: center;}
+
 /* Personnel lists on Personnel pages */
 .personlist {display: flex; flex-flow: row wrap; justify-content: center; margin: 0 5%;}
 .person {
