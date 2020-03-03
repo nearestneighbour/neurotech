@@ -100,7 +100,7 @@
 			</div></div>
 			<div class="col col1 first">
 				<div class="image round fit">
-					<img src="/assets/images/digitalcampus.jpg" alt="Students working together in a digital campus"/>
+					<img src="/assets/images/digitalspace.jpg" alt="Digital cloud storage for students and employees"/>
 				</div>
 			</div>
 		</div>
