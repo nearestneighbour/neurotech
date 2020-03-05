@@ -57,6 +57,9 @@ nav > a:first-child {display:none;} /* Hide 'home' button except on mobile */
 .col.col1 {display: flex; align-items: center;}
 /* All pages: red/bold combination */
 b.redbold {color: #cc0000;} /* Does this fit with color scheme? */
+/* All pages: image background color for transparent images */
+.wrapper.style1 .image.fit {background-color: #FFF;}
+.wrapper.style2 .image.fit {background-color: #3498db;}
 
 /* News items on index page */
 .indexnews {display: flex; flex-direction: column; justify-content: space-between; align-items: center; margin-bottom: 1em;}
@@ -727,7 +730,7 @@ footer > p {margin: 0 0 -3% 2px; font-size: .75vw;}
 			.wrapper.style1 table thead {border-bottom-color: rgba(0, 0, 0, 0.15);}
 			.wrapper.style1 table tfoot {border-top-color: rgba(0, 0, 0, 0.15);}
 			.wrapper.style1 table.alt tbody tr td {border-color: rgba(0, 0, 0, 0.15);}
-			.wrapper.style2 {background-color: #3498db; color: #c7e9ff;} /* ME! was: color:#aed6f1; */
+		.wrapper.style2 {background-color: #3498db; color: #c7e9ff;} /* ME! was: color:#aed6f1; */
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {color: #fff;}
 			.wrapper.style2 a {color: #FFF;} /* ME! was: color:#999999*/
 			.wrapper.style2 a:hover {color: rgba(153, 153, 153, 0.5);}
