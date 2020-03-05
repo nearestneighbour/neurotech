@@ -7,7 +7,7 @@
 <html>
 <head>
 	<title>Synergy & Excellence in NeurotechEU</title>
-	<meta name="description" content="The NeurotechEU founding partners have a long history of collaboration. Read all about the synergy and excellence within our network." />
+	<meta name="description" content="The NeurotechEU founding partners have a long history of collaboration in neurotech and related areas. Read all about the synergy and excellence within our network." />
 	<meta name="robots" content="index,follow" />
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 	<script src="/assets/js/synergy_figures.js"></script>

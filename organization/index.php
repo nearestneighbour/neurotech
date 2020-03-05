@@ -7,7 +7,7 @@
 <html>
 <head>
 	<title>Organization - NeurotechEU</title>
-	<meta name="description" content="" />
+	<meta name="description" content="A central goal of NeurotechEU is the continuous integration of education, research and innovation." />
 	<meta name="robots" content="index,follow" />
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 </head>
@@ -25,7 +25,7 @@
 
 			<header class="align-center">
 				<h1>Organization</h1>
-				<b><p>Click on the logos to view the teams from each founding partner</p></b>
+				<b><p>Click on the logos to view the teams from each founding university</p></b>
 			</header>
 
 			<div class="flex flex-8">

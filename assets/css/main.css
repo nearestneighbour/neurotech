@@ -60,6 +60,14 @@ b.redbold {color: #cc0000;} /* Does this fit with color scheme? */
 /* All pages: image background color for transparent images */
 .wrapper.style1 .image.fit {background-color: #FFF;}
 .wrapper.style2 .image.fit {background-color: #3498db;}
+/* All pages except index/contact: show background at the top of page */
+.wrapper.pagetop {
+	margin-top: -44px; padding: calc(2em + 44px) 0 1em 0;
+	background-image: url("../images/hexagonal_bg_top_cropped.png");
+	background-position: center top;
+	background-size: cover;
+}
+.wrapper.pagetop .align-center, .wrapper.style1.logos h1 {margin: 0;}
 
 /* News items on index page */
 .indexnews {display: flex; flex-direction: column; justify-content: space-between; align-items: center; margin-bottom: 1em;}
@@ -85,8 +93,6 @@ b.redbold {color: #cc0000;} /* Does this fit with color scheme? */
 /* Partner logos list at top of Founders/Organization pages */
 .flex.flex-8 {width:80%; margin:0 auto;}
 .flex.flex-8 .col {width: 7%;}
-.wrapper.pagetop {padding: 2em 0 1em 0; background: url("../images/hexagonal_bg_top_cropped.png") center top/cover;}
-.wrapper.pagetop .align-center, .wrapper.style1.logos h1 {margin: 0;}
 a.partneranchor {display: block; position: relative; top: -73px; visibility: hidden;}
 
 /* Partner List on Founders page */

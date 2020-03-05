@@ -7,7 +7,7 @@
 <html>
 <head>
 	<title>NeurotechEU Promise</title>
-	<meta name="description" content="" />
+	<meta name="description" content="NeurotechEU is designed by students, for students, and implements the Erasmus+ Student Charter code." />
 	<meta name="robots" content="index,follow" />
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 </head>

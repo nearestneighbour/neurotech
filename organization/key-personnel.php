@@ -7,7 +7,7 @@
 <html>
 <head>
 	<title>Key personnel - NeurotechEU</title>
-	<meta name="description" content="" />
+	<meta name="description" content="Behind NeurotechEU is a team of 100+ academic and administrative staff from all founding universities. Find out who are involved." />
 	<meta name="robots" content="index,follow" />
 	<?php include $_SERVER['DOCUMENT_ROOT'] . "/assets/html/commonhead.html"; ?>
 </head>
