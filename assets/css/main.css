@@ -107,6 +107,7 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 
 /* Organization page */
 .wrapper.organization .inner .flex.flex-2 .col {display: flex; align-items: center;}
+.wrapper.organization .inner .flex.flex-2 .col p {margin: 0; text-align: justify;}
 
 /* Personnel lists on Personnel pages */
 .personlist {display: flex; flex-flow: row wrap; justify-content: center; margin: 0 5%;}
