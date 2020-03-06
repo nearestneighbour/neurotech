@@ -127,10 +127,11 @@ a.partneranchor {display: block; position: relative; top: -73px; visibility: hid
 .flex.flex-8 .image.round.fit.selected {box-shadow: 0 0 0 7px #3498db, 0 0 0 8px rgba(0,0,0,0.1);}
 
 /* Figures on Synergy page */
+.image.round.fit.nwfig {background-color: #FFF;}
 .nwfig canvas {position:absolute; top:0; left:0; width:100%; height:100%;}
 .image.round.fit.nwfig img:not(#filler) {
 	position:absolute;  width:60px; -webkit-transform:translate(-50%, -50%);
-	background-color:#FFF; border-style:solid; border-width:initial; border-color:#c7e9ff;
+	border-style:solid; border-width:initial; border-color:#c7e9ff;
 }
 @media screen and (max-width: 1280px) {
 	.image.round.fit.nwfig img:not(#filler) {width: 5vw;}
