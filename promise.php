@@ -24,7 +24,6 @@
 	<div class="inner">
 		<header class="align-center">
 			<h1>Neurotech<sup>EU</sup> Promise</h1>
-			<b><p>(subheader)</p></b>
 		</header>
 	</div>
 </section>
