@@ -57,7 +57,7 @@
 		</div>
 	</div>
 </section>
-<section class="wrapper style1">
+<section class="wrapper style1" id="surveyresults">
 	<div class="inner">
 		<div class="flex flex-2">
 			<div class="col col2 promise">
