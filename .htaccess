@@ -4,11 +4,10 @@ RedirectMatch 403 /\.git
 # Deny access to .htaccess file
 RedirectMatch 403 /\.htaccess
 
-# Disable hotlinking from other websites
+# Deal with / at end of URL
 RewriteEngine On
-RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?theneurotech.eu [NC]
-RewriteRule \.(jpg|jpeg|png|css|js|csv|html)$ - [F]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
 
 # No need for .php at end of URL (e.g. theneurotech.eu/mission)
 RewriteCond %{REQUEST_FILENAME} !-d
