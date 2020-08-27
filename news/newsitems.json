@@ -61,5 +61,12 @@
  "date":    "07/02/2020",
  "title":   "Bringing robotics to classroom",
  "text":    "Active learning improves education outcomes. For many of the STEM fields, robotics provides the necessary platform for experimentation. On Feb 7th, we learned from the expertise of Consequential Robotics in this domain. At Neurotech<sup>EU</sup> students and researchers will not only design, build and use robots but also develop brain inspired control algorithms to advance the state-of-art in robotic control."
+ },
+ {
+ "imgsrc":  "/news/images/10-funded.png",
+ "alt":     "A group picture of the NeurotechEU partner representatives",
+ "date":    "13/07/2020",
+ "title":   "Neurotech<sup>EU</sup> receives funding from the EU!",
+ "text":    "Our application for the European University Initiative has been successful, and the alliance will receive <a target='_blank' href='https://ec.europa.eu/commission/presscorner/detail/en/ip_20_1264'>up to €5 million from the Erasmus+ programme for three years.</a> Neurotech<sup>EU</sup> is one of a total of 41 European Universities, each of them an alliance of universities, businesses and NGOs, partnering together in specific scientific fields to improve education, research and international cooperation. By establishing the European University of Brain and Technology we aim to make Europe competitive in the fields of neuroscience and neurotechnology by offering high-quality education and research from 8 prominent universities and over 250 associated organizations."
  }
 ]
