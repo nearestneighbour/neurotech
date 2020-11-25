@@ -68,5 +68,12 @@
  "date":    "13/07/2020",
  "title":   "Neurotech<sup>EU</sup> receives funding from the EU!",
  "text":    "Our application for the European University Initiative has been successful, and the alliance will receive <a target='_blank' href='https://ec.europa.eu/commission/presscorner/detail/en/ip_20_1264'>up to €5 million from the Erasmus+ programme for three years.</a> Neurotech<sup>EU</sup> is one of a total of 41 European Universities, each of them an alliance of universities, businesses and NGOs, partnering together in specific scientific fields to improve education, research and international cooperation. By establishing the European University of Brain and Technology we aim to make Europe competitive in the fields of neuroscience and neurotechnology by offering high-quality education and research from 8 prominent universities and over 250 associated organizations."
+ },
+ {
+ "imgsrc":  "/news/images/11-prosthesis.png",
+ "alt":     "Using machine learning for smart motion assistive devices",
+ "date":    "25/11/2020",
+ "title":   "Towards smart motion assistive devices",
+ "text":    "A new publication in Journal of Biomechanics (<a target='_blank' href='https://www.sciencedirect.com/science/article/pii/S002192902030511X'>Keleş &amp; Yucesoy 2020</a>) shows pioneering use of surface electromyography (sEMG) in machine learning based algorithms to mimic ankle movement during walking successfully. The work is powered by a newly received research fund and is a key part of Boğaziçi University’s neurodevice track, which aims at developing advanced smart motion assistive devices for various neuro-muculoskeletal disorders, and powered ankle prostheses for amputees. The algorithms minimize the use of sEMG muscle sources for economic, and limit the use of lower leg muscles for flexible powered prosthesis controllers, compatible for different levels of amputations."
  }
 ]
