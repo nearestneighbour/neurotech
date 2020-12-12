@@ -75,5 +75,12 @@
  "date":    "25/11/2020",
  "title":   "Towards smart motion assistive devices",
  "text":    "A new publication in Journal of Biomechanics (<a target='_blank' href='https://www.sciencedirect.com/science/article/pii/S002192902030511X'>Keleş &amp; Yucesoy 2020</a>) shows pioneering use of surface electromyography (sEMG) in machine learning based algorithms to mimic ankle movement during walking successfully. The work is powered by a newly received research fund and is a key part of Boğaziçi University’s neurodevice track, which aims at developing advanced smart motion assistive devices for various neuro-muculoskeletal disorders, and powered ankle prostheses for amputees. The algorithms minimize the use of sEMG muscle sources for economic, and limit the use of lower leg muscles for flexible powered prosthesis controllers, compatible for different levels of amputations."
+ },
+ {
+ "imgsrc":  "/news/images/12-opening.png",
+ "alt":     "Neurotech virtual opening",
+ "date":    "12/12/2020",
+ "title":   "Neurotech<sup>EU</sup> virtual opening",
+ "text":    "Neurotech<sup>EU</sup> is opening its doors on December 16th. Come and join us to learn about Neurotech<sup>EU</sup>'s plans for the next two decades, and explore possibilities to train, do research, innovate together with peers all over Europe. Register for the opening at: <a>https://www.crowdcast.io/e/neurotechEU_VO/register</a>."
  }
 ]
